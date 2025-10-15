@@ -47,10 +47,15 @@ add_custom_target(clean_all
 
 add_custom_target(clean_noc
     COMMAND ${CMAKE_MAKE_PROGRAM} -C ${CMAKE_SOURCE_DIR}/noc_model clean
+    COMMENT "Clean noc_model"
+)
+
+add_custom_target(update_adapters
     COMMAND rm -rf ${CMAKE_SOURCE_DIR}/noc_model/ambachicast
     COMMAND /bin/bash -c "tar -xf ambachicast.tgz"
+    COMMAND ${CMAKE_MAKE_PROGRAM} -C ${CMAKE_SOURCE_DIR}/noc_model clean
     WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/noc_model
-    COMMENT "Clean noc_model"
+    COMMENT "Adapters updated"
 )
 
 add_executable(main src/main.cpp)
