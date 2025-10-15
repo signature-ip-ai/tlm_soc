@@ -46,5 +46,6 @@ CMakeCache.txt
 main
 Makefile
 *.vcd
-!noc_model/ambachicast/lib/libambachicast.a
-noc_model/ambachicast.tgz
+!noc_model/ambachicast/*
+!noc_model/Makefile
+*.tgz
