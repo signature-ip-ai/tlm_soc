@@ -49,3 +49,4 @@ Makefile
 !noc_model/ambachicast/*
 !noc_model/Makefile
 *.tgz
+*.tmp
