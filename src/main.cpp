@@ -3,6 +3,8 @@
 #include "tlm_soc/tlm_target.h"
 #include <tlm_top.h>
 
+#include <chi_tlm/chi_tlm_extension.h>
+
 
 int sc_main(int argc, char** argv)
 {
@@ -18,7 +20,21 @@ int sc_main(int argc, char** argv)
 
     std::cout << "Elaboration complete\n";
 
-    sc_core::sc_start(20000, sc_core::SC_NS);
+    sc_core::sc_start(20, sc_core::SC_NS);
+
+    chi::ChiExtension* message = new chi::ChiExtension;
+    message->channel = chi::ChiChannel::REQ;
+    message->qos = 5;
+    message->req_fields.opcode = chi::ReqOpcode::WriteNoSnpFull;
+
+    tlm::tlm_generic_payload trans;
+    trans.set_extension(message);
+
+    tlm::tlm_phase phase = chi::REQ;
+    sc_core::sc_time time = sc_core::SC_ZERO_TIME;
+    initiator0.initiator_socket->nb_transport_fw(trans, phase, time);
+
+    sc_core::sc_start(1000, sc_core::SC_NS);
 
     std::cout << "Simulation complete\n";
     return 0;
