@@ -38,10 +38,10 @@ int sc_main(int argc, char** argv)
     sc_core::sc_time time = sc_core::SC_ZERO_TIME;
     initiator0.initiator_socket->nb_transport_fw(trans, phase, time);
 
-    sc_core::sc_start(500, sc_core::SC_NS);
+    sc_core::sc_start(1000, sc_core::SC_NS);
 
     auto&& channel_list = {chi::ChiChannel::SNP, chi::ChiChannel::RDAT, chi::ChiChannel::CRSP};
-    for (auto i = 0; i < 15; ++i)
+    for (auto i = 0; i < 5; ++i)
     {
         for (auto&& channel : channel_list)
         {
@@ -57,7 +57,7 @@ int sc_main(int argc, char** argv)
         }
     }
 
-    sc_core::sc_start(500, sc_core::SC_NS);
+    sc_core::sc_start(1000, sc_core::SC_NS);
 
     std::cout << "Simulation complete\n";
     return 0;
