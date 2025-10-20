@@ -16,10 +16,7 @@ class RnIfxAdapterRxChannel;
 SC_MODULE(RnIfxAdapter)
 {
 public:
-    static constexpr auto BUS_WIDTH = 32u;
     static constexpr auto MAX_CREDITS = 15u;
-
-    using TYPES = tlm::tlm_base_protocol_types;
 
     SC_HAS_PROCESS(RnIfxAdapter);
     RnIfxAdapter(sc_core::sc_module_name name);
@@ -33,7 +30,7 @@ public:
     void enable_trace();
     void set_trace_time_unit(double value, sc_core::sc_time_unit);
 
-    tlm_utils::simple_target_socket<RnIfxAdapter, BUS_WIDTH, TYPES> target_socket;
+    tlm_utils::simple_target_socket<RnIfxAdapter> target_socket;
 
     // Reset and Clocking will be provided by ClkResetIfx
     sc_core::sc_in<bool> intfrx_clk_in;
@@ -93,6 +90,10 @@ private:
 
     void forward_clock();
     void forward_reset();
+
+    void handle_req_credit_event();
+    void handle_dat_credit_event();
+    void handle_rsp_credit_event();
 
     void bind_tx_channels();
     void bind_rx_channels();

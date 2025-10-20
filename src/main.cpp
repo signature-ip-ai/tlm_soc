@@ -1,9 +1,13 @@
 #include <iostream>
+#include <memory>
+#include <vector>
 #include "tlm_soc/tlm_initiator.h"
 #include "tlm_soc/tlm_target.h"
 #include <tlm_top.h>
 
+#include <chi_tlm/chi_enums.h>
 #include <chi_tlm/chi_tlm_extension.h>
+#include <chi_tlm/chi_credit_extension.h>
 
 
 int sc_main(int argc, char** argv)
@@ -34,7 +38,26 @@ int sc_main(int argc, char** argv)
     sc_core::sc_time time = sc_core::SC_ZERO_TIME;
     initiator0.initiator_socket->nb_transport_fw(trans, phase, time);
 
-    sc_core::sc_start(1000, sc_core::SC_NS);
+    sc_core::sc_start(500, sc_core::SC_NS);
+
+    auto&& channel_list = {chi::ChiChannel::SNP, chi::ChiChannel::RDAT, chi::ChiChannel::CRSP};
+    for (auto i = 0; i < 15; ++i)
+    {
+        for (auto&& channel : channel_list)
+        {
+            chi::ChiCreditExtension* credit_message = new chi::ChiCreditExtension;
+            credit_message->channel = channel;
+
+            tlm::tlm_generic_payload trans1;
+            trans1.set_extension(credit_message);
+
+            tlm::tlm_phase phase = chi::CREDIT_RELEASE;
+            sc_core::sc_time time = sc_core::SC_ZERO_TIME;
+            initiator0.initiator_socket->nb_transport_fw(trans1, phase, time);
+        }
+    }
+
+    sc_core::sc_start(500, sc_core::SC_NS);
 
     std::cout << "Simulation complete\n";
     return 0;
