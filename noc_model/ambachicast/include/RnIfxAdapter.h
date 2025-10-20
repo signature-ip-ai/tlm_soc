@@ -2,6 +2,7 @@
 #define __RN_IFX_ADAPTER_H__
 
 #include <memory>
+
 #include <systemc>
 #include <tlm>
 #include <tlm_utils/simple_target_socket.h>
@@ -16,9 +17,6 @@ class RnIfxAdapterRxChannel;
 SC_MODULE(RnIfxAdapter)
 {
 public:
-    static constexpr auto MAX_CREDITS = 15u;
-
-    SC_HAS_PROCESS(RnIfxAdapter);
     RnIfxAdapter(sc_core::sc_module_name name);
     ~RnIfxAdapter() = default;
 
@@ -94,6 +92,10 @@ private:
     void handle_req_credit_event();
     void handle_dat_credit_event();
     void handle_rsp_credit_event();
+
+    void handle_snp_flit_event();
+    void handle_rdat_flit_event();
+    void handle_crsp_flit_event();
 
     void bind_tx_channels();
     void bind_rx_channels();
