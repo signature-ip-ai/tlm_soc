@@ -1,28 +1,29 @@
 #ifndef __SN_IFX_ADAPTER_H__
 #define __SN_IFX_ADAPTER_H__
 
+#include <memory>
+
 #include <systemc>
 #include <tlm>
 #include <tlm_utils/simple_initiator_socket.h>
 
+#include <flits/definitions.h>
+
+class SnIfxAdapterTxChannel;
+class SnIfxAdapterRxChannel;
 
 SC_MODULE(SnIfxAdapter)
 {
 public:
-    static constexpr auto BUS_WIDTH = 32u;
-    static constexpr auto REQFLIT_WIDTH = 151;
-    static constexpr auto RSPFLIT_WIDTH = 73;
-    static constexpr auto DATFLIT_WIDTH = 680;
-
-    using TYPES = tlm::tlm_base_protocol_types;
-    using reqflit_t = sc_dt::sc_bv<REQFLIT_WIDTH>;
-    using rspflit_t = sc_dt::sc_bv<RSPFLIT_WIDTH>;
-    using datflit_t = sc_dt::sc_bv<DATFLIT_WIDTH>;
-
-    SC_HAS_PROCESS(SnIfxAdapter);
     SnIfxAdapter(sc_core::sc_module_name name);
+    ~SnIfxAdapter() = default;
 
-    tlm_utils::simple_initiator_socket<SnIfxAdapter, BUS_WIDTH, TYPES> initiator_socket;
+    SnIfxAdapter(const SnIfxAdapter&) = delete;
+    SnIfxAdapter& operator=(const SnIfxAdapter&) = delete;
+    SnIfxAdapter(SnIfxAdapter&& other) noexcept = delete;
+    SnIfxAdapter& operator=(SnIfxAdapter&& other) noexcept = delete;
+
+    tlm_utils::simple_initiator_socket<SnIfxAdapter> initiator_socket;
 
     // Reset and Clocking will be provided by ClkResetIfx
     sc_core::sc_in<bool> intfrx_clk_in;
@@ -40,12 +41,12 @@ public:
 
     sc_core::sc_signal<bool> RX_REQFLITPEND_in;
     sc_core::sc_signal<bool> RX_REQFLITV_in;
-    sc_core::sc_signal<reqflit_t> RX_REQFLIT_in;
+    sc_core::sc_signal<flits::reqflit_t> RX_REQFLIT_in;
     sc_core::sc_signal<bool> RX_REQLCRDV_out;
 
     sc_core::sc_signal<bool> RX_DATFLITPEND_in;
     sc_core::sc_signal<bool> RX_DATFLITV_in;
-    sc_core::sc_signal<datflit_t> RX_DATFLIT_in;
+    sc_core::sc_signal<flits::datflit_t> RX_DATFLIT_in;
     sc_core::sc_signal<bool> RX_DATLCRDV_out;
 
     sc_core::sc_signal<bool> TX_LINKACTIVEREQ_out;
@@ -53,12 +54,12 @@ public:
 
     sc_core::sc_signal<bool> TX_RSPFLITPEND_out;
     sc_core::sc_signal<bool> TX_RSPFLITV_out;
-    sc_core::sc_signal<rspflit_t> TX_RSPFLIT_out;
+    sc_core::sc_signal<flits::rspflit_t> TX_RSPFLIT_out;
     sc_core::sc_signal<bool> TX_RSPLCRDV_in;
 
     sc_core::sc_signal<bool> TX_DATFLITPEND_out;
     sc_core::sc_signal<bool> TX_DATFLITV_out;
-    sc_core::sc_signal<datflit_t> TX_DATFLIT_out;
+    sc_core::sc_signal<flits::datflit_t> TX_DATFLIT_out;
     sc_core::sc_signal<bool> TX_DATLCRDV_in;
 
 private:
@@ -67,9 +68,18 @@ private:
 
     void forward_clock();
     void forward_reset();
-    void main_process();
 
-    void adapter_reset();
+    void handle_rdat_credit_event();
+    void handle_crsp_credit_event();
+
+    void handle_req_flit_event();
+    void handle_wdat_flit_event();
+
+    void bind_tx_channels();
+    void bind_rx_channels();
+
+    std::shared_ptr<SnIfxAdapterTxChannel> tx_channel_;
+    std::shared_ptr<SnIfxAdapterRxChannel> rx_channel_;
 };
 
 #endif  // __SN_IFX_ADAPTER_H__

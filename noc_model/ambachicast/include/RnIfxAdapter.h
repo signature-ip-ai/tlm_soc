@@ -9,7 +9,6 @@
 
 #include <flits/definitions.h>
 
-enum class ELinkState;
 class RnIfxTracer;
 class RnIfxAdapterTxChannel;
 class RnIfxAdapterRxChannel;
