@@ -8400,8 +8400,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top___024root final : public Ve
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_xmt_compdata_0__sig_chi_crdt_recv_0____PVT__rstb_cc_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_xmt_resp_0__sig_chi_crdt_recv_0____PVT__cc_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_xmt_resp_0__sig_chi_crdt_recv_0____PVT__rstb_cc_clk__0;
-            CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__sig_chi_crdt_update_req____PVT__cc_clk__0;
-            CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__sig_chi_crdt_update_req____PVT__rstb_cc_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_proc_atomic_0__u_sig_ap_top____PVT__clk_i__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_proc_atomic_0__u_sig_ap_top____PVT__resetn_i__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__id_translator_sn__DOT__sig_addr_translator_0____PVT__clk__0;
@@ -8412,14 +8410,16 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top___024root final : public Ve
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_rxtop_0__sig_cc_rx_rspproc_0____PVT__rstb_ic_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_rxtop_0__sig_cc_rx_datproc_0____PVT__ic_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_rxtop_0__sig_cc_rx_datproc_0____PVT__rstb_ic_clk__0;
-        };
-        struct {
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0____PVT__ic_gclk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0____PVT__rstb_ic_clk__0;
+        };
+        struct {
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_rsptxflit_top_0____PVT__ic_gclk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_rsptxflit_top_0____PVT__rstb_ic_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0____PVT__ic_gclk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0____PVT__rstb_ic_clk__0;
+            CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__sig_chi_crdt_update_req____PVT__cc_clk__0;
+            CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__sig_chi_crdt_update_req____PVT__rstb_cc_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_datproc_0__sig_chi_crdt_update_datproc____PVT__cc_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_datproc_0__sig_chi_crdt_update_datproc____PVT__rstb_cc_clk__0;
             CData/*0:0*/ __Vtrigprevexpr___TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_respproc_0__sig_crdt_update_resp____PVT__cc_clk__0;
@@ -8972,7 +8972,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top___024root final : public Ve
             IData/*31:0*/ __VicoIterCount;
             IData/*31:0*/ __VactIterCount;
             IData/*31:0*/ __VnbaIterCount;
-            VlUnpacked<CData/*0:0*/, 3492> __Vm_traceActivity;
+            VlUnpacked<CData/*0:0*/, 3494> __Vm_traceActivity;
         };
     };
     sc_core::sc_in<bool> cl0_ic_clk;

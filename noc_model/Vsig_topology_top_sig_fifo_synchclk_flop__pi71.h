@@ -42,14 +42,14 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_fifo_synchclk_flop__pi7
     CData/*0:0*/ __VdlySet__fifo_loc__v1;
     CData/*0:0*/ __VdlySet__fifo_loc__v2;
     CData/*0:0*/ __VdlySet__fifo_loc__v3;
-    VL_INW(__PVT__fifo_wrdata,150,0,5);
-    VL_OUTW(__PVT__fifo_rddata,150,0,5);
-    VlWide<5>/*150:0*/ __VdlyVal__fifo_loc__v0;
-    VlWide<5>/*150:0*/ __VdlyVal__fifo_loc__v1;
-    VlWide<5>/*150:0*/ __VdlyVal__fifo_loc__v2;
-    VlWide<5>/*150:0*/ __VdlyVal__fifo_loc__v3;
-    VlUnpacked<VlWide<5>/*150:0*/, 4> __PVT__fifo_loc_nxt;
-    VlUnpacked<VlWide<5>/*150:0*/, 4> __PVT__fifo_loc;
+    VL_INW(__PVT__fifo_wrdata,679,0,22);
+    VL_OUTW(__PVT__fifo_rddata,679,0,22);
+    VlWide<22>/*679:0*/ __VdlyVal__fifo_loc__v0;
+    VlWide<22>/*679:0*/ __VdlyVal__fifo_loc__v1;
+    VlWide<22>/*679:0*/ __VdlyVal__fifo_loc__v2;
+    VlWide<22>/*679:0*/ __VdlyVal__fifo_loc__v3;
+    VlUnpacked<VlWide<22>/*679:0*/, 4> __PVT__fifo_loc_nxt;
+    VlUnpacked<VlWide<22>/*679:0*/, 4> __PVT__fifo_loc;
 
     // INTERNAL VARIABLES
     Vsig_topology_top__Syms* const vlSymsp;

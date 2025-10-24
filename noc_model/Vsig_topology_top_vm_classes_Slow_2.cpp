@@ -75,8 +75,6 @@
 #include "Vsig_topology_top_sig_cnoc_atomic_processor_data_out_interface__DepSet_h1b83a304__0__Slow.cpp"
 #include "Vsig_topology_top_sig_chi_crdt_recv__Slow.cpp"
 #include "Vsig_topology_top_sig_chi_crdt_recv__DepSet_hfa842612__0__Slow.cpp"
-#include "Vsig_topology_top_sig_chi_crdt_update__Slow.cpp"
-#include "Vsig_topology_top_sig_chi_crdt_update__DepSet_hba022c66__0__Slow.cpp"
 #include "Vsig_topology_top_sig_countones__Slow.cpp"
 #include "Vsig_topology_top_sig_countones__DepSet_hb8125201__0__Slow.cpp"
 #include "Vsig_topology_top_sig_countones__DepSet_ha5e4c26e__0__Slow.cpp"

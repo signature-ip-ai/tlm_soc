@@ -63,7 +63,6 @@
 #include "Vsig_topology_top_sig_cnoc_atomic_processor_data_in_interface.h"
 #include "Vsig_topology_top_sig_cnoc_atomic_processor_data_out_interface.h"
 #include "Vsig_topology_top_sig_chi_crdt_recv.h"
-#include "Vsig_topology_top_sig_chi_crdt_update.h"
 #include "Vsig_topology_top_sig_countones.h"
 #include "Vsig_topology_top_sig_ap_top.h"
 #include "Vsig_topology_top_sig_addr_translator.h"
@@ -76,22 +75,22 @@
 #include "Vsig_topology_top_sig_chi_crdt_update__N8.h"
 #include "Vsig_topology_top_sig_syn_sram_flop_512bit__F90.h"
 #include "Vsig_topology_top_sig_cache__Ca_CB24.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop_match__pi36.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop_match__pi35.h"
 #include "Vsig_topology_top_sig_sram_init__Sa.h"
-#include "Vsig_topology_top_sig_l3_rx_reqproc__pi39.h"
-#include "Vsig_topology_top_sig_l3_rx_datproc__pi40.h"
+#include "Vsig_topology_top_sig_l3_rx_reqproc__pi38.h"
+#include "Vsig_topology_top_sig_l3_rx_datproc__pi39.h"
 #include "Vsig_topology_top_sig_l3_rsptxflit_top__F3.h"
-#include "Vsig_topology_top_sig_l3_dattxflit_top__pi41.h"
+#include "Vsig_topology_top_sig_l3_dattxflit_top__pi40.h"
 #include "Vsig_topology_top_sig_cmn_pipeline_ff__D2.h"
 #include "Vsig_topology_top_sig_cmn_pipeline_ff__D9a.h"
 #include "Vsig_topology_top_sig_cmn_pipeline_ff__D4c.h"
 #include "Vsig_topology_top_sig_cmn_pipeline_ff__D2ab.h"
 #include "Vsig_topology_top_sig_cmn_pipeline_ff__D6f.h"
-#include "Vsig_topology_top_sig_id_translator_rn_wrapper__pi42.h"
-#include "Vsig_topology_top_sig_node_rxtop__pi43.h"
-#include "Vsig_topology_top_sig_node_txtop__pi44.h"
-#include "Vsig_topology_top_sig_id_translator_sn__I23_Tc.h"
-#include "Vsig_topology_top_sig_node_rxtop__pi45.h"
+#include "Vsig_topology_top_sig_id_translator_rn_wrapper__pi41.h"
+#include "Vsig_topology_top_sig_node_rxtop__pi42.h"
+#include "Vsig_topology_top_sig_node_txtop__pi43.h"
+#include "Vsig_topology_top_sig_id_translator_sn__I20_Tc.h"
+#include "Vsig_topology_top_sig_node_rxtop__pi44.h"
 #include "Vsig_topology_top_sig_ic_initcrdt_enable.h"
 #include "Vsig_topology_top_sig_lnkactive_rcv.h"
 #include "Vsig_topology_top_sig_lnkactive_xmt.h"
@@ -102,39 +101,39 @@
 #include "Vsig_topology_top_sig_node_rsptxflit_top.h"
 #include "Vsig_topology_top_sig_l3_arbtop.h"
 #include "Vsig_topology_top_sig_ic_crdt_update__N8.h"
-#include "Vsig_topology_top_sig_cc_rx_snpproc_anyvc__pi46.h"
-#include "Vsig_topology_top_sig_cc_rx_rspproc_anyvc__pi47.h"
-#include "Vsig_topology_top_sig_cc_rx_datproc_anyvc__pi48.h"
+#include "Vsig_topology_top_sig_cc_rx_snpproc_anyvc__pi45.h"
+#include "Vsig_topology_top_sig_cc_rx_rspproc_anyvc__pi46.h"
+#include "Vsig_topology_top_sig_cc_rx_datproc_anyvc__pi47.h"
 #include "Vsig_topology_top_sig_cc_txflit_mux__Fa1.h"
 #include "Vsig_topology_top_sig_cc_txflit_mux__F4f.h"
 #include "Vsig_topology_top_sig_cc_txflit_mux__F2ae.h"
 #include "Vsig_topology_top_sig_sram_model__Fa_FB45.h"
-#include "Vsig_topology_top_sig_l3_rx_reqproc_anyvc__pi52.h"
-#include "Vsig_topology_top_sig_l3_rx_datproc_anyvc__pi53.h"
+#include "Vsig_topology_top_sig_l3_rx_reqproc_anyvc__pi51.h"
+#include "Vsig_topology_top_sig_l3_rx_datproc_anyvc__pi52.h"
 #include "Vsig_topology_top_sig_l3_txflit_mux__F4f.h"
 #include "Vsig_topology_top_sig_l3_txflit_mux__F2ae.h"
-#include "Vsig_topology_top_sig_id_translator_rn_snp__pi55.h"
-#include "Vsig_topology_top_sig_id_translator_rn_req__pi56.h"
-#include "Vsig_topology_top_sig_node_rx_reqproc__pi57.h"
+#include "Vsig_topology_top_sig_id_translator_rn_snp__pi54.h"
+#include "Vsig_topology_top_sig_id_translator_rn_req__pi55.h"
+#include "Vsig_topology_top_sig_node_rx_reqproc__pi56.h"
 #include "Vsig_topology_top_sig_node_rx_rspproc__P49_Uz1.h"
-#include "Vsig_topology_top_sig_node_rx_datproc__pi58.h"
-#include "Vsig_topology_top_sig_node_snptxflit_top__pi59.h"
-#include "Vsig_topology_top_sig_node_dattxflit_top__pi60.h"
-#include "Vsig_topology_top_sig_node_rx_reqproc__pi61.h"
+#include "Vsig_topology_top_sig_node_rx_datproc__pi57.h"
+#include "Vsig_topology_top_sig_node_snptxflit_top__pi58.h"
+#include "Vsig_topology_top_sig_node_dattxflit_top__pi59.h"
+#include "Vsig_topology_top_sig_node_rx_reqproc__pi60.h"
 #include "Vsig_topology_top_sig_cnoc_port_rx_handshake.h"
 #include "Vsig_topology_top_sig_ic_crdt_recv.h"
 #include "Vsig_topology_top_sig_countones_4.h"
 #include "Vsig_topology_top_sig_cc_vcarb.h"
 #include "Vsig_topology_top_sig_node_arbtop.h"
 #include "Vsig_topology_top_sig_l3_vcarb.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop_rback__pi63.h"
-#include "Vsig_topology_top_sig_node_rx_reqproc_anyvc__pi64.h"
-#include "Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi65.h"
-#include "Vsig_topology_top_sig_node_rx_datproc_anyvc__pi66.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop_rback__pi62.h"
+#include "Vsig_topology_top_sig_node_rx_reqproc_anyvc__pi63.h"
+#include "Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi64.h"
+#include "Vsig_topology_top_sig_node_rx_datproc_anyvc__pi65.h"
 #include "Vsig_topology_top_sig_node_txflit_mux__Fa1.h"
 #include "Vsig_topology_top_sig_node_txflit_mux__F4f.h"
 #include "Vsig_topology_top_sig_node_txflit_mux__F2ae.h"
-#include "Vsig_topology_top_sig_node_rx_reqproc_anyvc__pi70.h"
+#include "Vsig_topology_top_sig_node_rx_reqproc_anyvc__pi69.h"
 #include "Vsig_topology_top_sig_cnoc_port_tx_handshake.h"
 #include "Vsig_topology_top_sig_tx_portarb.h"
 #include "Vsig_topology_top_sig_routing_policy.h"
@@ -142,22 +141,23 @@
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi16.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi18.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__FB97.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__FB9c.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi33.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi34.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi35.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__FB6d.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi36.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi37.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi38.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi48.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi49.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi50.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi51.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi54.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi62.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi53.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi61.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi66.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi67.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi68.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi69.h"
+#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi70.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi71.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi72.h"
-#include "Vsig_topology_top_sig_fifo_synchclk_flop__pi73.h"
 #include "Vsig_topology_top_sig_double_synchronizer_param_dw__pi1.h"
 #include "Vsig_topology_top_sig_double_synchronizer_param_dw__pi24.h"
 #include "Vsig_topology_top_sig_double_synchronizer.h"
@@ -4627,7 +4627,7 @@ Vsig_topology_top__Syms::Vsig_topology_top__Syms(VerilatedContext* contextp, con
     , TOP__sig_topology_top__sig_top_csr_wrapper_0__inst_sig_top_csr__rw_use_early_write{this, Verilated::catName(namep, "sig_topology_top.sig_top_csr_wrapper_0.inst_sig_top_csr.rw_use_early_write")}
 {
         // Check resources
-        Verilated::stackCheck(673336);
+        Verilated::stackCheck(669368);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);
@@ -9325,7 +9325,7 @@ Vsig_topology_top__Syms::Vsig_topology_top__Syms(VerilatedContext* contextp, con
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_datproc_0__sig_chi_crdt_update_datproc.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__reqflit_fifo_0.__Vconfigure(true);
-    TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__sig_chi_crdt_update_req.__Vconfigure(true);
+    TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_reqproc_0__sig_chi_crdt_update_req.__Vconfigure(false);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_respproc_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_rcv_respproc_0__sig_crdt_update_resp.__Vconfigure(false);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_xmt_compdata_0.__Vconfigure(true);
@@ -9338,7 +9338,7 @@ Vsig_topology_top__Syms::Vsig_topology_top__Syms(VerilatedContext* contextp, con
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_chi_xmt_snpreq_flit_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__drespcmd_fifo_0.__Vconfigure(true);
-    TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__memrespcmd_fifo_0.__Vconfigure(false);
+    TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__memrespcmd_fifo_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__reqcmd_fifo_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__respcmd_fifo_0.__Vconfigure(true);
     TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__sig_countones_0.__Vconfigure(true);

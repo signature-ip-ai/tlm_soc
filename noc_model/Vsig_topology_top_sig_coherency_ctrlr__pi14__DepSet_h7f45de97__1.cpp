@@ -23,6 +23,76 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_sequent__TO
     VlWide<4>/*127:0*/ __Vtemp_10;
     CData/*31:0*/ __Vtemp_11;
     // Body
+    VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0xfU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x10U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x11U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x12U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x13U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x14U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x15U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x16U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x16U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x17U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x17U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x18U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x18U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x19U, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x19U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1aU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x1aU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1bU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x1bU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1cU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x1cU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1dU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x1dU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1eU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x1eU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1fU, vlSelfRef.__PVT__select_rsp_datapath, 
+                    ((IData)(vlSelfRef.__PVT__wren_stat_rsp_ph3) 
+                     & (0x1fU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__wraddr_stat_rsp_ph3), 0U, 5)))));
+    vlSelfRef.__PVT__muxed_id = (0x1fU & (((IData)(vlSelfRef.__PVT__cmdq_src0_PCrdGrant_ph3) 
+                                           & (IData)(vlSelfRef.__PVT__itis_req_retry_pcrdmatch_ph3))
+                                           ? (IData)(vlSelfRef.__PVT__retry_shared_txnid)
+                                           : VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__index_statusreg_ph3), 0U, 5)));
+    vlSelfRef.__PVT__highest_seqnum_is4 = vlSelfRef.__PVT__any_highest_seq_is4;
+    vlSelfRef.__PVT__highest_seqnum_is3 = ((~ (IData)(vlSelfRef.__PVT__any_highest_seq_is4)) 
+                                           & (IData)(vlSelfRef.__PVT__any_highest_seq_is3));
+    vlSelfRef.__PVT__highest_seqnum_is2 = (((~ (IData)(vlSelfRef.__PVT__any_highest_seq_is4)) 
+                                            & (~ (IData)(vlSelfRef.__PVT__any_highest_seq_is3))) 
+                                           & (IData)(vlSelfRef.__PVT__any_highest_seq_is2));
+    vlSelfRef.__PVT__highest_seqnum_is1 = ((((~ (IData)(vlSelfRef.__PVT__any_highest_seq_is4)) 
+                                             & (~ (IData)(vlSelfRef.__PVT__any_highest_seq_is3))) 
+                                            & (~ (IData)(vlSelfRef.__PVT__any_highest_seq_is2))) 
+                                           & (IData)(vlSelfRef.__PVT__any_highest_seq_is1));
+    vlSelfRef.__PVT__highest_seqnum_is0 = (((((~ (IData)(vlSelfRef.__PVT__any_highest_seq_is4)) 
+                                              & (~ (IData)(vlSelfRef.__PVT__any_highest_seq_is3))) 
+                                             & (~ (IData)(vlSelfRef.__PVT__any_highest_seq_is2))) 
+                                            & (~ (IData)(vlSelfRef.__PVT__any_highest_seq_is1))) 
+                                           & (IData)(vlSelfRef.__PVT__any_highest_seq_is0));
     vlSelfRef.__PVT__highest_seqnum_is4_atom = vlSelfRef.__PVT__any_highest_seq_is4_atom;
     vlSelfRef.__PVT__highest_seqnum_is3_atom = ((~ (IData)(vlSelfRef.__PVT__any_highest_seq_is4_atom)) 
                                                 & (IData)(vlSelfRef.__PVT__any_highest_seq_is3_atom));
@@ -1722,9 +1792,9 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_sequent__TO
                  & ((IData)(vlSelfRef.__PVT__cmdq_src1_ph3) 
                     & (IData)(vlSelfRef.__PVT__mmem_resp_cnt_ph3))));
     } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:3980: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0: 'unique if' statement violated\n",0,
+        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:3986: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0: 'unique if' statement violated\n",0,
                      64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 3980, "");
+        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 3986, "");
     }
     vlSelfRef.__PVT__itis_lastresp_ph3_atom_clr_buffer 
         = (((IData)(vlSelfRef.__PVT__orig_req_atom_ph3) 
@@ -1780,9 +1850,9 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_sequent__TO
                              & (IData)(vlSelfRef.__PVT__mmem_resp_cnt_ph3)))) 
                    && (IData)(vlSelfRef.__PVT__mmem_resp_cnt_ph3)));
     } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:4304: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.update_mmemresp_cnt_for_ongoing_rsp: 'unique if' statement violated\n",0,
+        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:4310: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.update_mmemresp_cnt_for_ongoing_rsp: 'unique if' statement violated\n",0,
                      64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 4304, "");
+        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 4310, "");
     }
     vlSelfRef.__PVT__new_was_prelastresp_wr_uniq_ptl_ph4_nxt 
         = vlSelfRef.__PVT__was_prelastresp_wr_uniq_ptl_ph3;
@@ -2890,1001 +2960,6 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_sequent__TO
         = vlSelfRef.__PVT__cc_gclk;
     vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__sig_countones_post_req.__PVT__cc_clk 
         = vlSelfRef.__PVT__cc_gclk;
-}
-
-VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__4(Vsig_topology_top_sig_coherency_ctrlr__pi14* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+              Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__4\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid = vlSelfRef.__PVT__i_rcv_rsp_dat_linear_srcid;
-    vlSelfRef.__PVT__new_ownerp_id_ph3_rsp = vlSelfRef.__PVT__moving_ownerp_id_ph3;
-    if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-          & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-         & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-        vlSelfRef.__PVT__new_ownerp_id_ph3_rsp = (0x7fU 
-                                                  & (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                                                      & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3)))
-                                                      ? 
-                                                     ((1U 
-                                                       == (IData)(vlSelfRef.__PVT__snoop_response_fwdstate_ph3))
-                                                       ? 
-                                                      VL_SEL_IIII(11, 
-                                                                  (0x7ffU 
-                                                                   & ((3U 
-                                                                       == (IData)(vlSelfRef.__PVT__snp_resp_ph3))
-                                                                       ? 
-                                                                      VL_SEL_IWII(73, vlSelfRef.__PVT__cmd_ph3_rsp_s, 0xfU, 11)
-                                                                       : 
-                                                                      VL_EXTEND_II(11,7, 
-                                                                                (0x7fU 
-                                                                                & VL_SEL_IIII(11, (IData)(vlSelfRef.__PVT__origreq_src_id_ph3), 0U, 7))))), 0U, 7)
-                                                       : 
-                                                      VL_SEL_IIII(11, (IData)(vlSelfRef.__PVT__origreq_src_id_ph3), 0U, 7))
-                                                      : 
-                                                     (((VL_BITSEL_IIII(3, (IData)(vlSelfRef.__PVT__snp_resp_ph3), 2U) 
-                                                        & (IData)(vlSelfRef.__PVT__orig_read_su_pu_ph3)) 
-                                                       | ((4U 
-                                                           == (IData)(vlSelfRef.__PVT__snp_resp_ph3)) 
-                                                          & (IData)(vlSelfRef.__PVT__orig_read_notsd_ph3)))
-                                                       ? 
-                                                      VL_SEL_IIII(11, (IData)(vlSelfRef.__PVT__origreq_src_id_ph3), 0U, 7)
-                                                       : 
-                                                      (((3U 
-                                                         == (IData)(vlSelfRef.__PVT__snp_resp_ph3)) 
-                                                        | (2U 
-                                                           == (IData)(vlSelfRef.__PVT__snp_resp_ph3)))
-                                                        ? 
-                                                       VL_SEL_IIII(11, (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid), 0U, 7)
-                                                        : (IData)(vlSelfRef.__PVT__moving_ownerp_id_ph3)))));
-    }
-    VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[0]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 1U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (1U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (1U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (1U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[1]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 2U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (2U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (2U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (2U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[2]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 3U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (3U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (3U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (3U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[3]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 4U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (4U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (4U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (4U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[4]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 5U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (5U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (5U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (5U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[5]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 6U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (6U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (6U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (6U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[6]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 7U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (7U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (7U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (7U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[7]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(8U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 8U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (8U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(8U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (8U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(8U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (8U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(8U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[8]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(9U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 9U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (9U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(9U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (9U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(9U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (9U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(9U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[9]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0xaU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0xaU)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0xaU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xaU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0xaU == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0xaU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0xaU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xaU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[10]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0xbU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0xbU)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0xbU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xbU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0xbU == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0xbU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0xbU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xbU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[11]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0xcU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0xcU)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0xcU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xcU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0xcU == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0xcU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0xcU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xcU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[12]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0xdU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0xdU)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0xdU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xdU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0xdU == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0xdU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0xdU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xdU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[13]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0xeU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0xeU)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0xeU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xeU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0xeU == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0xeU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0xeU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xeU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[14]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0xfU)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0xfU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0xfU == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0xfU == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[15]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0x10U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0x10U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0x10U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0x10U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[16]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0x11U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0x11U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0x11U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0x11U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[17]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0x12U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0x12U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0x12U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0x12U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[18]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0x13U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0x13U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0x13U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0x13U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[19]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0x14U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0x14U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0x14U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0x14U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[20]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                    (1U & VL_BITSEL_IIII(22, vlSelfRef.__PVT__moving_share_vect_m_qual_ph3, 0x15U)));
-    if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(2,1,1, 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                                               & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                                                    | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                                                   | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                                                  | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL))), 
-                                              (((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                                                & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-                                               & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))))))) {
-        if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-              & (IData)(vlSelfRef.__PVT__cmdq_src0snpresp_or_src2_ph3)) 
-             & (IData)(vlSelfRef.__PVT__opcode_any_snoop_response_ph3))) {
-            if (((IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3) 
-                 & (0x15U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            } else if (((IData)(vlSelfRef.__PVT__opcode_any_snpfwded_response_dct_ph3) 
-                        & (0x15U == (IData)(vlSelfRef.__PVT__origreq_src_id_ph3)))) {
-                VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 
-                                (1U & (~ (IData)(vlSelfRef.__PVT__invalid_requester_state_after_dct_ph3))));
-            }
-        } else if ((((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
-                     & (IData)(vlSelfRef.__PVT__cmdq_src2_ph3)) 
-                    & ((((IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA) 
-                         | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA)) 
-                        | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP)) 
-                       | (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_is_WRITEDATACANCEL)))) {
-            if ((((~ ((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3))) 
-                  | (((IData)(vlSelfRef.__PVT__orig_wr_cl_ph3) 
-                      | (IData)(vlSelfRef.__PVT__orig_req_wrcleanfl_clean_s_ph3)) 
-                     & (IData)(vlSelfRef.__PVT__snp_resp_state_inv_ph3))) 
-                 & (0x15U == (IData)(vlSelfRef.__PVT__cmd_ph3_rsp_linear_srcid)))) {
-                VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__new_share_vect_rsp_m_ph3, 0U);
-            }
-        }
-    } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:6300: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk11[21]: 'unique if' statement violated\n",0,
-                     64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 6300, "");
-    }
-    vlSelfRef.__PVT__new_share_vect_ph3_rsp = vlSelfRef.__PVT__new_share_vect_rsp_m_ph3;
 }
 
 VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_coherency_ctrlr_0__6(Vsig_topology_top_sig_coherency_ctrlr__pi14* vlSelf) {
@@ -5576,16 +4651,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,0U, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 0U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -5660,16 +4744,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,3U, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 1U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -5744,16 +4837,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,6U, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 2U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -5828,16 +4930,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,9U, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 3U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -5912,16 +5023,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,0xcU, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 4U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -5996,16 +5116,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,0xfU, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 5U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -6080,16 +5209,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,0x12U, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 6U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -6164,16 +5302,25 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                     | (IData)(vlSelfRef.__PVT__colln_atom_detected_in_collnq))) 
                 & (~ (IData)(vlSelfRef.__PVT__colln_newentry_atom_clr_atom)))) {
         VL_ASSIGNSEL_II(24,3,0x15U, vlSelfRef.__PVT__seq_num_atom_nxt, 
-                        ((8U == VL_CONCAT_III(4,2,2, 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
-                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                          ? 4U : ((4U == VL_CONCAT_III(4,2,2, 
-                                                       VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                        ((0x10U == VL_CONCAT_III(5,3,2, 
+                                                 VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                               VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                          ? 5U : ((8U == VL_CONCAT_III(5,3,2, 
+                                                       VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                     VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                        VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                   ? 3U : ((2U == VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom)), 
+                                   ? 4U : ((4U == VL_CONCAT_III(5,3,2, 
+                                                                VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                              VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
                                                                 VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
-                                            ? 2U : 1U))));
+                                            ? 3U : 
+                                           ((2U == 
+                                             VL_CONCAT_III(5,3,2, 
+                                                           VL_CONCAT_III(3,1,2, (IData)(vlSelfRef.__PVT__highest_seqnum_is4_atom), 
+                                                                         VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is3_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is2_atom))), 
+                                                           VL_CONCAT_III(2,1,1, (IData)(vlSelfRef.__PVT__highest_seqnum_is1_atom), (IData)(vlSelfRef.__PVT__highest_seqnum_is0_atom))))
+                                             ? 2U : 1U)))));
     } else if (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 7U) 
                  & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3)) 
                 & ((~ ((IData)(vlSelfRef.__PVT__colln_atom_detected_in_outstq) 
@@ -8782,9 +7929,9 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                                      ? 3U
                                                      : (IData)(vlSelfRef.__PVT__atmo_state_ph3)));
     } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:4430: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.update_atmo_state_for_ongoing_rsp: 'unique if' statement violated\n",0,
+        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:4436: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.update_atmo_state_for_ongoing_rsp: 'unique if' statement violated\n",0,
                      64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 4430, "");
+        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 4436, "");
     }
     VL_CONCAT_WIQ(89,32,57, __Vtemp_57, VL_EXTEND_II(32,26, 
                                                      VL_CONCAT_III(26,2,24, 

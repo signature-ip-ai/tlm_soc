@@ -437,7 +437,6 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
     VL_CONST_W_5X(160,__Vtemp_3,0x007fffff,0xffffffff,0xffffffff,0xffffffff,0xffffffff);
     VL_SEL_WWII(151, 155, __Vtemp_4, vlSelfRef.__PVT__cmd_ph4_req, 0U, 151);
     VL_AND_W(5, vlSelfRef.__PVT__cmd_ph4_req_s, __Vtemp_3, __Vtemp_4);
-    vlSelfRef.__PVT__outstand_atmo_rd = VL_REDOR_I(vlSelfRef.__PVT__outstand_req_atmo_rd);
     vlSelfRef.__PVT__wren_stat_rsp_ph3 = ((IData)(vlSelfRef.__PVT__cmdvalid_ph3_rsp) 
                                           & (IData)(vlSelfRef.__PVT__cmdis_resp_ph3));
     vlSelfRef.__PVT__winner_timeout_index_B0 = 0U;
@@ -501,8 +500,9 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
     VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__sel_winner_collq, 
                     ((0U == (0x7fU & VL_SEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_rdy_for_proc_lock), 0U, 7))) 
                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_rdy_for_proc_lock), 7U)));
+    vlSelfRef.__PVT__outstand_atmo_rd = VL_REDOR_I(vlSelfRef.__PVT__outstand_req_atmo_rd);
     vlSelfRef.__PVT__collnq_full = (2U >= (IData)(vlSelfRef.__PVT__num_emptyloc_collnq));
-    vlSelfRef.__PVT__outstand_cmdq_full = (2U >= vlSelfRef.__PVT__num_emptyloc_outstandq);
+    vlSelfRef.__PVT__outstand_cmdq_full = (0U == vlSelfRef.__PVT__num_emptyloc_outstandq);
     VL_ASSIGNSEL_II(24,9,0U, vlSelfRef.__PVT__seq_num_atom, 
                     VL_CONCAT_III(9,3,6, (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_all_atom, 6U, 3)), 
                                   VL_CONCAT_III(6,3,3, 
@@ -961,6 +961,17 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph4_req_s, 0x3eU, 7)));
     vlSelfRef.__PVT__req_is_read_s_ph4 = (1U == (0x7fU 
                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph4_req_s, 0x3eU, 7)));
+    vlSelfRef.__PVT__winner_timeout_index = 0U;
+    vlSelfRef.__PVT__winner_timeout_index = ((0U == 
+                                              (0xffffU 
+                                               & VL_SEL_IIII(32, vlSelfRef.__PVT__cmd_timeout_flag, 0U, 16)))
+                                              ? (IData)(vlSelfRef.__PVT__winner_timeout_index_B2)
+                                              : ((0U 
+                                                  == 
+                                                  (0xffU 
+                                                   & VL_SEL_IIII(32, vlSelfRef.__PVT__cmd_timeout_flag, 0U, 8)))
+                                                  ? (IData)(vlSelfRef.__PVT__winner_timeout_index_B1)
+                                                  : (IData)(vlSelfRef.__PVT__winner_timeout_index_B0)));
     vlSelfRef.__PVT__outstand_atmo = ((IData)(vlSelfRef.__PVT__outstand_atmo_rd) 
                                       | (IData)(vlSelfRef.__PVT__outstand_atmo_wr));
     VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__colln_clr_no_atom_outstand, 
@@ -1003,17 +1014,38 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
                       & (~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 7U))) 
                      & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 7U) 
                         & (~ (IData)(vlSelfRef.__PVT__outstand_atmo_rd)))));
-    vlSelfRef.__PVT__winner_timeout_index = 0U;
-    vlSelfRef.__PVT__winner_timeout_index = ((0U == 
-                                              (0xffffU 
-                                               & VL_SEL_IIII(32, vlSelfRef.__PVT__cmd_timeout_flag, 0U, 16)))
-                                              ? (IData)(vlSelfRef.__PVT__winner_timeout_index_B2)
-                                              : ((0U 
-                                                  == 
-                                                  (0xffU 
-                                                   & VL_SEL_IIII(32, vlSelfRef.__PVT__cmd_timeout_flag, 0U, 8)))
-                                                  ? (IData)(vlSelfRef.__PVT__winner_timeout_index_B1)
-                                                  : (IData)(vlSelfRef.__PVT__winner_timeout_index_B0)));
+    VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 0U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 0U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 0U, 3)))));
+    VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 1U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 1U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 3U, 3)))));
+    VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 2U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 2U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 6U, 3)))));
+    VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 3U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 3U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 9U, 3)))));
+    VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 4U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 4U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 0xcU, 3)))));
+    VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 5U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 5U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 0xfU, 3)))));
+    VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 6U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 6U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 0x12U, 3)))));
+    VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__has_atom_rd_seq_num_0, 
+                    (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 7U)) 
+                      & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 7U)) 
+                     & (0U == (7U & VL_SEL_IIII(24, vlSelfRef.__PVT__seq_num_atom, 0x15U, 3)))));
     vlSelfRef.__PVT__fifofull_reqcmdq = vlSelfRef.__PVT__full_reqcmdq;
     vlSelfRef.__PVT__cmd_ph3_dat_resperr = (3U & VL_SEL_IWII(109, vlSelfRef.__PVT__cmd_ph3_datrsp_s, 0x35U, 2));
     vlSelfRef.__PVT__cmd_ph3_dat_opcode = (0xfU & VL_SEL_IWII(109, vlSelfRef.__PVT__cmd_ph3_datrsp_s, 0x31U, 4));
@@ -1930,6 +1962,102 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
                                            | (IData)(vlSelfRef.__PVT__req_is_make_i_ph4));
     vlSelfRef.__PVT__req_is_read_s_notsd_ph4 = ((IData)(vlSelfRef.__PVT__req_is_read_s_ph4) 
                                                 | (IData)(vlSelfRef.__PVT__req_is_read_notsd_ph4));
+    VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (1U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (2U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (3U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (4U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (5U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (6U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (7U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(8U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (8U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(9U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (9U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0xaU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0xaU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0xbU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0xbU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0xcU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0xcU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0xdU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0xdU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0xeU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0xeU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0xfU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x10U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x11U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x12U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x13U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x14U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x15U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x16U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x16U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x17U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x17U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x18U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x18U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x19U, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x19U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1aU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x1aU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1bU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x1bU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1cU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x1cU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1dU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x1dU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1eU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x1eU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0x1fU, vlSelfRef.__PVT__service_timeout_flag, 
+                    ((IData)(vlSelfRef.__PVT__service_timeout) 
+                     & (0x1fU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
     VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__set_colln_rdy, 
                     (((~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_empty), 0U)) 
                       & (~ VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_rdy_for_proc), 0U))) 
@@ -2070,122 +2198,57 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
         (((IData)(vlSelfRef.__PVT__en_clr_collnreg) 
           & (~ (IData)(vlSelfRef.__PVT__outstand_atmo))) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_rd_ph3));
-    VL_ASSIGNSEL_II(8,2,0U, vlSelfRef.__PVT__decrement_seq_num_atom, 
-                    VL_CONCAT_III(2,1,1, (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 1U) 
-                                                & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 1U))), 
-                                  (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 0U) 
-                                         & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 0U)))));
-    VL_ASSIGNSEL_II(8,2,2U, vlSelfRef.__PVT__decrement_seq_num_atom, 
-                    VL_CONCAT_III(2,1,1, (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 3U) 
-                                                & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 3U))), 
-                                  (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 2U) 
-                                         & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 2U)))));
-    VL_ASSIGNSEL_II(8,2,4U, vlSelfRef.__PVT__decrement_seq_num_atom, 
-                    VL_CONCAT_III(2,1,1, (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 5U) 
-                                                & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 5U))), 
-                                  (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 4U) 
-                                         & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 4U)))));
-    VL_ASSIGNSEL_II(8,2,6U, vlSelfRef.__PVT__decrement_seq_num_atom, 
-                    VL_CONCAT_III(2,1,1, (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 7U) 
-                                                & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 7U))), 
-                                  (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 6U) 
-                                         & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 6U)))));
-    VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (1U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (2U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (3U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (4U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (5U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (6U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (7U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(8U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (8U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(9U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (9U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0xaU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0xaU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0xbU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0xbU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0xcU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0xcU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0xdU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0xdU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0xeU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0xeU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0xfU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0xfU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x10U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x10U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x11U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x11U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x12U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x12U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x13U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x13U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x14U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x14U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x15U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x15U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x16U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x16U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x17U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x17U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x18U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x18U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x19U, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x19U == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x1aU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x1aU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x1bU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x1bU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x1cU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x1cU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x1dU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x1dU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x1eU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x1eU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
-    VL_ASSIGNBIT_II(0x1fU, vlSelfRef.__PVT__service_timeout_flag, 
-                    ((IData)(vlSelfRef.__PVT__service_timeout) 
-                     & (0x1fU == (0x1fU & VL_SEL_IIII(6, (IData)(vlSelfRef.__PVT__winner_timeout_index), 0U, 5)))));
+    VL_ASSIGNBIT_II(0U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 0U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 0U)))));
+    VL_ASSIGNBIT_II(1U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 1U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 1U)))));
+    VL_ASSIGNBIT_II(2U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 2U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 2U)))));
+    VL_ASSIGNBIT_II(3U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 3U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 3U)))));
+    VL_ASSIGNBIT_II(4U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 4U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 4U)))));
+    VL_ASSIGNBIT_II(5U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 5U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 5U)))));
+    VL_ASSIGNBIT_II(6U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 6U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 6U)))));
+    VL_ASSIGNBIT_II(7U, vlSelfRef.__PVT__decrement_seq_num_atom, 
+                    (1U & (VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_clr_no_atom_outstand), 7U) 
+                           | ((IData)(vlSelfRef.__PVT__decrement_colln_atom_seq_num) 
+                              & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd), 7U)))));
+    vlSelfRef.__PVT__outstand_no_atom_cntr_nxt = vlSelfRef.__PVT__outstand_no_atom_cntr;
+    vlSelfRef.__PVT__decrement_colln_atom_seq_num_nxt 
+        = vlSelfRef.__PVT__decrement_colln_atom_seq_num;
+    if (((((~ VL_REDAND_II(8, (IData)(vlSelfRef.__PVT__colln_empty))) 
+           & VL_REDOR_I((IData)(vlSelfRef.__PVT__colln_cmd_isatmo_rd))) 
+          & (~ (IData)(vlSelfRef.__PVT__outstand_atmo))) 
+         & (~ VL_REDOR_I((IData)(vlSelfRef.__PVT__has_atom_rd_seq_num_0))))) {
+        if ((0x10U == (IData)(vlSelfRef.__PVT__outstand_no_atom_cntr))) {
+            vlSelfRef.__PVT__outstand_no_atom_cntr_nxt = 0U;
+            vlSelfRef.__PVT__decrement_colln_atom_seq_num_nxt = 1U;
+        } else {
+            vlSelfRef.__PVT__outstand_no_atom_cntr_nxt 
+                = (0x1fU & ((IData)(1U) + (IData)(vlSelfRef.__PVT__outstand_no_atom_cntr)));
+            vlSelfRef.__PVT__decrement_colln_atom_seq_num_nxt = 0U;
+        }
+    } else {
+        vlSelfRef.__PVT__outstand_no_atom_cntr_nxt = 0U;
+        vlSelfRef.__PVT__decrement_colln_atom_seq_num_nxt = 0U;
+    }
     vlSelfRef.__PVT__cmd_ph3_rsp_is_COPYBACKWRDATA 
         = (2U == (IData)(vlSelfRef.__PVT__cmd_ph3_dat_opcode));
     vlSelfRef.__PVT__opcode_snprespdata_ph3 = ((2U 
@@ -5620,9 +5683,9 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
                  & ((IData)(vlSelfRef.__PVT__cmdq_src1_ph3) 
                     & (IData)(vlSelfRef.__PVT__mmem_resp_cnt_ph3))));
     } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:3980: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0: 'unique if' statement violated\n",0,
+        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:3986: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0: 'unique if' statement violated\n",0,
                      64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 3980, "");
+        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 3986, "");
     }
     vlSelfRef.__PVT__itis_lastresp_ph3_atom_clr_buffer 
         = (((IData)(vlSelfRef.__PVT__orig_req_atom_ph3) 
@@ -5678,9 +5741,9 @@ VL_ATTR_COLD void Vsig_topology_top_sig_coherency_ctrlr__pi14___stl_sequent__TOP
                              & (IData)(vlSelfRef.__PVT__mmem_resp_cnt_ph3)))) 
                    && (IData)(vlSelfRef.__PVT__mmem_resp_cnt_ph3)));
     } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:4304: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.update_mmemresp_cnt_for_ongoing_rsp: 'unique if' statement violated\n",0,
+        VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:4310: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.update_mmemresp_cnt_for_ongoing_rsp: 'unique if' statement violated\n",0,
                      64,VL_TIME_UNITED_Q(1),-12,vlSymsp->name());
-        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 4304, "");
+        VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 4310, "");
     }
     vlSelfRef.__PVT__new_was_prelastresp_wr_uniq_ptl_ph4_nxt 
         = vlSelfRef.__PVT__was_prelastresp_wr_uniq_ptl_ph3;

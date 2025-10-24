@@ -28,11 +28,11 @@ VL_ATTR_COLD void Vsig_topology_top_sig_node_rxtop__pi44___ctor_var_reset(Vsig_t
     VL_SCOPED_RAND_RESET_W(112, vlSelf->__PVT__noncm_homeaddr_base_all_hn_i, __VscopeHash, 5774525247165067667ull);
     VL_SCOPED_RAND_RESET_W(116, vlSelf->__PVT__noncm_homeaddr_limit_all_hn_i, __VscopeHash, 18196959966301009892ull);
     vlSelf->__PVT__xy_coord_all_hn_i = VL_SCOPED_RAND_RESET_I(32, __VscopeHash, 6990528853360295797ull);
-    vlSelf->__PVT__xy_coord_all_pm = VL_SCOPED_RAND_RESET_I(22, __VscopeHash, 14093339878997901900ull);
-    vlSelf->__PVT__cm_homeaddr_base_all_pm = VL_SCOPED_RAND_RESET_Q(56, __VscopeHash, 16326596507192002194ull);
-    vlSelf->__PVT__cm_homeaddr_limit_all_pm = VL_SCOPED_RAND_RESET_Q(58, __VscopeHash, 15039959541587252906ull);
-    vlSelf->__PVT__noncm_homeaddr_base_all_pm = VL_SCOPED_RAND_RESET_Q(56, __VscopeHash, 4362549229537796297ull);
-    vlSelf->__PVT__noncm_homeaddr_limit_all_pm = VL_SCOPED_RAND_RESET_Q(58, __VscopeHash, 17603428951671837452ull);
+    vlSelf->__PVT__xy_coord_all_pm = VL_SCOPED_RAND_RESET_Q(44, __VscopeHash, 14093339878997901900ull);
+    VL_SCOPED_RAND_RESET_W(112, vlSelf->__PVT__cm_homeaddr_base_all_pm, __VscopeHash, 16326596507192002194ull);
+    VL_SCOPED_RAND_RESET_W(116, vlSelf->__PVT__cm_homeaddr_limit_all_pm, __VscopeHash, 15039959541587252906ull);
+    VL_SCOPED_RAND_RESET_W(112, vlSelf->__PVT__noncm_homeaddr_base_all_pm, __VscopeHash, 4362549229537796297ull);
+    VL_SCOPED_RAND_RESET_W(116, vlSelf->__PVT__noncm_homeaddr_limit_all_pm, __VscopeHash, 17603428951671837452ull);
     for (int __Vi0 = 0; __Vi0 < 1; ++__Vi0) {
         vlSelf->__PVT__i_ucie_bridge_locations[__Vi0] = VL_SCOPED_RAND_RESET_I(11, __VscopeHash, 14939638592589144635ull);
     }

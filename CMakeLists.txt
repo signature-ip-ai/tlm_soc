@@ -1,7 +1,11 @@
 cmake_minimum_required(VERSION 3.15)
 project(tlm_soc CXX)
 
+find_package(SystemCLanguage REQUIRED)
+find_package(spdlog CONFIG REQUIRED)
+
 set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 -Wall")
 
 set(VERILATOR_ROOT $ENV{VERILATOR_ROOT})
@@ -9,11 +13,8 @@ if(NOT VERILATOR_ROOT)
     set(VERILATOR_ROOT "/tools/sw-tools/verilator/v5.038/share/verilator")
 endif()
 
-add_library(systemc STATIC IMPORTED)
-set_target_properties(systemc PROPERTIES
-    IMPORTED_LOCATION /tools/sw-tools/systemc/3.0.1/lib64/libsystemc.a
-    INTERFACE_INCLUDE_DIRECTORIES /tools/sw-tools/systemc/3.0.1/include
-)
+get_target_property(SYSTEMC_INCLUDE_DIRS SystemC::systemc INTERFACE_INCLUDE_DIRECTORIES)
+get_target_property(SPDLOG_INCLUDE_DIRS spdlog::spdlog INTERFACE_INCLUDE_DIRECTORIES)
 
 add_library(ambachicast STATIC IMPORTED)
 set_target_properties(ambachicast PROPERTIES
@@ -50,24 +51,17 @@ add_custom_target(clean_noc
     COMMENT "Clean noc_model"
 )
 
-add_custom_target(update_adapters
-    COMMAND rm -rf ${CMAKE_SOURCE_DIR}/noc_model/ambachicast
-    COMMAND /bin/bash -c "tar -xf ambachicast.tgz"
-    COMMAND ${CMAKE_MAKE_PROGRAM} -C ${CMAKE_SOURCE_DIR}/noc_model clean
-    WORKING_DIRECTORY ${CMAKE_SOURCE_DIR}/noc_model
-    COMMENT "Adapters updated"
-)
-
 add_executable(main src/main.cpp)
-target_include_directories(main PUBLIC include)
+target_include_directories(main PUBLIC include ${SPDLOG_INCLUDE_DIRS} ${SYSTEMC_INCLUDE_DIRS})
 target_link_libraries(main
         -Wl,--start-group
         tlm_top
         ambachicast
         verilated_model
-        systemc
         -Wl,--end-group
         pthread
+        SystemC::systemc
+        spdlog::spdlog
 )
 
 target_include_directories(main PRIVATE ${VERILATOR_ROOT}/include)
@@ -80,3 +74,4 @@ target_sources(main PRIVATE
 )
 
 add_dependencies(main noc_model)
+add_dependencies(noc_model clean_noc)

@@ -5,19 +5,28 @@
 #include "Vsig_topology_top__pch.h"
 #include "Vsig_topology_top_sig_fifo_synchclk_flop__pi70.h"
 
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p2__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p2__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0\n"); );
+VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__flit_fifo_default__DOT__flit_store_fifo_0__0(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__flit_fifo_default__DOT__flit_store_fifo_0__0\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_rddata, vlSelfRef.__PVT__fifo_loc
+    VL_ASSIGN_W(151,vlSelfRef.__PVT__fifo_rddata, vlSelfRef.__PVT__fifo_loc
                 [vlSelfRef.__PVT__rd_ptr]);
 }
 
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p2__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p2__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1\n"); );
+VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__flit_fifo_default__DOT__flit_store_fifo_0__0(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__flit_fifo_default__DOT__flit_store_fifo_0__0\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
+    // Init
+    CData/*31:0*/ __Vtemp_1;
+    VlWide<5>/*159:0*/ __Vtemp_2;
+    CData/*31:0*/ __Vtemp_3;
+    VlWide<5>/*159:0*/ __Vtemp_4;
+    CData/*31:0*/ __Vtemp_5;
+    VlWide<5>/*159:0*/ __Vtemp_6;
+    CData/*31:0*/ __Vtemp_7;
+    VlWide<5>/*159:0*/ __Vtemp_8;
     // Body
     vlSelfRef.__PVT__rd_ptr_nxt = vlSelfRef.__PVT__rd_ptr;
     if (vlSelfRef.__PVT__fifo_rden) {
@@ -33,6 +42,26 @@ VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__
                                              ((IData)(1U) 
                                               + (IData)(vlSelfRef.__PVT__wr_ptr))));
     }
+    __Vtemp_1 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
+                 & (0U == (IData)(vlSelfRef.__PVT__wr_ptr)));
+    VL_COND_WIWW(151, __Vtemp_2, __Vtemp_1, vlSelfRef.__PVT__fifo_wrdata, 
+                 vlSelfRef.__PVT__fifo_loc[0U]);
+    VL_ASSIGN_W(151,vlSelfRef.__PVT__fifo_loc_nxt[0U], __Vtemp_2);
+    __Vtemp_3 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
+                 & (1U == (IData)(vlSelfRef.__PVT__wr_ptr)));
+    VL_COND_WIWW(151, __Vtemp_4, __Vtemp_3, vlSelfRef.__PVT__fifo_wrdata, 
+                 vlSelfRef.__PVT__fifo_loc[1U]);
+    VL_ASSIGN_W(151,vlSelfRef.__PVT__fifo_loc_nxt[1U], __Vtemp_4);
+    __Vtemp_5 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
+                 & (2U == (IData)(vlSelfRef.__PVT__wr_ptr)));
+    VL_COND_WIWW(151, __Vtemp_6, __Vtemp_5, vlSelfRef.__PVT__fifo_wrdata, 
+                 vlSelfRef.__PVT__fifo_loc[2U]);
+    VL_ASSIGN_W(151,vlSelfRef.__PVT__fifo_loc_nxt[2U], __Vtemp_6);
+    __Vtemp_7 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
+                 & (3U == (IData)(vlSelfRef.__PVT__wr_ptr)));
+    VL_COND_WIWW(151, __Vtemp_8, __Vtemp_7, vlSelfRef.__PVT__fifo_wrdata, 
+                 vlSelfRef.__PVT__fifo_loc[3U]);
+    VL_ASSIGN_W(151,vlSelfRef.__PVT__fifo_loc_nxt[3U], __Vtemp_8);
     vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
     if (((IData)(vlSelfRef.__PVT__fifo_wren) & (IData)(vlSelfRef.__PVT__fifo_rden))) {
         vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
@@ -49,288 +78,6 @@ VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__
                                             (0x3ffffffffULL 
                                              & (4ULL 
                                                 - VL_EXTEND_QI(34,3, (IData)(vlSelfRef.__PVT__num_entries_nxt)))));
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p2__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p2__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Init
-    CData/*31:0*/ __Vtemp_1;
-    VlWide<22>/*703:0*/ __Vtemp_2;
-    CData/*31:0*/ __Vtemp_3;
-    VlWide<22>/*703:0*/ __Vtemp_4;
-    CData/*31:0*/ __Vtemp_5;
-    VlWide<22>/*703:0*/ __Vtemp_6;
-    CData/*31:0*/ __Vtemp_7;
-    VlWide<22>/*703:0*/ __Vtemp_8;
-    // Body
-    __Vtemp_1 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (0U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_2, __Vtemp_1, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[0U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[0U], __Vtemp_2);
-    __Vtemp_3 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (1U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_4, __Vtemp_3, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[1U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[1U], __Vtemp_4);
-    __Vtemp_5 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (2U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_6, __Vtemp_5, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[2U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[2U], __Vtemp_6);
-    __Vtemp_7 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (3U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_8, __Vtemp_7, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[3U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[3U], __Vtemp_8);
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p3__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p3__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_rddata, vlSelfRef.__PVT__fifo_loc
-                [vlSelfRef.__PVT__rd_ptr]);
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p3__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p3__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    vlSelfRef.__PVT__rd_ptr_nxt = vlSelfRef.__PVT__rd_ptr;
-    if (vlSelfRef.__PVT__fifo_rden) {
-        vlSelfRef.__PVT__rd_ptr_nxt = (3U & ((3U == (IData)(vlSelfRef.__PVT__rd_ptr))
-                                              ? 0U : 
-                                             ((IData)(1U) 
-                                              + (IData)(vlSelfRef.__PVT__rd_ptr))));
-    }
-    vlSelfRef.__PVT__wr_ptr_nxt = vlSelfRef.__PVT__wr_ptr;
-    if (vlSelfRef.__PVT__fifo_wren) {
-        vlSelfRef.__PVT__wr_ptr_nxt = (3U & ((3U == (IData)(vlSelfRef.__PVT__wr_ptr))
-                                              ? 0U : 
-                                             ((IData)(1U) 
-                                              + (IData)(vlSelfRef.__PVT__wr_ptr))));
-    }
-    vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
-    if (((IData)(vlSelfRef.__PVT__fifo_wren) & (IData)(vlSelfRef.__PVT__fifo_rden))) {
-        vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
-    } else if (vlSelfRef.__PVT__fifo_wren) {
-        vlSelfRef.__PVT__num_entries_nxt = (7U & ((IData)(1U) 
-                                                  + (IData)(vlSelfRef.__PVT__num_entries)));
-    } else if (vlSelfRef.__PVT__fifo_rden) {
-        vlSelfRef.__PVT__num_entries_nxt = (7U & ((IData)(vlSelfRef.__PVT__num_entries) 
-                                                  - (IData)(1U)));
-    }
-    vlSelfRef.__PVT__fifo_full_nxt = (4U == (IData)(vlSelfRef.__PVT__num_entries_nxt));
-    vlSelfRef.__PVT__fifo_empty_nxt = (0U == (IData)(vlSelfRef.__PVT__num_entries_nxt));
-    vlSelfRef.__PVT__fiforoom_atlst3_nxt = (2ULL < 
-                                            (0x3ffffffffULL 
-                                             & (4ULL 
-                                                - VL_EXTEND_QI(34,3, (IData)(vlSelfRef.__PVT__num_entries_nxt)))));
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p3__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p3__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Init
-    CData/*31:0*/ __Vtemp_1;
-    VlWide<22>/*703:0*/ __Vtemp_2;
-    CData/*31:0*/ __Vtemp_3;
-    VlWide<22>/*703:0*/ __Vtemp_4;
-    CData/*31:0*/ __Vtemp_5;
-    VlWide<22>/*703:0*/ __Vtemp_6;
-    CData/*31:0*/ __Vtemp_7;
-    VlWide<22>/*703:0*/ __Vtemp_8;
-    // Body
-    __Vtemp_1 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (0U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_2, __Vtemp_1, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[0U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[0U], __Vtemp_2);
-    __Vtemp_3 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (1U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_4, __Vtemp_3, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[1U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[1U], __Vtemp_4);
-    __Vtemp_5 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (2U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_6, __Vtemp_5, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[2U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[2U], __Vtemp_6);
-    __Vtemp_7 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (3U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_8, __Vtemp_7, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[3U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[3U], __Vtemp_8);
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p1__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p1__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_rddata, vlSelfRef.__PVT__fifo_loc
-                [vlSelfRef.__PVT__rd_ptr]);
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p1__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p1__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    vlSelfRef.__PVT__rd_ptr_nxt = vlSelfRef.__PVT__rd_ptr;
-    if (vlSelfRef.__PVT__fifo_rden) {
-        vlSelfRef.__PVT__rd_ptr_nxt = (3U & ((3U == (IData)(vlSelfRef.__PVT__rd_ptr))
-                                              ? 0U : 
-                                             ((IData)(1U) 
-                                              + (IData)(vlSelfRef.__PVT__rd_ptr))));
-    }
-    vlSelfRef.__PVT__wr_ptr_nxt = vlSelfRef.__PVT__wr_ptr;
-    if (vlSelfRef.__PVT__fifo_wren) {
-        vlSelfRef.__PVT__wr_ptr_nxt = (3U & ((3U == (IData)(vlSelfRef.__PVT__wr_ptr))
-                                              ? 0U : 
-                                             ((IData)(1U) 
-                                              + (IData)(vlSelfRef.__PVT__wr_ptr))));
-    }
-    vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
-    if (((IData)(vlSelfRef.__PVT__fifo_wren) & (IData)(vlSelfRef.__PVT__fifo_rden))) {
-        vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
-    } else if (vlSelfRef.__PVT__fifo_wren) {
-        vlSelfRef.__PVT__num_entries_nxt = (7U & ((IData)(1U) 
-                                                  + (IData)(vlSelfRef.__PVT__num_entries)));
-    } else if (vlSelfRef.__PVT__fifo_rden) {
-        vlSelfRef.__PVT__num_entries_nxt = (7U & ((IData)(vlSelfRef.__PVT__num_entries) 
-                                                  - (IData)(1U)));
-    }
-    vlSelfRef.__PVT__fifo_full_nxt = (4U == (IData)(vlSelfRef.__PVT__num_entries_nxt));
-    vlSelfRef.__PVT__fifo_empty_nxt = (0U == (IData)(vlSelfRef.__PVT__num_entries_nxt));
-    vlSelfRef.__PVT__fiforoom_atlst3_nxt = (2ULL < 
-                                            (0x3ffffffffULL 
-                                             & (4ULL 
-                                                - VL_EXTEND_QI(34,3, (IData)(vlSelfRef.__PVT__num_entries_nxt)))));
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p1__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p1__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Init
-    CData/*31:0*/ __Vtemp_1;
-    VlWide<22>/*703:0*/ __Vtemp_2;
-    CData/*31:0*/ __Vtemp_3;
-    VlWide<22>/*703:0*/ __Vtemp_4;
-    CData/*31:0*/ __Vtemp_5;
-    VlWide<22>/*703:0*/ __Vtemp_6;
-    CData/*31:0*/ __Vtemp_7;
-    VlWide<22>/*703:0*/ __Vtemp_8;
-    // Body
-    __Vtemp_1 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (0U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_2, __Vtemp_1, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[0U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[0U], __Vtemp_2);
-    __Vtemp_3 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (1U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_4, __Vtemp_3, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[1U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[1U], __Vtemp_4);
-    __Vtemp_5 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (2U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_6, __Vtemp_5, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[2U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[2U], __Vtemp_6);
-    __Vtemp_7 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (3U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_8, __Vtemp_7, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[3U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[3U], __Vtemp_8);
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p0__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p0__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__0\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_rddata, vlSelfRef.__PVT__fifo_loc
-                [vlSelfRef.__PVT__rd_ptr]);
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p0__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p0__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__1\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Body
-    vlSelfRef.__PVT__rd_ptr_nxt = vlSelfRef.__PVT__rd_ptr;
-    if (vlSelfRef.__PVT__fifo_rden) {
-        vlSelfRef.__PVT__rd_ptr_nxt = (3U & ((3U == (IData)(vlSelfRef.__PVT__rd_ptr))
-                                              ? 0U : 
-                                             ((IData)(1U) 
-                                              + (IData)(vlSelfRef.__PVT__rd_ptr))));
-    }
-    vlSelfRef.__PVT__wr_ptr_nxt = vlSelfRef.__PVT__wr_ptr;
-    if (vlSelfRef.__PVT__fifo_wren) {
-        vlSelfRef.__PVT__wr_ptr_nxt = (3U & ((3U == (IData)(vlSelfRef.__PVT__wr_ptr))
-                                              ? 0U : 
-                                             ((IData)(1U) 
-                                              + (IData)(vlSelfRef.__PVT__wr_ptr))));
-    }
-    vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
-    if (((IData)(vlSelfRef.__PVT__fifo_wren) & (IData)(vlSelfRef.__PVT__fifo_rden))) {
-        vlSelfRef.__PVT__num_entries_nxt = vlSelfRef.__PVT__num_entries;
-    } else if (vlSelfRef.__PVT__fifo_wren) {
-        vlSelfRef.__PVT__num_entries_nxt = (7U & ((IData)(1U) 
-                                                  + (IData)(vlSelfRef.__PVT__num_entries)));
-    } else if (vlSelfRef.__PVT__fifo_rden) {
-        vlSelfRef.__PVT__num_entries_nxt = (7U & ((IData)(vlSelfRef.__PVT__num_entries) 
-                                                  - (IData)(1U)));
-    }
-    vlSelfRef.__PVT__fifo_full_nxt = (4U == (IData)(vlSelfRef.__PVT__num_entries_nxt));
-    vlSelfRef.__PVT__fifo_empty_nxt = (0U == (IData)(vlSelfRef.__PVT__num_entries_nxt));
-    vlSelfRef.__PVT__fiforoom_atlst3_nxt = (2ULL < 
-                                            (0x3ffffffffULL 
-                                             & (4ULL 
-                                                - VL_EXTEND_QI(34,3, (IData)(vlSelfRef.__PVT__num_entries_nxt)))));
-}
-
-VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p0__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+                      Vsig_topology_top_sig_fifo_synchclk_flop__pi70___stl_sequent__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p0__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sync_fifo_gen__DOT__flit_store_fifo_0__2\n"); );
-    Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
-    auto& vlSelfRef = std::ref(*vlSelf).get();
-    // Init
-    CData/*31:0*/ __Vtemp_1;
-    VlWide<22>/*703:0*/ __Vtemp_2;
-    CData/*31:0*/ __Vtemp_3;
-    VlWide<22>/*703:0*/ __Vtemp_4;
-    CData/*31:0*/ __Vtemp_5;
-    VlWide<22>/*703:0*/ __Vtemp_6;
-    CData/*31:0*/ __Vtemp_7;
-    VlWide<22>/*703:0*/ __Vtemp_8;
-    // Body
-    __Vtemp_1 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (0U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_2, __Vtemp_1, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[0U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[0U], __Vtemp_2);
-    __Vtemp_3 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (1U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_4, __Vtemp_3, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[1U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[1U], __Vtemp_4);
-    __Vtemp_5 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (2U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_6, __Vtemp_5, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[2U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[2U], __Vtemp_6);
-    __Vtemp_7 = ((IData)(vlSelfRef.__PVT__fifo_wren) 
-                 & (3U == (IData)(vlSelfRef.__PVT__wr_ptr)));
-    VL_COND_WIWW(686, __Vtemp_8, __Vtemp_7, vlSelfRef.__PVT__fifo_wrdata, 
-                 vlSelfRef.__PVT__fifo_loc[3U]);
-    VL_ASSIGN_W(686,vlSelfRef.__PVT__fifo_loc_nxt[3U], __Vtemp_8);
 }
 
 VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___ctor_var_reset(Vsig_topology_top_sig_fifo_synchclk_flop__pi70* vlSelf) {
@@ -342,9 +89,9 @@ VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___ctor_var_rese
     vlSelf->__PVT__fifo_clk = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 14453550134765673388ull);
     vlSelf->__PVT__rstb = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 10656648699027260015ull);
     vlSelf->__PVT__fifo_wren = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 4740109576381753218ull);
-    VL_SCOPED_RAND_RESET_W(686, vlSelf->__PVT__fifo_wrdata, __VscopeHash, 13735560909582501842ull);
+    VL_SCOPED_RAND_RESET_W(151, vlSelf->__PVT__fifo_wrdata, __VscopeHash, 13735560909582501842ull);
     vlSelf->__PVT__fifo_rden = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 13760157769081611964ull);
-    VL_SCOPED_RAND_RESET_W(686, vlSelf->__PVT__fifo_rddata, __VscopeHash, 9356019634320357306ull);
+    VL_SCOPED_RAND_RESET_W(151, vlSelf->__PVT__fifo_rddata, __VscopeHash, 9356019634320357306ull);
     vlSelf->__PVT__fifo_full = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 4782710040797492827ull);
     vlSelf->__PVT__fifo_empty = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 7130728548526110812ull);
     vlSelf->__PVT__fiforoom_atlst3 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 13846935472589770243ull);
@@ -358,10 +105,10 @@ VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___ctor_var_rese
     vlSelf->__PVT__fifo_empty_nxt = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 16914632481779406981ull);
     vlSelf->__PVT__fiforoom_atlst3_nxt = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 12866151257643375225ull);
     for (int __Vi0 = 0; __Vi0 < 4; ++__Vi0) {
-        VL_SCOPED_RAND_RESET_W(686, vlSelf->__PVT__fifo_loc_nxt[__Vi0], __VscopeHash, 13221930881648868120ull);
+        VL_SCOPED_RAND_RESET_W(151, vlSelf->__PVT__fifo_loc_nxt[__Vi0], __VscopeHash, 13221930881648868120ull);
     }
     for (int __Vi0 = 0; __Vi0 < 4; ++__Vi0) {
-        VL_SCOPED_RAND_RESET_W(686, vlSelf->__PVT__fifo_loc[__Vi0], __VscopeHash, 12988781385847939524ull);
+        VL_SCOPED_RAND_RESET_W(151, vlSelf->__PVT__fifo_loc[__Vi0], __VscopeHash, 12988781385847939524ull);
     }
     vlSelf->__Vdly__wr_ptr = VL_SCOPED_RAND_RESET_I(2, __VscopeHash, 6265375712968675170ull);
     vlSelf->__Vdly__rd_ptr = VL_SCOPED_RAND_RESET_I(2, __VscopeHash, 1296402517236374361ull);
@@ -369,12 +116,12 @@ VL_ATTR_COLD void Vsig_topology_top_sig_fifo_synchclk_flop__pi70___ctor_var_rese
     vlSelf->__Vdly__fifo_full = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 5442610800307487797ull);
     vlSelf->__Vdly__fifo_empty = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 9011185115827397552ull);
     vlSelf->__Vdly__fiforoom_atlst3 = VL_SCOPED_RAND_RESET_I(1, __VscopeHash, 8650109249305084758ull);
-    VL_SCOPED_RAND_RESET_W(686, vlSelf->__VdlyVal__fifo_loc__v0, __VscopeHash, 13255051178611793530ull);
+    VL_SCOPED_RAND_RESET_W(151, vlSelf->__VdlyVal__fifo_loc__v0, __VscopeHash, 13255051178611793530ull);
     vlSelf->__VdlySet__fifo_loc__v0 = 0;
-    VL_SCOPED_RAND_RESET_W(686, vlSelf->__VdlyVal__fifo_loc__v1, __VscopeHash, 11885904708264626788ull);
+    VL_SCOPED_RAND_RESET_W(151, vlSelf->__VdlyVal__fifo_loc__v1, __VscopeHash, 11885904708264626788ull);
     vlSelf->__VdlySet__fifo_loc__v1 = 0;
-    VL_SCOPED_RAND_RESET_W(686, vlSelf->__VdlyVal__fifo_loc__v2, __VscopeHash, 16414715005339778905ull);
+    VL_SCOPED_RAND_RESET_W(151, vlSelf->__VdlyVal__fifo_loc__v2, __VscopeHash, 16414715005339778905ull);
     vlSelf->__VdlySet__fifo_loc__v2 = 0;
-    VL_SCOPED_RAND_RESET_W(686, vlSelf->__VdlyVal__fifo_loc__v3, __VscopeHash, 13091504067066968602ull);
+    VL_SCOPED_RAND_RESET_W(151, vlSelf->__VdlyVal__fifo_loc__v3, __VscopeHash, 13091504067066968602ull);
     vlSelf->__VdlySet__fifo_loc__v3 = 0;
 }

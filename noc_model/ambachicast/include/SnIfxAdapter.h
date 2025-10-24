@@ -9,6 +9,7 @@
 
 #include <flits/definitions.h>
 
+class SnIfxTracer;
 class SnIfxAdapterTxChannel;
 class SnIfxAdapterRxChannel;
 
@@ -22,6 +23,9 @@ public:
     SnIfxAdapter& operator=(const SnIfxAdapter&) = delete;
     SnIfxAdapter(SnIfxAdapter&& other) noexcept = delete;
     SnIfxAdapter& operator=(SnIfxAdapter&& other) noexcept = delete;
+
+    void enable_trace();
+    void set_trace_time_unit(double value, sc_core::sc_time_unit);
 
     tlm_utils::simple_initiator_socket<SnIfxAdapter> initiator_socket;
 
@@ -78,6 +82,7 @@ private:
     void bind_tx_channels();
     void bind_rx_channels();
 
+    std::shared_ptr<SnIfxTracer> tracer_;
     std::shared_ptr<SnIfxAdapterTxChannel> tx_channel_;
     std::shared_ptr<SnIfxAdapterRxChannel> rx_channel_;
 };

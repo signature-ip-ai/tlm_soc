@@ -487,11 +487,11 @@ VL_INLINE_OPT void Vsig_topology_top_sig_chi_rcv_datproc__pi13___nba_comb__TOP__
                                                       == 
                                                       (0xfU 
                                                        & VL_SEL_IWII(680, vlSelfRef.__PVT__ic_RX_DATFLIT_s, 0x31U, 4))));
-    vlSelfRef.__PVT__opcode_compdata = (4U == (0xfU 
-                                               & VL_SEL_IWII(680, vlSelfRef.__PVT__ic_RX_DATFLIT_s, 0x31U, 4)));
     vlSelfRef.__PVT__opcode_writedatacancel = (7U == 
                                                (0xfU 
                                                 & VL_SEL_IWII(680, vlSelfRef.__PVT__ic_RX_DATFLIT_s, 0x31U, 4)));
+    vlSelfRef.__PVT__opcode_compdata = (4U == (0xfU 
+                                               & VL_SEL_IWII(680, vlSelfRef.__PVT__ic_RX_DATFLIT_s, 0x31U, 4)));
     vlSelfRef.__PVT__opcode_snprespdata = (((1U == 
                                              (0xfU 
                                               & VL_SEL_IWII(680, vlSelfRef.__PVT__ic_RX_DATFLIT_s, 0x31U, 4))) 

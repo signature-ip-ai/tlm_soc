@@ -8,7 +8,7 @@
 #include "systemc"
 #include "verilated_sc.h"
 #include "verilated.h"
-class Vsig_topology_top_sig_fifo_synchclk_flop_match__pi36;
+class Vsig_topology_top_sig_fifo_synchclk_flop_match__pi35;
 class Vsig_topology_top_sig_sram_init__Sa;
 
 
@@ -17,7 +17,7 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_cachedir_ctrlr__pi15 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_fifo_synchclk_flop_match__pi36* __PVT__cmqfifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop_match__pi35* __PVT__cmqfifo_0;
     Vsig_topology_top_sig_sram_init__Sa* __PVT__inst_sig_sram_init;
 
     // DESIGN SPECIFIC STATE

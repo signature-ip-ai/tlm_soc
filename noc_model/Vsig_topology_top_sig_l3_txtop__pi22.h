@@ -9,7 +9,7 @@
 #include "verilated_sc.h"
 #include "verilated.h"
 class Vsig_topology_top_sig_ic_crdt_recv;
-class Vsig_topology_top_sig_l3_dattxflit_top__pi41;
+class Vsig_topology_top_sig_l3_dattxflit_top__pi40;
 class Vsig_topology_top_sig_l3_rsptxflit_top__F3;
 
 
@@ -19,7 +19,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_l3_txtop__pi22 final : 
   public:
     // CELLS
     Vsig_topology_top_sig_l3_rsptxflit_top__F3* __PVT__sig_l3_rsptxflit_top_0;
-    Vsig_topology_top_sig_l3_dattxflit_top__pi41* __PVT__sig_l3_dattxflit_top_0;
+    Vsig_topology_top_sig_l3_dattxflit_top__pi40* __PVT__sig_l3_dattxflit_top_0;
     Vsig_topology_top_sig_ic_crdt_recv* __PVT__sig_ic_crdt_recv_rsp;
     Vsig_topology_top_sig_ic_crdt_recv* __PVT__sig_ic_crdt_recv_dat;
 

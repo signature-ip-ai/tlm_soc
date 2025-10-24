@@ -9,8 +9,8 @@
 #include "verilated_sc.h"
 #include "verilated.h"
 class Vsig_topology_top_sig_ic_initcrdt_enable;
-class Vsig_topology_top_sig_l3_rx_datproc__pi40;
-class Vsig_topology_top_sig_l3_rx_reqproc__pi39;
+class Vsig_topology_top_sig_l3_rx_datproc__pi39;
+class Vsig_topology_top_sig_l3_rx_reqproc__pi38;
 
 
 class Vsig_topology_top__Syms;
@@ -18,8 +18,8 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_l3_rxtop__pi21 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_l3_rx_reqproc__pi39* __PVT__sig_l3_rx_reqproc_0;
-    Vsig_topology_top_sig_l3_rx_datproc__pi40* __PVT__sig_l3_rx_datproc_0;
+    Vsig_topology_top_sig_l3_rx_reqproc__pi38* __PVT__sig_l3_rx_reqproc_0;
+    Vsig_topology_top_sig_l3_rx_datproc__pi39* __PVT__sig_l3_rx_datproc_0;
     Vsig_topology_top_sig_ic_initcrdt_enable* __PVT__sig_ic_initcrdt_enable_0;
 
     // DESIGN SPECIFIC STATE

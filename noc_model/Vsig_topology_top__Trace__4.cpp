@@ -3503,4 +3503,6 @@ void Vsig_topology_top___024root__trace_cleanup(void* voidSelf, VerilatedVcd* /*
     vlSymsp->TOP.__Vm_traceActivity[0xda1U] = 0U;
     vlSymsp->TOP.__Vm_traceActivity[0xda2U] = 0U;
     vlSymsp->TOP.__Vm_traceActivity[0xda3U] = 0U;
+    vlSymsp->TOP.__Vm_traceActivity[0xda4U] = 0U;
+    vlSymsp->TOP.__Vm_traceActivity[0xda5U] = 0U;
 }

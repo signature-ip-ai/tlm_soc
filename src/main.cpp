@@ -4,6 +4,8 @@
 #include "tlm_soc/tlm_initiator.h"
 #include "tlm_soc/tlm_target.h"
 #include <tlm_top.h>
+#include <spdlog/spdlog.h>
+#include <spdlog/sinks/stdout_color_sinks.h>
 
 #include <chi_tlm/chi_enums.h>
 #include <chi_tlm/chi_tlm_extension.h>
@@ -63,13 +65,16 @@ void send_request_to_rn_ifx(simple_initiator* initiator)
     tlm::tlm_generic_payload trans;
     trans.set_extension(message);
 
-    tlm::tlm_phase phase = chi::REQ;
+    tlm::tlm_phase phase = chi::TRANSFER;
     sc_core::sc_time time = sc_core::SC_ZERO_TIME;
     initiator->initiator_socket->nb_transport_fw(trans, phase, time);
 }
 
 int sc_main(int argc, char** argv)
 {
+    spdlog::set_pattern("[%H:%M:%S UTC%z][%n][%^-%l-%$][TID %t] %v");
+    auto&& logger = spdlog::stdout_color_st("sc_main");
+
     simple_initiator initiator0{"initiator0"};
     simple_target target0{"target0"};
     tlm_top top{"top"};
@@ -80,7 +85,7 @@ int sc_main(int argc, char** argv)
     sc_core::sc_start(sc_core::SC_ZERO_TIME);
     top.enable_trace();
 
-    std::cout << "Elaboration complete\n";
+    logger->info("Elaboration complete");
 
     sc_core::sc_start(100, sc_core::SC_NS);
 
@@ -95,6 +100,6 @@ int sc_main(int argc, char** argv)
     send_request_to_rn_ifx(&initiator0);
     sc_core::sc_start(2000, sc_core::SC_NS);
 
-    std::cout << "Simulation complete\n";
+    logger->info("Simulation complete");
     return 0;
 }

@@ -8,7 +8,7 @@
 #include "systemc"
 #include "verilated_sc.h"
 #include "verilated.h"
-class Vsig_topology_top_sig_chi_crdt_update;
+class Vsig_topology_top_sig_chi_crdt_update__N8;
 class Vsig_topology_top_sig_fifo_synchclk_flop__FB97;
 
 
@@ -18,7 +18,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_chi_rcv_reqproc__pi12 f
   public:
     // CELLS
     Vsig_topology_top_sig_fifo_synchclk_flop__FB97* __PVT__reqflit_fifo_0;
-    Vsig_topology_top_sig_chi_crdt_update* __PVT__sig_chi_crdt_update_req;
+    Vsig_topology_top_sig_chi_crdt_update__N8* __PVT__sig_chi_crdt_update_req;
 
     // DESIGN SPECIFIC STATE
     // Anonymous structures to workaround compiler member-count bugs

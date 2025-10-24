@@ -10,7 +10,7 @@
 #include "verilated.h"
 class Vsig_topology_top_sig_cc_arbtop;
 class Vsig_topology_top_sig_cc_txflit_mux__Fa1;
-class Vsig_topology_top_sig_fifo_synchclk_flop__pi49;
+class Vsig_topology_top_sig_fifo_synchclk_flop__pi48;
 
 
 class Vsig_topology_top__Syms;
@@ -20,7 +20,7 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_cc_reqtxflit_top__pi31 
     // CELLS
     Vsig_topology_top_sig_cc_arbtop* __PVT__sig_cc_arbtop_0;
     Vsig_topology_top_sig_cc_txflit_mux__Fa1* __PVT__sig_cc_txflit_mux_0;
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi49* __PVT__flit_store_fifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop__pi48* __PVT__flit_store_fifo_0;
 
     // DESIGN SPECIFIC STATE
     VL_IN8(__PVT__ic_gclk,0,0);

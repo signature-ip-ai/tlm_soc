@@ -8,7 +8,7 @@
 #include "systemc"
 #include "verilated_sc.h"
 #include "verilated.h"
-class Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi65;
+class Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi64;
 
 
 class Vsig_topology_top__Syms;
@@ -16,8 +16,8 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_node_rx_rspproc__P49_Uz1 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi65* __PVT__sig_node_rx_rspproc_vc0;
-    Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi65* __PVT__sig_node_rx_rspproc_vc1;
+    Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi64* __PVT__sig_node_rx_rspproc_vc0;
+    Vsig_topology_top_sig_node_rx_rspproc_anyvc__pi64* __PVT__sig_node_rx_rspproc_vc1;
 
     // DESIGN SPECIFIC STATE
     VL_IN8(__PVT__ic_clk,0,0);

@@ -9,9 +9,10 @@
 #include "verilated_sc.h"
 #include "verilated.h"
 class Vsig_topology_top_sig_countones;
+class Vsig_topology_top_sig_fifo_synchclk_flop__FB6d;
+class Vsig_topology_top_sig_fifo_synchclk_flop__FB9c;
 class Vsig_topology_top_sig_fifo_synchclk_flop__pi33;
 class Vsig_topology_top_sig_fifo_synchclk_flop__pi34;
-class Vsig_topology_top_sig_fifo_synchclk_flop__pi35;
 
 
 class Vsig_topology_top__Syms;
@@ -19,10 +20,10 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi33* __PVT__reqcmd_fifo_0;
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi34* __PVT__respcmd_fifo_0;
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi35* __PVT__drespcmd_fifo_0;
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi35* __PVT__memrespcmd_fifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop__FB9c* __PVT__reqcmd_fifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop__pi33* __PVT__respcmd_fifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop__pi34* __PVT__drespcmd_fifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop__FB6d* __PVT__memrespcmd_fifo_0;
     Vsig_topology_top_sig_countones* __PVT__sig_countones_0;
     Vsig_topology_top_sig_countones* __PVT__sig_countones_post_rsp;
     Vsig_topology_top_sig_countones* __PVT__sig_countones_post_req;
@@ -717,6 +718,11 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         CData/*0:0*/ __PVT__colln_atom_detected_in_outstq;
         CData/*0:0*/ __PVT__colln_atom_detected_in_collnq;
         CData/*0:0*/ __PVT__colln_detected_outstq_or_collnq_ph3;
+        CData/*4:0*/ __PVT__outstand_no_atom_cntr;
+        CData/*4:0*/ __PVT__outstand_no_atom_cntr_nxt;
+        CData/*0:0*/ __PVT__decrement_colln_atom_seq_num;
+        CData/*0:0*/ __PVT__decrement_colln_atom_seq_num_nxt;
+        CData/*7:0*/ __PVT__has_atom_rd_seq_num_0;
         CData/*0:0*/ __PVT__blockreqq_dueto_highestseqnum_incollnq;
         CData/*0:0*/ __PVT__blockcmq_dueto_highestseqnum_incollnq;
         CData/*7:0*/ __PVT__colln_detected_reqcmdq;
@@ -749,13 +755,13 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         CData/*0:0*/ __PVT__block_cmq_rd_cache;
         CData/*0:0*/ __PVT__noncm_tgt_sn_supports_dmt_ph2;
         CData/*0:0*/ __PVT__noncm_tgt_sn_supports_dmt_ph3;
+    };
+    struct {
         CData/*0:0*/ __PVT__cm_tgt_sn_supports_dmt_ph2;
         CData/*0:0*/ __PVT__cm_tgt_sn_supports_dmt_ph3;
         CData/*0:0*/ __PVT__cmd_ph3_apply_dmt_req;
         CData/*0:0*/ __PVT__cmd_ph4_apply_dmt_req;
         CData/*0:0*/ __PVT__cmd_ph3_apply_dmt_rsp;
-    };
-    struct {
         CData/*0:0*/ __PVT__origreq_apply_dmt_ph3;
         CData/*0:0*/ __PVT__cmd_ph3_nonexcl_read_dct_req;
         CData/*0:0*/ __PVT__cmd_ph4_nonexcl_read_dct_req;
@@ -815,13 +821,13 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         CData/*0:0*/ __PVT__itis_atom_ini_data_ph3;
         CData/*0:0*/ __PVT__itis_atom_clr_buff_ph3;
         CData/*0:0*/ __PVT__itis_lastresp_atom_comp_ph3;
+    };
+    struct {
         CData/*0:0*/ __PVT__itis_lastresp_ph3_atom_clr_buffer;
         CData/*0:0*/ __PVT__itis_prelastresp_atom_wr_result_p1_ph3;
         CData/*0:0*/ __PVT__was_prelastresp_atom_wr_result_p1_ph4_nxt;
         CData/*0:0*/ __PVT__was_prelastresp_atom_wr_result_p1_ph3;
         CData/*0:0*/ __PVT__itis_lastresp_atom_wr_result_p2_ph3;
-    };
-    struct {
         CData/*0:0*/ __PVT__itis_prelastresp_atom_wr_result_p2_ph3_comp_is_last;
         CData/*0:0*/ __PVT__itis_lastresp_atom_wr_result_p2_ph3_comp_is_last;
         CData/*0:0*/ __PVT__itis_lastresp_atom_inidata_ph3;
@@ -881,13 +887,13 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         CData/*0:0*/ __PVT__cmd_ph3_rsp_is_COPYBACKWRDATA;
         CData/*0:0*/ __PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATA;
         CData/*0:0*/ __PVT__cmd_ph3_rsp_is_NONCOPYBACKWRDATACOMP;
+    };
+    struct {
         CData/*0:0*/ __PVT__cmd_ph3_rsp_is_WRITEDATACANCEL;
         CData/*0:0*/ __PVT__live_RespErr_active;
         CData/*5:0*/ __PVT__index_pendingq_clr_outstand_cmd;
         CData/*1:0*/ __PVT__cc_inactive_st;
         CData/*1:0*/ __PVT__cc_inactive_st_nxt;
-    };
-    struct {
         CData/*0:0*/ __PVT__outstand_cmd_invalid_allones;
         CData/*0:0*/ __PVT__cc_is_inactive_nxt;
         CData/*0:0*/ __PVT__unused_signal;
@@ -947,13 +953,13 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         CData/*0:0*/ __Vdly__cmdvalid_ph4_rsp;
         CData/*0:0*/ __Vdly__cmdis_req_ph4;
         CData/*0:0*/ __Vdly__cmdis_resp_ph4;
+    };
+    struct {
         CData/*5:0*/ __Vdly__wrindex_req_ph4;
         CData/*0:0*/ __Vdly__wren_cmq_ph4;
         CData/*2:0*/ __Vdly__req_atmo_ph4;
         CData/*0:0*/ __Vdly__cmd_isatmo_wr_ph3;
         CData/*0:0*/ __Vdly__cmd_isatmo_rd_ph3;
-    };
-    struct {
         CData/*0:0*/ __Vdly__cmd_isatmo_ph3;
         CData/*0:0*/ __Vdly__reqid_matches_ownerpid_ph4;
         CData/*0:0*/ __Vdly__dataless_xfrdata_tomem_ph4;
@@ -978,6 +984,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VlWide<5>/*159:0*/ __Vdly__outstand_cmd_buffnum_1st;
         VlWide<5>/*159:0*/ __Vdly__outstand_cmd_buffnum_2nd;
         CData/*0:0*/ __Vdly__outstand_atmo_rd_alloc_then_wr_clr;
+        CData/*4:0*/ __Vdly__outstand_no_atom_cntr;
+        CData/*0:0*/ __Vdly__decrement_colln_atom_seq_num;
         CData/*7:0*/ __Vdly__colln_empty;
         CData/*7:0*/ __Vdly__colln_cmd_invalidate;
         CData/*7:0*/ __Vdly__colln_rdy_for_proc;
@@ -1011,6 +1019,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VL_OUT16(__PVT__o_rcv_rsp_dat_srcid,10,0);
         VL_IN16(__PVT__i_rcv_rsp_dat_linear_srcid,10,0);
         SData/*10:0*/ __PVT__cmd_ph3_rsp_linear_srcid;
+    };
+    struct {
         SData/*11:0*/ __PVT__cmd_ph3_rsp_dbid;
         VlWide<16>/*511:0*/ __PVT__status_field_retry_ph3;
         VlWide<16>/*511:0*/ __PVT__status_field_retry_ph3_nxt;
@@ -1018,8 +1028,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         SData/*10:0*/ __PVT__outstand_atom_rd_srcid;
         SData/*15:0*/ __PVT__cachehit_vector_ph4;
         SData/*11:0*/ __PVT__new_dbid_from_slavemem_ph4_nxt;
-    };
-    struct {
         SData/*11:0*/ __PVT__new_dbid_from_slc_ph4_nxt;
         SData/*10:0*/ __PVT__origreq_src_id_ph3;
         SData/*11:0*/ __PVT__origreq_txnid_ph3;
@@ -1077,6 +1085,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VL_IN(__PVT__rddata_cache_ph3,31,0);
         VL_OUT(__PVT__wrdata_cache,31,0);
         VL_IN(__PVT__clr_outstand_cmd_compdata,31,0);
+    };
+    struct {
         VL_IN(__PVT__clr_outstand_cmd_snpreq,31,0);
         VL_IN(__PVT__cm_homeaddr_base_all_pm,27,0);
         VL_IN(__PVT__cm_homeaddr_limit_all_pm,28,0);
@@ -1084,8 +1094,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VL_IN(__PVT__noncm_homeaddr_limit_all_pm,28,0);
         VL_IN(__PVT__clr_outstand_prep,31,0);
         VL_OUT(__PVT__outstand_prep_valid,31,0);
-    };
-    struct {
         VL_OUT(__PVT__dealloc_compfifo_vector,31,0);
         VlWide<5>/*155:0*/ __PVT__rddata_reqcmdq;
         VlWide<5>/*154:0*/ __PVT__rddata_reqcmdq_withbypass;
@@ -1143,6 +1151,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VlWide<136>/*4351:0*/ __PVT__status_field_common;
         VlWide<136>/*4351:0*/ __PVT__status_field_common_nxt;
         IData/*21:0*/ __PVT__new_share_vect_ph3_req;
+    };
+    struct {
         IData/*21:0*/ __PVT__new_share_vect_ph3_rsp;
         VlWide<4>/*107:0*/ __PVT__rddata_statreg_req_ph3;
         VlWide<4>/*107:0*/ __PVT__rddata_statreg_req_ph4;
@@ -1150,8 +1160,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VlWide<5>/*135:0*/ __PVT__rddata_statcommon_rsp_ph3;
         VlWide<5>/*135:0*/ __PVT__rddata_statcommon_rsp_ph4;
         IData/*21:0*/ __PVT__req_share_vect_ph4;
-    };
-    struct {
         IData/*21:0*/ __PVT__new_share_vect_req_m_ph3;
         IData/*21:0*/ __PVT__new_share_vect_rsp_m_ph3;
         IData/*21:0*/ __PVT__req_share_vect_m_ph3;
@@ -1209,6 +1217,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         IData/*31:0*/ __PVT__unnamedblk1__DOT__i;
         IData/*31:0*/ __PVT__unnamedblk2__DOT__i;
         IData/*31:0*/ __PVT__unnamedblk3__DOT__i;
+    };
+    struct {
         IData/*31:0*/ __PVT__unnamedblk4__DOT__i;
         IData/*31:0*/ __PVT__unnamedblk5__DOT__i;
         IData/*31:0*/ __PVT__unnamedblk6__DOT__i;
@@ -1216,8 +1226,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VlWide<5>/*154:0*/ __Vdly__cmd_ph3_req;
         VlWide<5>/*154:0*/ __Vdly__cmd_ph3_rsp;
         IData/*31:0*/ __Vdly__rddata_cache_ph4;
-    };
-    struct {
         VlWide<5>/*154:0*/ __Vdly__cmd_ph4_req;
         VlWide<5>/*154:0*/ __Vdly__cmd_ph4_rsp;
         VlWide<136>/*4351:0*/ __Vdly__status_field_common;
@@ -1275,6 +1283,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         QData/*35:0*/ __PVT__cache_tag_wr_req;
         QData/*35:0*/ __PVT__cache_tag_wr_req_nxt;
         VlWide<5>/*150:0*/ __PVT__cmd_req_ph2_pre_s;
+    };
+    struct {
         QData/*51:0*/ __PVT__cmd_addr_ph2_pre;
         QData/*51:0*/ __PVT__cmd_addr_ph2;
         QData/*51:0*/ __PVT__addr_clln_clearing;
@@ -1282,8 +1292,6 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_coherency_ctrlr__pi14 f
         VlWide<13>/*415:0*/ __PVT__colln_cmd_field_addr;
         QData/*51:0*/ __PVT__rddata_reqcmdq_addr;
         QData/*51:0*/ __PVT__rddata_cmq_addr;
-    };
-    struct {
         VlWide<3>/*72:0*/ __PVT__rddata_respcmdq_s;
         QData/*51:0*/ __PVT__cmd_ph5_req_addr_nxt;
         QData/*51:0*/ __PVT__cmd_ph5_req_addr;

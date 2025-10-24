@@ -89,8 +89,8 @@ private:
     void forward_reset();
 
     void handle_req_credit_event();
-    void handle_dat_credit_event();
-    void handle_rsp_credit_event();
+    void handle_wdat_credit_event();
+    void handle_srsp_credit_event();
 
     void handle_snp_flit_event();
     void handle_rdat_flit_event();

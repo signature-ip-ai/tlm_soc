@@ -50,3 +50,4 @@ Makefile
 !noc_model/Makefile
 *.tgz
 *.tmp
+build/

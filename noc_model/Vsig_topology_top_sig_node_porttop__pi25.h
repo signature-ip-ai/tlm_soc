@@ -8,9 +8,9 @@
 #include "systemc"
 #include "verilated_sc.h"
 #include "verilated.h"
-class Vsig_topology_top_sig_id_translator_rn_wrapper__pi42;
-class Vsig_topology_top_sig_node_rxtop__pi43;
-class Vsig_topology_top_sig_node_txtop__pi44;
+class Vsig_topology_top_sig_id_translator_rn_wrapper__pi41;
+class Vsig_topology_top_sig_node_rxtop__pi42;
+class Vsig_topology_top_sig_node_txtop__pi43;
 
 
 class Vsig_topology_top__Syms;
@@ -18,9 +18,9 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_node_porttop__pi25 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_node_rxtop__pi43* __PVT__sig_node_rxtop_0;
-    Vsig_topology_top_sig_node_txtop__pi44* __PVT__sig_node_txtop_0;
-    Vsig_topology_top_sig_id_translator_rn_wrapper__pi42* __PVT__node_porttop_rn__DOT__id_trans_instantiated__DOT__sig_id_translator_rn_wrapper_0;
+    Vsig_topology_top_sig_node_rxtop__pi42* __PVT__sig_node_rxtop_0;
+    Vsig_topology_top_sig_node_txtop__pi43* __PVT__sig_node_txtop_0;
+    Vsig_topology_top_sig_id_translator_rn_wrapper__pi41* __PVT__node_porttop_rn__DOT__id_trans_instantiated__DOT__sig_id_translator_rn_wrapper_0;
 
     // DESIGN SPECIFIC STATE
     // Anonymous structures to workaround compiler member-count bugs

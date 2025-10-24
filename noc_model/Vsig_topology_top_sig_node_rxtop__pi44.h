@@ -10,8 +10,8 @@
 #include "verilated.h"
 class Vsig_topology_top_sig_ic_initcrdt_enable;
 class Vsig_topology_top_sig_lnkactive_rcv;
-class Vsig_topology_top_sig_node_rx_datproc__pi59;
-class Vsig_topology_top_sig_node_rx_reqproc__pi58;
+class Vsig_topology_top_sig_node_rx_datproc__pi57;
+class Vsig_topology_top_sig_node_rx_reqproc__pi60;
 class Vsig_topology_top_sig_node_rx_rspproc__P49_Uz1;
 
 
@@ -20,9 +20,9 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_node_rxtop__pi44 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_node_rx_reqproc__pi58* __PVT__sig_node_rx_reqproc_0;
+    Vsig_topology_top_sig_node_rx_reqproc__pi60* __PVT__sig_node_rx_reqproc_0;
     Vsig_topology_top_sig_node_rx_rspproc__P49_Uz1* __PVT__sig_node_rx_rspproc_0;
-    Vsig_topology_top_sig_node_rx_datproc__pi59* __PVT__sig_node_rx_datproc_0;
+    Vsig_topology_top_sig_node_rx_datproc__pi57* __PVT__sig_node_rx_datproc_0;
     Vsig_topology_top_sig_ic_initcrdt_enable* __PVT__initcrdt_en_sync_port_gen__DOT__sig_ic_initcrdt_enable_0;
     Vsig_topology_top_sig_lnkactive_rcv* __PVT__lnkactive_rcv_sync_port_gen__DOT__sig_lnkactive_rcv_0;
 
@@ -86,24 +86,24 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_node_rxtop__pi44 final 
         VL_INW(__PVT__noncm_homeaddr_base_all_hn_i,111,0,4);
         VL_INW(__PVT__noncm_homeaddr_limit_all_hn_i,115,0,4);
         VL_IN(__PVT__xy_coord_all_hn_i,31,0);
-        VL_IN(__PVT__xy_coord_all_pm,21,0);
+        VL_INW(__PVT__cm_homeaddr_base_all_pm,111,0,4);
+        VL_INW(__PVT__cm_homeaddr_limit_all_pm,115,0,4);
+        VL_INW(__PVT__noncm_homeaddr_base_all_pm,111,0,4);
+        VL_INW(__PVT__noncm_homeaddr_limit_all_pm,115,0,4);
         VL_INW(__PVT__ic_RX_REQFLIT,150,0,5);
         VL_INW(__PVT__ic_RX_SNPFLIT,107,0,4);
         VL_INW(__PVT__ic_RX_RSPFLIT,72,0,3);
+    };
+    struct {
         VL_INW(__PVT__ic_RX_DATFLIT,679,0,22);
         VL_OUTW(__PVT__flit_out_reqf_vc0,160,0,6);
         VL_OUTW(__PVT__flit_out_rspf_vc0,78,0,3);
-    };
-    struct {
         VL_OUTW(__PVT__flit_out_datf_vc0,685,0,22);
         VL_OUTW(__PVT__flit_out_reqf_vc1,160,0,6);
         VL_OUTW(__PVT__flit_out_rspf_vc1,78,0,3);
         VL_OUTW(__PVT__flit_out_datf_vc1,685,0,22);
         VL_INW(__PVT__rddata_snprsp_flit_fifo_tx_snp,72,0,3);
-        VL_IN64(__PVT__cm_homeaddr_base_all_pm,55,0);
-        VL_IN64(__PVT__cm_homeaddr_limit_all_pm,57,0);
-        VL_IN64(__PVT__noncm_homeaddr_base_all_pm,55,0);
-        VL_IN64(__PVT__noncm_homeaddr_limit_all_pm,57,0);
+        VL_IN64(__PVT__xy_coord_all_pm,43,0);
         VL_IN16(__PVT__i_ucie_bridge_locations[1],10,0);
         VL_IN8(__PVT__i_ucie_node_ids[16],1,0);
         VL_IN(__PVT__i_ucie_base_addresses[16],27,0);

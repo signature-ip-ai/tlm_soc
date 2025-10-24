@@ -8,8 +8,8 @@
 #include "systemc"
 #include "verilated_sc.h"
 #include "verilated.h"
+class Vsig_topology_top_sig_fifo_synchclk_flop__pi36;
 class Vsig_topology_top_sig_fifo_synchclk_flop__pi37;
-class Vsig_topology_top_sig_fifo_synchclk_flop__pi38;
 class Vsig_topology_top_sig_ic_crdt_recv;
 class Vsig_topology_top_sig_ic_crdt_update__N8;
 class Vsig_topology_top_sig_ic_initcrdt_enable;
@@ -20,8 +20,8 @@ class Vsig_topology_top__Syms;
 class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_slc_bypass__pi20 final : public VerilatedModule {
   public:
     // CELLS
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi37* __PVT__reqflit_fifo_0;
-    Vsig_topology_top_sig_fifo_synchclk_flop__pi38* __PVT__pcredit_fifo;
+    Vsig_topology_top_sig_fifo_synchclk_flop__pi36* __PVT__reqflit_fifo_0;
+    Vsig_topology_top_sig_fifo_synchclk_flop__pi37* __PVT__pcredit_fifo;
     Vsig_topology_top_sig_ic_crdt_recv* __PVT__sig_ic_crdt_recv_dat;
     Vsig_topology_top_sig_ic_crdt_recv* __PVT__sig_ic_crdt_recv_req;
     Vsig_topology_top_sig_ic_initcrdt_enable* __PVT__sig_ic_initcrdt_enable_0;

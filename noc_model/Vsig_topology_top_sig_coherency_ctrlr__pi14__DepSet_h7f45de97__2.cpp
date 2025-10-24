@@ -719,221 +719,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x18U, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 0U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0x18U, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0x18U, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1bU)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x18U, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[0].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1bU)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x18U, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 0U))) {
         VL_ASSIGNBIT_WI(0x1bU, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -942,221 +829,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x34U, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 1U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0x34U, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0x34U, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x37U)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x34U, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[1].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x37U)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x34U, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 1U))) {
         VL_ASSIGNBIT_WI(0x37U, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -1165,221 +939,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x50U, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 2U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0x50U, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0x50U, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x53U)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x50U, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[2].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x53U)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x50U, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 2U))) {
         VL_ASSIGNBIT_WI(0x53U, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -1388,221 +1049,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6cU, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 3U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0x6cU, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0x6cU, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6fU)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6cU, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[3].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6fU)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6cU, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 3U))) {
         VL_ASSIGNBIT_WI(0x6fU, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -1611,221 +1159,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x88U, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 4U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0x88U, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0x88U, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8bU)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x88U, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[4].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8bU)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x88U, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 4U))) {
         VL_ASSIGNBIT_WI(0x8bU, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -1834,221 +1269,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa4U, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 5U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0xa4U, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0xa4U, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa7U)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa4U, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[5].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa7U)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa4U, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 5U))) {
         VL_ASSIGNBIT_WI(0xa7U, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -2057,221 +1379,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc0U, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 6U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0xc0U, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0xc0U, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc3U)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc0U, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[6].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc3U)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc0U, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 6U))) {
         VL_ASSIGNBIT_WI(0xc3U, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
@@ -2280,221 +1489,108 @@ VL_INLINE_OPT void Vsig_topology_top_sig_coherency_ctrlr__pi14___nba_comb__TOP__
                                   (7U & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdcU, 3))));
     if ((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__wren_collnq_valid), 7U) 
          & (IData)(vlSelfRef.__PVT__cmd_isatmo_ph3))) {
-        if (VL_LIKELY((VL_ONEHOT0_I(VL_CONCAT_III(8,4,4, 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))))), 
-                                                  VL_CONCAT_III(4,2,2, 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))), 
-                                                                VL_CONCAT_III(2,1,1, 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11)))), 
-                                                                              (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                                                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                                                                                & ((0xfffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                                                                == 
-                                                                                (0xfffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                                               & ((0x7ffU 
-                                                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                                                                == 
-                                                                                (0x7ffU 
-                                                                                & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))))))))) {
-            VL_ASSIGNSEL_WI(224,4,0xdcU, vlSelfRef.__PVT__colln_cmd_nxt, 
-                            ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
-                                & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
-                               & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
-                                  == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                              & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
-                                 == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                              ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
-                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
-                                        & ((0xfffU 
-                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
-                                           == (0xfffU 
-                                               & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                       & ((0x7ffU & 
-                                           VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
-                                          == (0x7ffU 
-                                              & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                       ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
-                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
-                                                 & ((0xfffU 
-                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+        VL_ASSIGNSEL_WI(224,4,0xdcU, vlSelfRef.__PVT__colln_cmd_nxt, 
+                        ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 0U) 
+                            & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x17U)) 
+                           & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0U, 12)) 
+                              == (0xfffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                          & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xcU, 11)) 
+                             == (0x7ffU & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                          ? 8U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 1U) 
+                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x33U)) 
+                                    & ((0xfffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x1cU, 12)) 
+                                       == (0xfffU & 
+                                           VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                   & ((0x7ffU & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x28U, 11)) 
+                                      == (0x7ffU & 
+                                          VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                   ? 9U : ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 2U) 
+                                              & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x4fU)) 
+                                             & ((0xfffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x38U, 12)) 
+                                                == 
+                                                (0xfffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                            & ((0x7ffU 
+                                                & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
+                                               == (0x7ffU 
+                                                   & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                            ? 0xaU : 
+                                           ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
+                                               & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                              & ((0xfffU 
+                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                 == 
+                                                 (0xfffU 
+                                                  & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                             & ((0x7ffU 
+                                                 & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                == 
+                                                (0x7ffU 
+                                                 & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                             ? 0xbU
+                                             : ((((
+                                                   VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
+                                                   & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
+                                                  & ((0xfffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
+                                                     == 
+                                                     (0xfffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                 & ((0x7ffU 
+                                                     & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
                                                     == 
-                                                    (0xfffU 
-                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                & ((0x7ffU 
-                                                    & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x44U, 11)) 
-                                                   == 
-                                                   (0x7ffU 
-                                                    & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                ? 0xaU
-                                                : (
-                                                   (((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 3U) 
-                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x6bU)) 
+                                                    (0x7ffU 
+                                                     & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                 ? 0xcU
+                                                 : 
+                                                ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
+                                                    & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
+                                                   & ((0xfffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
+                                                      == 
+                                                      (0xfffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                  & ((0x7ffU 
+                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
+                                                     == 
+                                                     (0x7ffU 
+                                                      & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                  ? 0xdU
+                                                  : 
+                                                 ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
+                                                     & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
+                                                    & ((0xfffU 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
+                                                       == 
+                                                       (0xfffU 
+                                                        & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
+                                                   & ((0x7ffU 
+                                                       & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
+                                                      == 
+                                                      (0x7ffU 
+                                                       & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
+                                                   ? 0xeU
+                                                   : 
+                                                  ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
+                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
                                                      & ((0xfffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x54U, 12)) 
+                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
                                                         == 
                                                         (0xfffU 
                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
                                                     & ((0x7ffU 
-                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x60U, 11)) 
+                                                        & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
                                                        == 
                                                        (0x7ffU 
                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                    ? 0xbU
+                                                    ? 0xfU
                                                     : 
-                                                   ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 4U) 
-                                                       & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x87U)) 
-                                                      & ((0xfffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x70U, 12)) 
-                                                         == 
-                                                         (0xfffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                     & ((0x7ffU 
-                                                         & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x7cU, 11)) 
-                                                        == 
-                                                        (0x7ffU 
-                                                         & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                     ? 0xcU
-                                                     : 
-                                                    ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 5U) 
-                                                        & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa3U)) 
-                                                       & ((0xfffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x8cU, 12)) 
-                                                          == 
-                                                          (0xfffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                      & ((0x7ffU 
-                                                          & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0x98U, 11)) 
-                                                         == 
-                                                         (0x7ffU 
-                                                          & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                      ? 0xdU
-                                                      : 
-                                                     ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 6U) 
-                                                         & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xbfU)) 
-                                                        & ((0xfffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xa8U, 12)) 
-                                                           == 
-                                                           (0xfffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                       & ((0x7ffU 
-                                                           & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xb4U, 11)) 
-                                                          == 
-                                                          (0x7ffU 
-                                                           & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                       ? 0xeU
-                                                       : 
-                                                      ((((VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__colln_detected_collnq), 7U) 
-                                                          & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdbU)) 
-                                                         & ((0xfffU 
-                                                             & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xc4U, 12)) 
-                                                            == 
-                                                            (0xfffU 
-                                                             & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0x1aU, 12)))) 
-                                                        & ((0x7ffU 
-                                                            & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xd0U, 11)) 
-                                                           == 
-                                                           (0x7ffU 
-                                                            & VL_SEL_IWII(151, vlSelfRef.__PVT__cmd_ph3_req_s, 0xfU, 11))))
-                                                        ? 0xfU
-                                                        : 
-                                                       VL_CONCAT_III(4,1,3, 
-                                                                     (1U 
-                                                                      & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdfU)), 
-                                                                     (7U 
-                                                                      & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdcU, 3))))))))))));
-        } else if (VL_UNLIKELY((vlSymsp->_vm_contextp__->assertOn()))) {
-            VL_WRITEF_NX("[%0t] %%Error: sig_coherency_ctrlr.sv:7603: Assertion failed in %Nsig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.sig_coherency_ctrlr_0.genblk27[7].atomic_cmd_in_collnq_link: 'unique if' statement violated\n",0,
-                         64,VL_TIME_UNITED_Q(1),-12,
-                         vlSymsp->name());
-            VL_STOP_MT("/var/lib/inoculator/sig_cnoc/design/rtl/cc_controller_top/sig_coherency_ctrlr.sv", 7603, "");
-        }
+                                                   VL_CONCAT_III(4,1,3, 
+                                                                 (1U 
+                                                                  & VL_BITSEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdfU)), 
+                                                                 (7U 
+                                                                  & VL_SEL_IWII(224, vlSelfRef.__PVT__colln_cmd, 0xdcU, 3))))))))))));
     } else if ((1U & VL_BITSEL_IIII(8, (IData)(vlSelfRef.__PVT__clr_colln_rdy), 7U))) {
         VL_ASSIGNBIT_WI(0xdfU, vlSelfRef.__PVT__colln_cmd_nxt, 0U);
     }
