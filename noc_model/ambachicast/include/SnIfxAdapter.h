@@ -13,6 +13,11 @@ class SnIfxTracer;
 class SnIfxAdapterTxChannel;
 class SnIfxAdapterRxChannel;
 
+namespace spdlog
+{
+class logger;
+}  // namespace spdlog
+
 SC_MODULE(SnIfxAdapter)
 {
 public:
@@ -73,11 +78,8 @@ private:
     void forward_clock();
     void forward_reset();
 
-    void handle_rdat_credit_event();
-    void handle_crsp_credit_event();
-
-    void handle_req_flit_event();
-    void handle_wdat_flit_event();
+    void tx_channel_send_chi_message(tlm::tlm_extension_base*);
+    void rx_channel_send_chi_message(tlm::tlm_extension_base*);
 
     void bind_tx_channels();
     void bind_rx_channels();
@@ -85,6 +87,8 @@ private:
     std::shared_ptr<SnIfxTracer> tracer_;
     std::shared_ptr<SnIfxAdapterTxChannel> tx_channel_;
     std::shared_ptr<SnIfxAdapterRxChannel> rx_channel_;
+
+    std::shared_ptr<spdlog::logger> logger_;
 };
 
 #endif  // __SN_IFX_ADAPTER_H__

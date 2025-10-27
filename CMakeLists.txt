@@ -51,7 +51,9 @@ add_custom_target(clean_noc
     COMMENT "Clean noc_model"
 )
 
-add_executable(main src/main.cpp)
+file(GLOB sources src/*.cpp)
+
+add_executable(main ${sources})
 target_include_directories(main PUBLIC include ${SPDLOG_INCLUDE_DIRS} ${SYSTEMC_INCLUDE_DIRS})
 target_link_libraries(main
         -Wl,--start-group
@@ -74,4 +76,3 @@ target_sources(main PRIVATE
 )
 
 add_dependencies(main noc_model)
-add_dependencies(noc_model clean_noc)

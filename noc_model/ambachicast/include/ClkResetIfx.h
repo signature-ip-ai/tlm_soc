@@ -1,10 +1,16 @@
 #ifndef __CLK_RESET_IFX_H__
 #define __CLK_RESET_IFX_H__
 
+#include <memory>
+
 #include <systemc>
 #include <tlm>
 #include <tlm_utils/simple_target_socket.h>
 
+namespace spdlog
+{
+class logger;
+}  // namespace spdlog
 
 SC_MODULE(ClkResetIfx)
 {
@@ -17,6 +23,8 @@ public:
 
 private:
     void initialize_system();
+
+    std::shared_ptr<spdlog::logger> logger_;
 };
 
 #endif  // __CLK_RESET_IFX_H__

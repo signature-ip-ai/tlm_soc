@@ -1,8 +1,8 @@
 #include <iostream>
 #include <memory>
 #include <vector>
-#include "tlm_soc/tlm_initiator.h"
-#include "tlm_soc/tlm_target.h"
+#include <tlm_soc/simple_rn_initiator.h>
+#include <tlm_soc/tlm_target.h>
 #include <tlm_top.h>
 #include <spdlog/spdlog.h>
 #include <spdlog/sinks/stdout_color_sinks.h>
@@ -11,7 +11,7 @@
 #include <chi_tlm/chi_tlm_extension.h>
 #include <chi_tlm/chi_credit_extension.h>
 
-void send_credits_to_rn_ifx(simple_initiator* initiator)
+void send_credits_to_rn_ifx(simple_rn_initiator* initiator)
 {
     auto&& rn_channel_list = {chi::ChiChannel::SNP, chi::ChiChannel::RDAT, chi::ChiChannel::CRSP};
     for (auto i = 0; i < 5; ++i)
@@ -51,7 +51,7 @@ void send_credits_to_sn_ifx(simple_target* target)
     }
 }
 
-void send_request_to_rn_ifx(simple_initiator* initiator)
+void send_request_to_rn_ifx(simple_rn_initiator* initiator)
 {
     chi::ChiExtension* message = new chi::ChiExtension;
     message->channel = chi::ChiChannel::REQ;
@@ -72,10 +72,10 @@ void send_request_to_rn_ifx(simple_initiator* initiator)
 
 int sc_main(int argc, char** argv)
 {
-    spdlog::set_pattern("[%H:%M:%S UTC%z][%n][%^-%l-%$][TID %t] %v");
+    spdlog::set_pattern("[%H:%M:%S UTC%z][%^%=8l%$][%n] %v");
     auto&& logger = spdlog::stdout_color_st("sc_main");
 
-    simple_initiator initiator0{"initiator0"};
+    simple_rn_initiator initiator0{"initiator0"};
     simple_target target0{"target0"};
     tlm_top top{"top"};
 

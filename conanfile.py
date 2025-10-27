@@ -1,7 +1,6 @@
 #!/bin/env python3
 
 import os
-import tarfile
 
 from conan import ConanFile
 from conan.tools.cmake import CMake, cmake_layout, CMakeDeps, CMakeToolchain
