@@ -3,6 +3,9 @@ project(tlm_soc CXX)
 
 find_package(SystemCLanguage REQUIRED)
 find_package(spdlog CONFIG REQUIRED)
+find_package(GTest CONFIG REQUIRED)
+
+enable_testing()
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -15,6 +18,7 @@ endif()
 
 get_target_property(SYSTEMC_INCLUDE_DIRS SystemC::systemc INTERFACE_INCLUDE_DIRECTORIES)
 get_target_property(SPDLOG_INCLUDE_DIRS spdlog::spdlog INTERFACE_INCLUDE_DIRECTORIES)
+get_target_property(GTEST_INCLUDE_DIRS GTest::gtest INTERFACE_INCLUDE_DIRECTORIES)
 
 add_library(ambachicast STATIC IMPORTED)
 set_target_properties(ambachicast PROPERTIES
@@ -51,11 +55,31 @@ add_custom_target(clean_noc
     COMMENT "Clean noc_model"
 )
 
-file(GLOB sources src/*.cpp)
+set(COMMON_TEST_FILES
+    src/SimpleRnInitiator.cpp
+    src/SimpleSnTarget.cpp
+    src/main.cpp)
 
-add_executable(main ${sources})
-target_include_directories(main PUBLIC include ${SPDLOG_INCLUDE_DIRS} ${SYSTEMC_INCLUDE_DIRS})
-target_link_libraries(main
+add_executable(WriteTransactionWithNoSnoopTest)
+target_include_directories(WriteTransactionWithNoSnoopTest PUBLIC
+    include
+    ${SPDLOG_INCLUDE_DIRS}
+    ${SYSTEMC_INCLUDE_DIRS}
+    ${GTEST_INCLUDE_DIRS})
+
+target_include_directories(WriteTransactionWithNoSnoopTest PRIVATE ${VERILATOR_ROOT}/include)
+
+target_sources(WriteTransactionWithNoSnoopTest PRIVATE
+    ${VERILATOR_ROOT}/include/verilated.cpp
+    ${VERILATOR_ROOT}/include/verilated_vcd_c.cpp
+    ${VERILATOR_ROOT}/include/verilated_vcd_sc.cpp
+    ${VERILATOR_ROOT}/include/verilated_threads.cpp)
+
+target_sources(WriteTransactionWithNoSnoopTest PUBLIC
+    src/WriteTransactionTest/WriteTransactionWithNoSnoopTest.cpp
+    ${COMMON_TEST_FILES})
+
+target_link_libraries(WriteTransactionWithNoSnoopTest
         -Wl,--start-group
         tlm_top
         ambachicast
@@ -64,15 +88,7 @@ target_link_libraries(main
         pthread
         SystemC::systemc
         spdlog::spdlog
+        gtest::gtest
 )
 
-target_include_directories(main PRIVATE ${VERILATOR_ROOT}/include)
-
-target_sources(main PRIVATE
-        ${VERILATOR_ROOT}/include/verilated.cpp
-        ${VERILATOR_ROOT}/include/verilated_vcd_c.cpp
-        ${VERILATOR_ROOT}/include/verilated_vcd_sc.cpp
-        ${VERILATOR_ROOT}/include/verilated_threads.cpp
-)
-
-add_dependencies(main noc_model)
+add_dependencies(WriteTransactionWithNoSnoopTest noc_model)

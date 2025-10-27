@@ -1,6 +1,7 @@
 #!/bin/env python3
 
 import os
+import secrets
 
 from conan import ConanFile
 from conan.tools.cmake import CMake, cmake_layout, CMakeDeps, CMakeToolchain
@@ -28,12 +29,16 @@ class tlm_soc(ConanFile):
 
     options = {
         "shared": [True, False],
-        "fPIC": [True, False]
+        "fPIC": [True, False],
+        "run_test" : [True, False],
+        "seed": ["ANY"],
     }
 
     default_options = {
         "shared": False,
         "fPIC": True,
+        "run_test": False,
+        "seed": 0,
 
         f"systemc/{systemc_version}:fPIC": True,
         f"systemc/{systemc_version}:shared": False,
@@ -107,10 +112,12 @@ class tlm_soc(ConanFile):
         cmake.configure()
         cmake.build()
 
-        self.test()
+        if self.options.run_test:
+            self.test()
 
 
     def test(self):
         if can_run(self):
-            cmd = os.path.join(self.cpp.build.bindir, "main")
+            seed = secrets.randbits(31) if 0 == self.options.seed else self.options.seed
+            cmd = os.path.join(self.cpp.build.bindir, f"WriteTransactionWithNoSnoopTest --gtest_random_seed={seed}")
             self.run(cmd, env="conanrun")

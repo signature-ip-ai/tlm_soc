@@ -96,10 +96,6 @@ private:
     void tx_channel_send_chi_message(tlm::tlm_extension_base*);
     void rx_channel_send_chi_message(tlm::tlm_extension_base*);
 
-    // void handle_snp_flit_event();
-    // void handle_rdat_flit_event();
-    // void handle_crsp_flit_event();
-
     void bind_tx_channels();
     void bind_rx_channels();
 

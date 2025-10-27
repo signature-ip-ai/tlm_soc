@@ -3299,16 +3299,14 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_common_porttop__pi4___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__27((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0));
         Vsig_topology_top_sig_cl0_clustercore__pi3___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__41((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore));
     }
-    if (((((((((((((((((((((((((0x300000000000ULL & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                               | (0xc00ULL & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                              | (0xc000000000000000ULL 
-                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                             | (0xfffffffffffffffULL 
-                                & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((0x300000000000ULL & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                              | (0xc00ULL & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                             | (0xfc00000000000000ULL 
+                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                             | (0xfffffffffffffffULL 
-                               & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                           | (0xc000000000000000ULL 
-                              & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                               & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                           | (0x3ffffffffffffffULL 
+                              & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                           | (0xf000000000000000ULL 
                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                          | (0x3000000000000000ULL & vlSelfRef.__VnbaTriggered.word(0x82U))) 
@@ -3332,11 +3330,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
     }
     if ((((((((((((((((((((((((0x300000000000ULL & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                               | (0xc00ULL & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                             | (0xfffffffffffffffULL 
+                             | (0xcffffffffffffffULL 
                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                             | (0xf000000000000000ULL 
                                & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                           | (0xf000000000000000ULL 
+                           | (0xfc00000000000000ULL 
                               & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                           | (0xfffffffffffffffULL & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                          | (0x3000000000000000ULL & vlSelfRef.__VnbaTriggered.word(0x82U))) 
@@ -3668,11 +3666,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                               | (0xc00ULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -3792,20 +3790,18 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_routing_policy___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_datproc_0__sig_node_rx_datproc_vc1__inst_sig_routing_policy__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_datproc_0__sig_node_rx_datproc_vc1__inst_sig_routing_policy));
         Vsig_topology_top_sig_node_rx_datproc_anyvc__pi65___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_datproc_0__sig_node_rx_datproc_vc1__3((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_datproc_0__sig_node_rx_datproc_vc1));
     }
-    if ((((((((((((((((((((((((((0x300c030000000ULL 
-                                 & vlSelfRef.__VnbaTriggered.word(0x83U)) 
-                                | (0xccc0000000000fcULL 
-                                   & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                               | (0xcc000c00000000ULL 
-                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                              | (0xc000000000000000ULL 
-                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                             | (0xfffffffffffffffULL 
-                                & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((0x300c030000000ULL 
+                                & vlSelfRef.__VnbaTriggered.word(0x83U)) 
+                               | (0xccc0000000000fcULL 
+                                  & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                              | (0xcc000c00000000ULL 
+                                 & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                             | (0xfc00000000000000ULL 
+                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                             | (0xfffffffffffffffULL 
-                               & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                           | (0xc000000000000000ULL 
-                              & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                               & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                           | (0x3ffffffffffffffULL 
+                              & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                           | (0xf000000000000000ULL 
                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                          | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
@@ -3833,13 +3829,13 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                   & vlSelfRef.__VnbaTriggered.word(0x81U))) 
                               | (0xcc000c00000000ULL 
                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                             | (0x3fffffffffffffffULL 
+                             | (0xfffffffffffffffULL 
                                 & vlSelfRef.__VnbaTriggered.word(0x5aU))) 
                             | (0xf000000000000000ULL 
                                & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                            | (0xfffffffffffffffULL 
                               & vlSelfRef.__VnbaTriggered.word(0x32U))) 
-                          | (0x3000000000000000ULL 
+                          | (0xf000000000000000ULL 
                              & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                          | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
                         | (0xcff0000000ULL & vlSelfRef.__VnbaTriggered.word(0x80U))) 
@@ -3866,11 +3862,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                   & vlSelfRef.__VnbaTriggered.word(0x81U))) 
                               | (0xcc000c00000000ULL 
                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                             | (0xfffffffffffffffULL 
+                             | (0xcffffffffffffffULL 
                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                             | (0xf000000000000000ULL 
                                & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                           | (0xf000000000000000ULL 
+                           | (0xfc00000000000000ULL 
                               & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                           | (0xfffffffffffffffULL & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                          | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
@@ -3892,20 +3888,21 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
          | vlSelfRef.__VnbaTriggered.word(0x50U))) {
         Vsig_topology_top_sig_node_rx_reqproc__pi56___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__16((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0));
     }
-    if (((((((((((((((((((((((((0x300c030000000ULL 
-                                & vlSelfRef.__VnbaTriggered.word(0x83U)) 
-                               | (0xccc0000000000fcULL 
-                                  & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                              | (0xcc000c00000000ULL 
-                                 & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+    if ((((((((((((((((((((((((((0x300c030000000ULL 
+                                 & vlSelfRef.__VnbaTriggered.word(0x83U)) 
+                                | (0xccc0000000000fcULL 
+                                   & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                               | (0xcc000c00000000ULL 
+                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                              | (0x300000000000000ULL 
+                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                              | (0xfffffffffffffffULL 
                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                            | (0xc000000000000000ULL 
+                            | (0xf000000000000000ULL 
                                & vlSelfRef.__VnbaTriggered.word(0x5aU))) 
                            | (0xf000000000000000ULL 
                               & vlSelfRef.__VnbaTriggered.word(0x32U))) 
-                          | (0x3fffffffffffffffULL 
-                             & vlSelfRef.__VnbaTriggered.word(0x62U))) 
+                          | (0x3ffffffffffffffULL & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                          | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
                         | (0xcff0000000ULL & vlSelfRef.__VnbaTriggered.word(0x80U))) 
                        | (0x180000000003f00ULL & vlSelfRef.__VnbaTriggered.word(0U))) 
@@ -4172,11 +4169,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                   & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
                                               | (0xc00ULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -4328,26 +4325,24 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
          | (0x180048140003f00ULL & vlSelfRef.__VnbaTriggered.word(0U)))) {
         Vsig_topology_top_sig_node_rx_datproc__pi57___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_datproc_0__6((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_datproc_0));
     }
-    if ((((((((((((((((((((((((((((((((((((0x300c030000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x83U)) 
-                                          | (0x3ffffffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                         | (0xccc0000000000fcULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                        | (0xfffffc0000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                       | (0xcc000c00000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                      | (0xc000000000000000ULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                     | (0x300000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                    | (0xfffffffffffffffULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((0x300c030000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x83U)) 
+                                         | (0x3ffffffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                        | (0xccc0000000000fcULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                       | (0xfffffc0000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                      | (0xcc000c00000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                     | (0xfc00000000000000ULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                    | (0x300000000000000ULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                    | (0xfffffffffffffffULL 
-                                      & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                  | (0xc000000000000000ULL 
-                                     & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                      & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                  | (0x3ffffffffffffffULL 
+                                     & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                  | (0xf000000000000000ULL 
                                     & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                 | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
@@ -4385,13 +4380,13 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                          & vlSelfRef.__VnbaTriggered.word(0x81U))) 
                                      | (0xcc000c00000000ULL 
                                         & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                    | (0x3fffffffffffffffULL 
+                                    | (0xfffffffffffffffULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x5aU))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                   | (0xfffffffffffffffULL 
                                      & vlSelfRef.__VnbaTriggered.word(0x32U))) 
-                                 | (0x3000000000000000ULL 
+                                 | (0xf000000000000000ULL 
                                     & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                 | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
                                | (0xcff0000000ULL & vlSelfRef.__VnbaTriggered.word(0x80U))) 
@@ -4430,13 +4425,13 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                           & vlSelfRef.__VnbaTriggered.word(1U))) 
                                       | (0xcc000c00000000ULL 
                                          & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                     | (0xfffffffffffffffULL 
+                                     | (0xcffffffffffffffULL 
                                         & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                     | (0x300000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                  | (0xf000000000000000ULL 
+                                  | (0xfc00000000000000ULL 
                                      & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                  | (0xfffffffffffffffULL 
                                     & vlSelfRef.__VnbaTriggered.word(0x52U))) 
@@ -4465,23 +4460,25 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x50U))) {
         Vsig_topology_top_sig_node_rx_reqproc__pi56___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__20((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0));
     }
-    if ((((((((((((((((((((((((((((((((((0x300c030000000ULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x83U)) 
-                                        | (0xfffffc0000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                       | (0xfffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x11U))) 
-                                      | (0xccc0000000000fcULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                     | (0xcc000c00000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+    if (((((((((((((((((((((((((((((((((((0x300c030000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x83U)) 
+                                         | (0xfffffc0000000000ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                        | (0xfffffffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x11U))) 
+                                       | (0xccc0000000000fcULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                      | (0xcc000c00000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                     | (0x300000000000000ULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                     | (0xfffffffffffffffULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                   | (0xc000000000000000ULL 
+                                   | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x5aU))) 
                                   | (0xf000000000000000ULL 
                                      & vlSelfRef.__VnbaTriggered.word(0x32U))) 
-                                 | (0x3fffffffffffffffULL 
+                                 | (0x3ffffffffffffffULL 
                                     & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                 | (0xff0ULL & vlSelfRef.__VnbaTriggered.word(0x84U))) 
                                | (0xcff0000000ULL & vlSelfRef.__VnbaTriggered.word(0x80U))) 
@@ -4720,11 +4717,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                   & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                               | (0x3ffffffULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -4772,11 +4769,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                   & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
                                               | (0xc00ULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -4874,13 +4871,13 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                           & vlSelfRef.__VnbaTriggered.word(1U))) 
                                                       | (0xcc000c00000000ULL 
                                                          & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                                     | (0xfffffffffffffffULL 
+                                                     | (0xcffffffffffffffULL 
                                                         & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                                    | (0xc000000000000000ULL 
+                                                    | (0xfc00000000000000ULL 
                                                        & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                    | (0x300000000000000ULL 
                                                       & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                  | (0xcfffffffffffffffULL 
+                                                  | (0xfffffffffffffffULL 
                                                      & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                                  | (0xf000000000000000ULL 
                                                     & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -4929,23 +4926,25 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_rx_reqproc__pi56___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__22((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((0x300c030000000ULL 
-                                                         & vlSelfRef.__VnbaTriggered.word(0x83U)) 
-                                                        | (0xfffffc0000000000ULL 
-                                                           & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                                       | (0xfffffffffffULL 
-                                                          & vlSelfRef.__VnbaTriggered.word(0x11U))) 
-                                                      | (0xccc0000000000fcULL 
-                                                         & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                                     | (0xcc000c00000000ULL 
-                                                        & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                                   (((((((0x300c030000000ULL 
+                                                          & vlSelfRef.__VnbaTriggered.word(0x83U)) 
+                                                         | (0xfffffc0000000000ULL 
+                                                            & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                                        | (0xfffffffffffULL 
+                                                           & vlSelfRef.__VnbaTriggered.word(0x11U))) 
+                                                       | (0xccc0000000000fcULL 
+                                                          & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                                      | (0xcc000c00000000ULL 
+                                                         & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                                     | (0x300000000000000ULL 
+                                                        & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                     | (0xfffffffffffffffULL 
                                                        & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
                                                    | (0xf000000000000000ULL 
                                                       & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                  | (0x3000000000000000ULL 
+                                                  | (0xf000000000000000ULL 
                                                      & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                 | (0x3fffffffffffffffULL 
+                                                 | (0x3ffffffffffffffULL 
                                                     & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                 | (0xff0ULL 
                                                    & vlSelfRef.__VnbaTriggered.word(0x84U))) 
@@ -5489,23 +5488,20 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         vlSelfRef.__Vm_traceActivity[0xd6bU] = 1U;
         Vsig_topology_top_sig_compbuff_top__D0___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_compbuff_top_0__5((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_compbuff_top_0));
     }
-    if (((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                      & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                     | (0x667e300000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                    | (0xfc03c0ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                   | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                  | (6ULL & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                 | (0xffffffULL & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                | (0xc000000000000000ULL 
-                                   & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                               | (0xfffffffffffffffULL 
-                                  & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                     & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                    | (0x667e300000000ULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                   | (0xfc03c0ULL & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                  | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                 | (6ULL & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                | (0xffffffULL & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                               | (0xfc00000000000000ULL 
+                                  & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                               | (0xfffffffffffffffULL 
-                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                             | (0xc000000000000000ULL 
-                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                             | (0x3ffffffffffffffULL 
+                                & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                             | (0xf000000000000000ULL 
                                & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                            | (0xc00000000000000ULL 
@@ -5584,11 +5580,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                   & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                               | (0x3ffffffULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -5708,11 +5704,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -6422,30 +6418,27 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_syn_sram_flop_512bit__F90___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_compbuff_top_0__NUM_COMP_BUFF_TOP__BRA__31__KET____DOT__sig_syn_sram_flop_512bit_u__5((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_chi_cc_top_0__sig_compbuff_top_0__NUM_COMP_BUFF_TOP__BRA__31__KET____DOT__sig_syn_sram_flop_512bit_u));
         vlSelfRef.__Vm_traceActivity[0xd8dU] = 1U;
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (3ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc00000000000000ULL 
@@ -6551,11 +6544,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                   & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                               | (0x3ffffffULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -6692,11 +6685,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -6818,30 +6811,27 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_slc_bypass__pi20___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__21((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0));
         Vsig_topology_top_sig_fifo_synchclk_flop__pi36___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__reqflit_fifo_0__3((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__reqflit_fifo_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xcfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (3ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xcfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc00000c00c0000cULL 
@@ -6884,30 +6874,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_l3_rxtop__pi21___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0__8((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0));
         Vsig_topology_top_sig_common_porttop__pi7___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__18((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (0x30000003ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (0x30000003ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc00030030030300ULL 
@@ -6951,30 +6939,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_l3_rxtop__pi21___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0__10((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0));
         Vsig_topology_top_sig_common_porttop__pi7___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__20((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (0xc0000003ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (0xc0000003ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc000c00c00c0c00ULL 
@@ -7028,11 +7014,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                   & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                               | (0x3ffffffULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                             | (0xfffffffffffffffULL 
+                                             | (0xcffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                            | (0xc000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -7085,15 +7071,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                     & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                                 | (0x3ffffffULL 
                                                    & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                               | (0xfffffffffffffffULL 
+                                               | (0xcffffffffffffffULL 
                                                   & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                              | (0xc000000000000000ULL 
+                                              | (0xfc00000000000000ULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                              | (0xfffffffffffffffULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                            | (0xfffffffffffffffULL 
+                                            | (0x3ffffffffffffffULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -7146,15 +7132,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                     & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                                 | (0x3ffffffULL 
                                                    & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                               | (0xfffffffffffffffULL 
+                                               | (0xcffffffffffffffULL 
                                                   & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                              | (0xc000000000000000ULL 
+                                              | (0xfc00000000000000ULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                              | (0xf000000000000000ULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                            | (0xf000000000000000ULL 
+                                            | (0xfc00000000000000ULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                           | (0xcfffffffffffffffULL 
+                                           | (0xfffffffffffffffULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                           | (0xf000000000000000ULL 
                                              & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -7206,11 +7192,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                    & vlSelfRef.__VnbaTriggered.word(0x7dU))) 
                                                | (0x3ffffffULL 
                                                   & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                              | (0xfffffffffffffffULL 
+                                              | (0xcffffffffffffffULL 
                                                  & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
-                                             | (0xc000000000000000ULL 
+                                             | (0xfc00000000000000ULL 
                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                            | (0xcfffffffffffffffULL 
+                                            | (0xfffffffffffffffULL 
                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
                                            | (0xf000000000000000ULL 
                                               & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -7284,11 +7270,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -7383,30 +7369,27 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_routing_policy___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__inst_sig_routing_policy__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__inst_sig_routing_policy));
         Vsig_topology_top_sig_node_rx_reqproc_anyvc__pi63___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0__3((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_rxtop_0__sig_node_rx_reqproc_0__sig_node_rx_reqproc_vc0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xcfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (3ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xcffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xcfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xcffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc00000c00c0000cULL 
@@ -7439,30 +7422,27 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x70U))) {
         Vsig_topology_top_sig_l3_rx_reqproc__pi38___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0__sig_l3_rx_reqproc_0__5((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0__sig_l3_rx_reqproc_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x67fe300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xffc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (3ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x67fe300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xffc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc00000c00c0000cULL 
@@ -7513,30 +7493,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_tx_portarb___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0__sig_tx_portarb_vc1__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0__sig_tx_portarb_vc1));
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0__6((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x303000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0xccfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffccc0033003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x303000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0xccfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffccc0033003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc00030030030300ULL 
@@ -7595,30 +7573,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0__6((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0));
         Vsig_topology_top_sig_l3_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0__6((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x303000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3cffffff0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffffc33003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc00fc00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x303000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3cffffff0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffffc33003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc00fc00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000ff0ff0ffff0ULL 
@@ -7671,30 +7647,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_txflit_mux__F2ae___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0__4((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0));
         Vsig_topology_top_sig_node_txflit_mux__F2ae___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0__4((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (0xf0000003ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0x30ffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (0xf0000003ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0x30ffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc000f00f00f0f00ULL 
@@ -7727,30 +7701,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x70U))) {
         Vsig_topology_top_sig_l3_rx_datproc__pi39___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0__sig_l3_rx_datproc_0__7((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_rxtop_0__sig_l3_rx_datproc_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30c000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x330fc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3fff3000cc003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30c000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x330fc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3fff3000cc003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000c00c00c0c00ULL 
@@ -7809,30 +7781,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0__8((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0));
         Vsig_topology_top_sig_l3_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0__8((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30c000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3cffffff0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffffccc003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc00fc00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30c000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3cffffff0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffffccc003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc00fc00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000ff0ff0ffff0ULL 
@@ -7885,30 +7855,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_txflit_mux__F2ae___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0__6((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0));
         Vsig_topology_top_sig_node_txflit_mux__F2ae___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0__6((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xcfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (0xf0000003ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300000000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xcfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (0xf0000003ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc000f0cf0cf0f0cULL 
@@ -7957,11 +7925,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -8084,11 +8052,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -8180,30 +8148,27 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_porttop_wrapper__pi8___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__25((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1));
         Vsig_topology_top_sig_cl0_clustercore__pi3___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__73((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x30000c000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xcfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (3ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0x30000cffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x30000c000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xcfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (3ULL & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0x30000cffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc00000c00c0000cULL 
@@ -8244,30 +8209,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_slc_bypass__pi20___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__22((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0));
         Vsig_topology_top_sig_ic_crdt_recv___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__sig_ic_crdt_recv_req__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__sig_ic_crdt_recv_req));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x300030000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x667e300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xfc03c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (0xf0000003ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000006ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0x300030ffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x300030000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x667e300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xfc03c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (0xf0000003ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000006ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0x300030ffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc000f00f00f0f00ULL 
@@ -8308,30 +8271,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_slc_bypass__pi20___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__23((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0));
         Vsig_topology_top_sig_ic_crdt_recv___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__sig_ic_crdt_recv_dat__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_L3top_bypass_0__sig_slc_bypass_gen_blk__DOT__sig_slc_bypass_0__sig_ic_crdt_recv_dat));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -8377,30 +8338,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0__9((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0));
         Vsig_topology_top_sig_l3_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0__9((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30ff00000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcffffff0fcf3c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffffcff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000007ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30ff00000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcffffff0fcf3c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffffcff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000007ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000ff0ff0ffff0ULL 
@@ -8435,30 +8394,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_common_porttop__pi7___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__30((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0));
         Vsig_topology_top_sig_cl0_clustercore__pi3___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__76((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3cffffff0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffffcff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc00fc00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3cffffff0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffffcff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc00fc00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000ff0ff0ffff0ULL 
@@ -8496,30 +8453,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_txflit_mux__F2ae___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0__8((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0));
         Vsig_topology_top_sig_node_txflit_mux__F2ae___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0__8((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_txflit_mux_0));
     }
-    if ((((((((((((((((((((((((((((((((((((((((0x30ffc0000c000ULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                              | (0x7ffe300000000ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                             | (0xffcf3c0ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                            | (0x3ffffffffffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                           | (0xff000003ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                          | (0xfffffc0000000007ULL 
-                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                         | (0xffffffULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                        | (0xc000000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                       | (0x300000000000000ULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                      | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if (((((((((((((((((((((((((((((((((((((((0x30ffc0000c000ULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                             | (0x7ffe300000000ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                            | (0xffcf3c0ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                           | (0x3ffffffffffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                          | (0xff000003ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                         | (0xfffffc0000000007ULL 
+                                            & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                        | (0xffffffULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                       | (0xfc00000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                      | (0x300000000000000ULL 
+                                         & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                      | (0xfffffffffffffffULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                    | (0xc000000000000000ULL 
-                                       & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                        & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                    | (0x3ffffffffffffffULL 
+                                       & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                    | (0xf000000000000000ULL 
                                       & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                   | (0xc000ffcffcffffcULL 
@@ -8553,7 +8508,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cl0_clustercore__pi3___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__77((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -8573,17 +8528,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -8685,7 +8638,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0__9((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x30ffc0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x30ffc0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x7ffe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -8705,17 +8658,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -8832,11 +8783,11 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -8926,30 +8877,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
          | vlSelfRef.__VnbaTriggered.word(0x60U))) {
         Vsig_topology_top_sig_cl0_clustercore__pi3___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__80((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -8983,30 +8932,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x70U))) {
         Vsig_topology_top_sig_node_dattxflit_top__pi59___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__12((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -9040,30 +8987,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x70U))) {
         Vsig_topology_top_sig_node_dattxflit_top__pi59___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__12((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -9097,30 +9042,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x70U))) {
         Vsig_topology_top_sig_cc_dattxflit_top__pi32___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__9((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003f00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003f00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -9154,30 +9097,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
           | vlSelfRef.__VnbaTriggered.word(8U)) | vlSelfRef.__VnbaTriggered.word(0x70U))) {
         Vsig_topology_top_sig_l3_dattxflit_top__pi40___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__9((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc030f00f00f0f00ULL 
@@ -9212,30 +9153,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_vcarb___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0__sig_node_vcarb_0__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0__sig_node_vcarb_0));
         Vsig_topology_top_sig_node_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0__11((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff003fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff003fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xcc00f00f00f0f00ULL 
@@ -9270,30 +9209,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_vcarb___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0__sig_node_vcarb_0__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0__sig_node_vcarb_0));
         Vsig_topology_top_sig_node_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0__11((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_dattxflit_top_0__sig_node_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ff0c3fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003c00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ff0c3fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003c00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -9328,30 +9265,28 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_vcarb___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0__sig_cc_vcarb_0__0((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0__sig_cc_vcarb_0));
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0__10((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_dattxflit_top_0__sig_cc_arbtop_0));
     }
-    if (((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
-                                                & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
-                                               | (0x7e7e300000000ULL 
-                                                  & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
-                                              | (0x3fcfc0c0f0fc03c0ULL 
-                                                 & vlSelfRef.__VnbaTriggered.word(0x83U))) 
-                                             | (0x3ffffffffffULL 
-                                                & vlSelfRef.__VnbaTriggered.word(9U))) 
-                                            | (0x3ffffc00ffc03fffULL 
-                                               & vlSelfRef.__VnbaTriggered.word(0x81U))) 
-                                           | (0xfffffc0000000006ULL 
-                                              & vlSelfRef.__VnbaTriggered.word(1U))) 
-                                          | (0x3fc003f00ffffffULL 
-                                             & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
-                                         | (0xc000000000000000ULL 
-                                            & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
-                                        | (0x300000000000000ULL 
-                                           & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
-                                       | (0xfffffffffffffffULL 
-                                          & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+    if ((((((((((((((((((((((((((((((((((((((((0x30f000000c000ULL 
+                                               & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
+                                              | (0x7e7e300000000ULL 
+                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
+                                             | (0x3fcfc0c0f0fc03c0ULL 
+                                                & vlSelfRef.__VnbaTriggered.word(0x83U))) 
+                                            | (0x3ffffffffffULL 
+                                               & vlSelfRef.__VnbaTriggered.word(9U))) 
+                                           | (0x3ffffc00ffc03fffULL 
+                                              & vlSelfRef.__VnbaTriggered.word(0x81U))) 
+                                          | (0xfffffc0000000006ULL 
+                                             & vlSelfRef.__VnbaTriggered.word(1U))) 
+                                         | (0x3fc003f00ffffffULL 
+                                            & vlSelfRef.__VnbaTriggered.word(0x7eU))) 
+                                        | (0xfc00000000000000ULL 
+                                           & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
+                                       | (0x300000000000000ULL 
+                                          & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                       | (0xfffffffffffffffULL 
-                                         & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                     | (0xc000000000000000ULL 
-                                        & vlSelfRef.__VnbaTriggered.word(0x52U))) 
+                                         & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
+                                     | (0x3ffffffffffffffULL 
+                                        & vlSelfRef.__VnbaTriggered.word(0x72U))) 
                                     | (0xf000000000000000ULL 
                                        & vlSelfRef.__VnbaTriggered.word(0x42U))) 
                                    | (0xc000f00f00f0f00ULL 
@@ -9387,7 +9322,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_l3_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0__10((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_l3_porttop_0__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__sig_l3_dattxflit_top_0__sig_l3_arbtop_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -9407,17 +9342,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -9511,7 +9444,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_snptxflit_top__pi58___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_snptxflit_top_0__15((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_snptxflit_top_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -9531,17 +9464,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -9635,7 +9566,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_snptxflit_top__pi58___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_snptxflit_top_0__14((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_snptxflit_top_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3300c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3300c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -9655,17 +9586,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -9759,7 +9688,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_reqtxflit_top__pi31___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__9((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -9779,17 +9708,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -9884,7 +9811,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_snptxflit_top_0__sig_node_arbtop_0__11((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_rn_p1__node_porttop_rn__DOT__u_node_porttop_rn__sig_node_txtop_0__sig_node_snptxflit_top_0__sig_node_arbtop_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -9904,17 +9831,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -10009,7 +9934,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_node_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_snptxflit_top_0__sig_node_arbtop_0__11((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_node_porttop_sn_p3__node_porttop_sn__DOT__u_node_porttop_sn__sig_node_txtop_0__sig_node_snptxflit_top_0__sig_node_arbtop_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x3000c0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x67fe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -10029,17 +9954,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
@@ -10134,7 +10057,7 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
         Vsig_topology_top_sig_cc_arbtop___nba_comb__TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0__10((&vlSymsp->TOP__sig_topology_top__cl0_sig_clustertop__inst_cl0_clustercore__sig_cc_porttop_0__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__sig_cc_reqtxflit_top_0__sig_cc_arbtop_0));
     }
     if ((((((((((((((((((((((((((((((((((((((((((((
-                                                   ((((((((((((((((((((((((((((((((((((((((((((((((((((((((0x30ffc0000c000ULL 
+                                                   (((((((((((((((((((((((((((((((((((((((((((((((((((((((0x30ffc0000c000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7fU)) 
                                                                                 | (0x7ffe300000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7bU))) 
@@ -10154,17 +10077,15 @@ void Vsig_topology_top___024root___eval_nba__2(Vsig_topology_top___024root* vlSe
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x7aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x3aU))) 
-                                                                                | (0xc000000000000000ULL 
+                                                                                | (0xfc00000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x6aU))) 
                                                                                 | (0xf300000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x2aU))) 
                                                                                 | (0xfffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x4aU))) 
-                                                                                | (0xfffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x72U))) 
-                                                                                | (0xc000000000000000ULL 
-                                                                                & vlSelfRef.__VnbaTriggered.word(0x52U))) 
-                                                                                | (0x3fffffffffffffffULL 
+                                                                                | (0x3ffffffffffffffULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x62U))) 
                                                                                 | (0xf000000000000000ULL 
                                                                                 & vlSelfRef.__VnbaTriggered.word(0x42U))) 
