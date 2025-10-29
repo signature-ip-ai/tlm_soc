@@ -10,6 +10,7 @@ enable_testing()
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -g -O0 -Wall")
+set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR})
 
 set(VERILATOR_ROOT $ENV{VERILATOR_ROOT})
 if(NOT VERILATOR_ROOT)
@@ -55,40 +56,28 @@ add_custom_target(clean_noc
     COMMENT "Clean noc_model"
 )
 
-set(COMMON_TEST_FILES
-    src/SimpleRnInitiator.cpp
-    src/SimpleSnTarget.cpp
-    src/main.cpp)
-
-add_executable(WriteTransactionWithNoSnoopTest)
-target_include_directories(WriteTransactionWithNoSnoopTest PUBLIC
-    include
+set(TEST_INCLUDE_DIRS
+    ${CMAKE_SOURCE_DIR}/include
     ${SPDLOG_INCLUDE_DIRS}
     ${SYSTEMC_INCLUDE_DIRS}
-    ${GTEST_INCLUDE_DIRS})
+    ${GTEST_INCLUDE_DIRS}
+    ${VERILATOR_ROOT}/include)
 
-target_include_directories(WriteTransactionWithNoSnoopTest PRIVATE ${VERILATOR_ROOT}/include)
-
-target_sources(WriteTransactionWithNoSnoopTest PRIVATE
+set(EXTERNAL_SOURCES
     ${VERILATOR_ROOT}/include/verilated.cpp
     ${VERILATOR_ROOT}/include/verilated_vcd_c.cpp
     ${VERILATOR_ROOT}/include/verilated_vcd_sc.cpp
     ${VERILATOR_ROOT}/include/verilated_threads.cpp)
 
-target_sources(WriteTransactionWithNoSnoopTest PUBLIC
-    src/WriteTransactionTest/WriteTransactionWithNoSnoopTest.cpp
-    ${COMMON_TEST_FILES})
+set(TEST_LIBRARIES
+    -Wl,--start-group
+    tlm_top
+    ambachicast
+    verilated_model
+    -Wl,--end-group
+    pthread
+    SystemC::systemc
+    spdlog::spdlog
+    gtest::gtest)
 
-target_link_libraries(WriteTransactionWithNoSnoopTest
-        -Wl,--start-group
-        tlm_top
-        ambachicast
-        verilated_model
-        -Wl,--end-group
-        pthread
-        SystemC::systemc
-        spdlog::spdlog
-        gtest::gtest
-)
-
-add_dependencies(WriteTransactionWithNoSnoopTest noc_model)
+add_subdirectory(src)
