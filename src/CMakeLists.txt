@@ -7,3 +7,4 @@ set(COMMON_TEST_FILES
     ${CMAKE_CURRENT_SOURCE_DIR}/main.cpp)
 
 add_subdirectory(WriteTransactionTests)
+add_subdirectory(ReadTransactionTests)

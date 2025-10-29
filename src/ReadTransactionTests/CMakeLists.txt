@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 3.15)
+
+add_executable(ReadTransactionWithNoSnoopTest)
+target_include_directories(ReadTransactionWithNoSnoopTest PUBLIC ${TEST_INCLUDE_DIRS})
+target_sources(ReadTransactionWithNoSnoopTest PUBLIC ${CMAKE_CURRENT_SOURCE_DIR}/ReadTransactionWithNoSnoopTest.cpp ${COMMON_TEST_FILES})
+target_link_libraries(ReadTransactionWithNoSnoopTest ${TEST_LIBRARIES})
+add_dependencies(ReadTransactionWithNoSnoopTest noc_model)
