@@ -8,8 +8,8 @@
 
 extern const VlWide<22>/*703:0*/ Vsig_topology_top__ConstPool__CONST_h1de318c0_0;
 
-VL_INLINE_OPT void Vsig_topology_top___024root___nba_comb__TOP__85(Vsig_topology_top___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_comb__TOP__85\n"); );
+VL_INLINE_OPT void Vsig_topology_top___024root___nba_comb__TOP__86(Vsig_topology_top___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_comb__TOP__86\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init

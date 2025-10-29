@@ -1,5 +1,5 @@
 CXX = g++
-CXXFLAGS += -Wall -Wextra -std=c++17 -O0 -g -Werror=reorder
+CXXFLAGS += -Wall -Wextra -std=c++17 -O3 -Werror=reorder
 AR = ar
 ARFLAGS = rcs
 

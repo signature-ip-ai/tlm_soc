@@ -27,17 +27,19 @@ class tlm_soc(ConanFile):
     # Binary configuration
     settings = "os", "compiler", "build_type", "arch"
 
+    all_tests = ["WriteTransactionWithNoSnoopTest", "ReadTransactionWithNoSnoopTest"]
+
     options = {
         "shared": [True, False],
         "fPIC": [True, False],
-        "run_test" : [True, False],
+        "run_test" : ["all", "none", "ANY"],
         "seed": ["ANY"],
     }
 
     default_options = {
         "shared": False,
         "fPIC": True,
-        "run_test": False,
+        "run_test": "none",
         "seed": 0,
 
         f"systemc/{systemc_version}:fPIC": True,
@@ -112,12 +114,22 @@ class tlm_soc(ConanFile):
         cmake.configure()
         cmake.build()
 
-        if self.options.run_test:
-            self.test()
+        if "none" == str(self.options.run_test).lower():
+            return
+
+        seed = secrets.randbits(31) if 0 == self.options.seed else self.options.seed
+        if "all" == str(self.options.run_test).lower():
+            for test_name in self.all_tests:
+                self.run_test(test_name, seed)
+
+            return
+
+        tests = str(self.options.run_test).split(',')
+        for test_name in tests:
+            self.run_test(test_name.strip(), seed)
 
 
-    def test(self):
+    def run_test(self, test_name, seed):
         if can_run(self):
-            seed = secrets.randbits(31) if 0 == self.options.seed else self.options.seed
-            cmd = os.path.join(self.cpp.build.bindir, f"WriteTransactionWithNoSnoopTest --gtest_random_seed={seed}")
+            cmd = os.path.join(self.cpp.build.bindir, f"{test_name} --gtest_random_seed={seed}")
             self.run(cmd, env="conanrun")

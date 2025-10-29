@@ -43,6 +43,8 @@ struct ReadTransactionTest : public CommonTestBase
 
         sc_core::sc_start(sc_core::SC_ZERO_TIME);
         dut_->enable_trace();
+
+        sc_core::sc_start(10, sc_core::SC_NS);
     }
 
     void expect_to_receive_credits_from_cnoc()

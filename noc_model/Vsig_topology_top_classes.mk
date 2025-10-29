@@ -58,6 +58,7 @@ VM_SUPPORT_SLOW += \
   Vsig_topology_top__Trace__6__Slow \
   Vsig_topology_top__Trace__7__Slow \
   Vsig_topology_top__Trace__8__Slow \
+  Vsig_topology_top__Trace__9__Slow \
 
 # Global classes, need linked once per executable, fast-path, compile with highest optimization
 VM_GLOBAL_FAST += \

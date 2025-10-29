@@ -16,12 +16,8 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_cnoc_atomic_processor_d
   public:
 
     // DESIGN SPECIFIC STATE
-    CData/*0:0*/ __PVT__dat_txn_valid;
-    CData/*0:0*/ __PVT__dat_init_dirty;
-    CData/*0:0*/ __PVT__dat_init_valid;
-    QData/*63:0*/ __PVT__dat_txn_be;
-    VlWide<16>/*511:0*/ __PVT__dat_txn;
-    VlWide<16>/*511:0*/ __PVT__dat_init;
+    CData/*0:0*/ dat_txn_valid;
+    CData/*0:0*/ dat_init_valid;
 
     // INTERNAL VARIABLES
     Vsig_topology_top__Syms* const vlSymsp;

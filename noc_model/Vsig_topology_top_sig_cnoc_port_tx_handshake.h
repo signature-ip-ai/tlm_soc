@@ -16,10 +16,10 @@ class alignas(VL_CACHE_LINE_BYTES) Vsig_topology_top_sig_cnoc_port_tx_handshake 
   public:
 
     // DESIGN SPECIFIC STATE
-    CData/*0:0*/ __PVT__send_gnt;
-    CData/*0:0*/ __PVT__vld_send;
-    CData/*0:0*/ __PVT__end_send;
-    SData/*9:0*/ __PVT__req_send;
+    CData/*0:0*/ send_gnt;
+    CData/*0:0*/ vld_send;
+    CData/*0:0*/ end_send;
+    SData/*9:0*/ req_send;
 
     // INTERNAL VARIABLES
     Vsig_topology_top__Syms* const vlSymsp;

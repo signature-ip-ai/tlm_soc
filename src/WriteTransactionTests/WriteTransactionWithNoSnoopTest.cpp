@@ -15,10 +15,9 @@ using ::testing::_;
 TEST_F(WriteTransactionTest, WriteTransactionWithNoSnoopTest)
 {
     expect_to_receive_credits_from_cnoc();
+    send_credits_to_cnoc(5);
 
     sc_core::sc_start(500, sc_core::SC_NS);
-
-    send_credits_to_cnoc(5);
 
     std::unique_ptr<chi::ChiExtension> write_no_snoop_req = create_chi_req_message(chi::ReqOpcode::WriteNoSnpFull);
     std::unique_ptr<chi::ChiExtension> non_copyback_wr_data = create_chi_wdat_message(chi::DatOpcode::NonCopyBackWriteData);
