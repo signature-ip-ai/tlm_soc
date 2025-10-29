@@ -20,9 +20,9 @@ TEST_F(WriteTransactionTest, WriteTransactionWithNoSnoopTest)
 
     send_credits_to_cnoc(5);
 
-    std::unique_ptr<chi::ChiExtension> write_no_snoop_req = createChiReqMessage(chi::ReqOpcode::WriteNoSnpFull);
-    std::unique_ptr<chi::ChiExtension> non_copyback_wr_data = createChiWdatMessage(chi::DatOpcode::NonCopyBackWriteData);
-    std::unique_ptr<chi::ChiExtension> comp_dbid_resp = createChiCrspMessage(chi::RspOpcode::CompDBIDResp);
+    std::unique_ptr<chi::ChiExtension> write_no_snoop_req = create_chi_req_message(chi::ReqOpcode::WriteNoSnpFull);
+    std::unique_ptr<chi::ChiExtension> non_copyback_wr_data = create_chi_wdat_message(chi::DatOpcode::NonCopyBackWriteData);
+    std::unique_ptr<chi::ChiExtension> comp_dbid_resp = create_chi_crsp_message(chi::RspOpcode::CompDBIDResp);
 
     EXPECT_CALL(*initiator_->get_callbacks_mock(), nb_transport_bw(
         IsChiCrspMessageWithOpcode(chi::RspOpcode::DBIDResp),

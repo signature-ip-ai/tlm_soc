@@ -1,5 +1,5 @@
-#ifndef __FIXTURES_WRITE_TRANSACTION_TEST_HPP__
-#define __FIXTURES_WRITE_TRANSACTION_TEST_HPP__
+#ifndef __FIXTURES_READ_TRANSACTION_TEST_HPP__
+#define __FIXTURES_READ_TRANSACTION_TEST_HPP__
 
 #include <memory>
 
@@ -26,14 +26,14 @@ constexpr auto INITIATOR_NODE_ID    = 0x01;
 constexpr auto TARGET_NODE_ID       = 0x03;
 }  // namespace
 
-struct WriteTransactionTest : public CommonTestBase
+struct ReadTransactionTest : public CommonTestBase
 {
-    WriteTransactionTest()
+    ReadTransactionTest()
         : CommonTestBase()
         , dut_(std::make_shared<tlm_top>("top"))
         , initiator_(std::make_shared<SimpleRnInitiator>("initiator0", INITIATOR_NODE_ID))
         , target_(std::make_shared<SimpleSnTarget>("target0", TARGET_NODE_ID))
-        , logger_(spdlog::stdout_color_st("WriteTransactionTest"))
+        , logger_(spdlog::stdout_color_st("ReadTransactionTest"))
     {}
 
     void SetUp()
@@ -91,4 +91,4 @@ struct WriteTransactionTest : public CommonTestBase
     std::shared_ptr<spdlog::logger> logger_;
 };
 
-#endif  // __FIXTURES_WRITE_TRANSACTION_TEST_HPP__
+#endif  // __FIXTURES_READ_TRANSACTION_TEST_HPP__

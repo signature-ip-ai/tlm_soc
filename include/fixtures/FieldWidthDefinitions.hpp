@@ -3,7 +3,7 @@
 
 namespace ReqFields
 {
-// field 0
+    // field 0
     static constexpr auto QOS_WIDTH = 4;
 
     // field 1
@@ -86,7 +86,7 @@ namespace ReqFields
 
 namespace DatFields
 {
-// field 0: qos[3:0]
+    // field 0: qos[3:0]
     static constexpr auto QOS_WIDTH = 4;
 
     // field 1: tgtid[10:0]
@@ -151,7 +151,7 @@ namespace DatFields
 
 namespace RspFields
 {
-// field 0
+    // field 0
     static constexpr auto QOS_WIDTH = 4;
 
     // field 1
@@ -200,7 +200,7 @@ namespace RspFields
 
 namespace SnpFields
 {
-// field 0 - qos
+    // field 0 - qos
     static constexpr auto QOS_WIDTH = 4;
 
     // field 1 - srcid
