@@ -6,8 +6,8 @@
 #include "Vsig_topology_top__Syms.h"
 #include "Vsig_topology_top___024root.h"
 
-VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__27(Vsig_topology_top___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___stl_sequent__TOP__27\n"); );
+VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__28(Vsig_topology_top___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___stl_sequent__TOP__28\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body

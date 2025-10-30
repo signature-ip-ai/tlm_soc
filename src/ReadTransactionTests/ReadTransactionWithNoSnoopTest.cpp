@@ -34,7 +34,7 @@ TEST_F(ReadTransactionTest, ReadTransactionWithNoSnoopTest)
                 }),
                 Return(tlm::TLM_ACCEPTED)));
 
-    initiator_->send_message(read_no_snoop_req);
+    initiator0_->send_message(read_no_snoop_req);
 
     sc_core::sc_start(50, sc_core::SC_NS);
 }

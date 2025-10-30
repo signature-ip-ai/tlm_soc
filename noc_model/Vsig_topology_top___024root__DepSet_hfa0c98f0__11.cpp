@@ -9,8 +9,8 @@
 extern const VlUnpacked<CData/*2:0*/, 64> Vsig_topology_top__ConstPool__TABLE_h05aaf981_0;
 extern const VlUnpacked<CData/*2:0*/, 64> Vsig_topology_top__ConstPool__TABLE_hdbef27b4_0;
 
-VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__8(Vsig_topology_top___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__8\n"); );
+VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__10(Vsig_topology_top___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__10\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
@@ -92,7 +92,7 @@ VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__8(Vsig_topolo
                              | ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__itis_lastresp_compdbidresp_ph3_wr_nosnp_ptl) 
                                 | ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__itis_lastresp_compdbidresp_ph3_wr_nosnp_zero) 
                                    | (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__itis_lastresp_comp_ph3_wr_nosnp))))))))));
-    vlSelfRef.__VdfgRegularize_h848431d3_0_3 = ((~ (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__inpendingq_matches_collnq_cohc)) 
+    vlSelfRef.__VdfgRegularize_hac6e8b95_0_3 = ((~ (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__inpendingq_matches_collnq_cohc)) 
                                                 & (0U 
                                                    != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__wren_cache_vector_cohc)));
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__req_atmo_ph3 

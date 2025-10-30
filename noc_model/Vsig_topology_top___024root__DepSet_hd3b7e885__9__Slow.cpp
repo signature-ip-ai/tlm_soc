@@ -10,6 +10,1772 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__4(Vsig_topolog
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored;
+    if ((0x200U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_169__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored;
+    if ((0x400U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_170__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored;
+    if ((0x800U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_171__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored;
+    if ((0x1000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_172__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored;
+    if ((0x2000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_173__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored;
+    if ((0x4000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_174__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored;
+    if ((0x8000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_175__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored;
+    if ((0x10000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_176__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored;
+    if ((0x20000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_177__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored;
+    if ((0x40000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_178__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored;
+    if ((0x80000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_179__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored;
+    if ((0x100000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_180__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored;
+    if ((0x200000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_181__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored;
+    if ((0x400000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_182__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored;
+    if ((0x800000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_183__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored;
+    if ((0x1000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_184__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored;
+    if ((0x2000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_185__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored;
+    if ((0x4000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_186__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored;
+    if ((0x8000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_187__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored;
+    if ((0x10000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_188__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored;
+    if ((0x20000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_189__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored;
+    if ((0x40000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_190__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored;
+    if ((vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[5U] 
+         >> 0x1fU)) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_191__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored;
+    if ((1U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_192__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored;
+    if ((2U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_193__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored;
+    if ((4U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_194__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored;
+    if ((8U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_195__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored;
+    if ((0x10U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_196__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored;
+    if ((0x20U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_197__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored;
+    if ((0x40U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_198__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored;
+    if ((0x80U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_199__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored;
+    if ((0x100U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_200__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored;
+    if ((0x200U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_201__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored;
+    if ((0x400U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_202__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored;
+    if ((0x800U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_203__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored;
+    if ((0x1000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_204__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored;
+    if ((0x2000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_205__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored;
+    if ((0x4000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_206__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored;
+    if ((0x8000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_207__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored;
+    if ((0x10000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_208__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored;
+    if ((0x20000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_209__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored;
+    if ((0x40000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_210__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored;
+    if ((0x80000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_211__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored;
+    if ((0x100000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_212__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored;
+    if ((0x200000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_213__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored;
+    if ((0x400000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_214__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored;
+    if ((0x800000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_215__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored;
+    if ((0x1000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_216__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored;
+    if ((0x2000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_217__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored;
+    if ((0x4000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_218__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored;
+    if ((0x8000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_219__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored;
+    if ((0x10000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_220__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored;
+    if ((0x20000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_221__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored;
+    if ((0x40000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_222__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored;
+    if ((vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[6U] 
+         >> 0x1fU)) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_223__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored;
+    if ((1U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_224__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored;
+    if ((2U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_225__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored;
+    if ((4U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_226__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored;
+    if ((8U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_227__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored;
+    if ((0x10U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_228__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored;
+    if ((0x20U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_229__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored;
+    if ((0x40U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_230__DOT__data_stored;
+    }
+    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored_nxt 
+        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored;
+    if ((0x80U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored_nxt 
+            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored_nxt) 
+               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored 
+                                             >> 8U)) 
+                              << 8U)) | (0xffU & ((1U 
+                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
+                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored))));
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored_nxt 
+            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored_nxt) 
+               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored 
+                                     >> 0x18U)) << 0x18U) 
+                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
+                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
+                                       >> 0x10U) : 
+                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored 
+                                    >> 0x10U)) << 0x10U))));
+    } else {
+        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored_nxt 
+            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_231__DOT__data_stored;
+    }
     vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_232__DOT__data_stored_nxt 
         = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_232__DOT__data_stored;
     if ((0x100U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[7U])) {
@@ -7605,1771 +9371,5 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__4(Vsig_topolog
     } else {
         vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_245__DOT__data_stored_nxt 
             = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_245__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored;
-    if ((0x800000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_246__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored;
-    if ((0x1000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_247__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored;
-    if ((0x2000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_248__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored;
-    if ((0x4000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_249__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored;
-    if ((0x8000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_250__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored;
-    if ((0x10000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_251__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored;
-    if ((0x20000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_252__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored;
-    if ((0x40000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_253__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored;
-    if ((vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0xfU] 
-         >> 0x1fU)) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_254__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored;
-    if ((1U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_255__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored;
-    if ((2U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_f_config_256__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored;
-    if ((4U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_0__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored;
-    if ((8U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_1__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored;
-    if ((0x10U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_2__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored;
-    if ((0x20U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_3__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored;
-    if ((0x40U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_4__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored;
-    if ((0x80U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_5__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored;
-    if ((0x100U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_6__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored;
-    if ((0x200U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_7__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored;
-    if ((0x400U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_8__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored;
-    if ((0x800U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_9__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored;
-    if ((0x1000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_10__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored;
-    if ((0x2000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_11__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored;
-    if ((0x4000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_12__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored;
-    if ((0x8000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_13__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored;
-    if ((0x10000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_14__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored;
-    if ((0x20000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_15__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored;
-    if ((0x40000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_16__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored;
-    if ((0x80000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_17__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored;
-    if ((0x100000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_18__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored;
-    if ((0x200000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_19__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored;
-    if ((0x400000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_20__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored;
-    if ((0x800000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_21__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored;
-    if ((0x1000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_22__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored;
-    if ((0x2000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_23__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored;
-    if ((0x4000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_24__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored;
-    if ((0x8000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_25__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored;
-    if ((0x10000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_26__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored;
-    if ((0x20000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_27__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored;
-    if ((0x40000000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_28__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored;
-    if ((vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x10U] 
-         >> 0x1fU)) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_29__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored;
-    if ((1U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_30__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored;
-    if ((2U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_31__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored;
-    if ((4U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_32__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored;
-    if ((8U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_33__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored;
-    if ((0x10U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_34__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored;
-    if ((0x20U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_35__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored;
-    if ((0x40U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_36__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored;
-    if ((0x80U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_37__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored;
-    if ((0x100U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_38__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored;
-    if ((0x200U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_39__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored;
-    if ((0x400U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_40__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored;
-    if ((0x800U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_41__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored;
-    if ((0x1000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_42__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored;
-    if ((0x2000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_43__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored;
-    if ((0x4000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_44__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored;
-    if ((0x8000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_45__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored;
-    if ((0x10000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_46__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored;
-    if ((0x20000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_47__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored;
-    if ((0x40000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_48__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored;
-    if ((0x80000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_49__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored;
-    if ((0x100000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_50__DOT__data_stored;
-    }
-    vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored_nxt 
-        = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored;
-    if ((0x200000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__wr_en_reg[0x11U])) {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored_nxt 
-            = ((0xffff0000U & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored_nxt) 
-               | ((0xff00U & (((2U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                   >> 8U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored 
-                                             >> 8U)) 
-                              << 8U)) | (0xffU & ((1U 
-                                                   & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                                   ? vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog
-                                                   : vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored))));
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored_nxt 
-            = ((0xffffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored_nxt) 
-               | ((((8U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                     ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                        >> 0x18U) : (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored 
-                                     >> 0x18U)) << 0x18U) 
-                  | (0xff0000U & (((4U & (IData)(vlSelfRef.__Vcellinp__sig_topology_top__PSTRB_prog))
-                                    ? (vlSelfRef.__Vcellinp__sig_topology_top__PWDATA_prog 
-                                       >> 0x10U) : 
-                                   (vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored 
-                                    >> 0x10U)) << 0x10U))));
-    } else {
-        vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored_nxt 
-            = vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_all_hn_i_config_51__DOT__data_stored;
     }
 }

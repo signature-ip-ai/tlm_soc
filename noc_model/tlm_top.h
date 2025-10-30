@@ -32,6 +32,7 @@ public:
 
 private:
     std::shared_ptr<RnIfxAdapter> cl0_p1_rn_ifx_adapter;
+    std::shared_ptr<RnIfxAdapter> cl0_p0_rn_ifx_adapter;
     std::shared_ptr<SnIfxAdapter> cl0_p3_sn_ifx_adapter;
     std::shared_ptr<ProgIfxAdapter> prog_ifx_adapter;
     std::shared_ptr<QpIfxAdapter> qp_ifx_adapter;
@@ -40,11 +41,12 @@ private:
 
 public:
     tlm_utils::simple_target_socket<RnIfxAdapter>& cl0_p1_rn_target_socket;
+    tlm_utils::simple_target_socket<RnIfxAdapter>& cl0_p0_rn_target_socket;
     tlm_utils::simple_initiator_socket<SnIfxAdapter>& cl0_p3_sn_initiator_socket;
 
-    void enable_trace();
+    void enable_trace(const std::string& tracefile_name = "topology_ca_top.vcd");
 
 private:
-    VerilatedVcdSc* target_waveform_;
+    std::shared_ptr<VerilatedVcdSc> target_waveform_;
     bool trace_enabled_;
 };

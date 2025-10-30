@@ -42,6 +42,34 @@ Vsig_topology_top::Vsig_topology_top(sc_core::sc_module_name /* unused */)
     , cl0_p1_RXSACTIVE{vlSymsp->TOP.cl0_p1_RXSACTIVE}
     , cl0_p1_SYSCOREQ{vlSymsp->TOP.cl0_p1_SYSCOREQ}
     , cl0_p1_SYSCOACK{vlSymsp->TOP.cl0_p1_SYSCOACK}
+    , cl0_p0_intfrx_clk{vlSymsp->TOP.cl0_p0_intfrx_clk}
+    , cl0_p0_rstb_intfrx_clk{vlSymsp->TOP.cl0_p0_rstb_intfrx_clk}
+    , cl0_p0_TX_LINKACTIVEREQ{vlSymsp->TOP.cl0_p0_TX_LINKACTIVEREQ}
+    , cl0_p0_TX_LINKACTIVEACK{vlSymsp->TOP.cl0_p0_TX_LINKACTIVEACK}
+    , cl0_p0_RX_REQFLITPEND{vlSymsp->TOP.cl0_p0_RX_REQFLITPEND}
+    , cl0_p0_RX_REQFLITV{vlSymsp->TOP.cl0_p0_RX_REQFLITV}
+    , cl0_p0_RX_REQLCRDV{vlSymsp->TOP.cl0_p0_RX_REQLCRDV}
+    , cl0_p0_RX_RSPFLITPEND{vlSymsp->TOP.cl0_p0_RX_RSPFLITPEND}
+    , cl0_p0_RX_RSPFLITV{vlSymsp->TOP.cl0_p0_RX_RSPFLITV}
+    , cl0_p0_RX_RSPLCRDV{vlSymsp->TOP.cl0_p0_RX_RSPLCRDV}
+    , cl0_p0_RX_DATFLITPEND{vlSymsp->TOP.cl0_p0_RX_DATFLITPEND}
+    , cl0_p0_RX_DATFLITV{vlSymsp->TOP.cl0_p0_RX_DATFLITV}
+    , cl0_p0_RX_DATLCRDV{vlSymsp->TOP.cl0_p0_RX_DATLCRDV}
+    , cl0_p0_RX_LINKACTIVEREQ{vlSymsp->TOP.cl0_p0_RX_LINKACTIVEREQ}
+    , cl0_p0_RX_LINKACTIVEACK{vlSymsp->TOP.cl0_p0_RX_LINKACTIVEACK}
+    , cl0_p0_TX_SNPFLITPEND{vlSymsp->TOP.cl0_p0_TX_SNPFLITPEND}
+    , cl0_p0_TX_SNPFLITV{vlSymsp->TOP.cl0_p0_TX_SNPFLITV}
+    , cl0_p0_TX_SNPLCRDV{vlSymsp->TOP.cl0_p0_TX_SNPLCRDV}
+    , cl0_p0_TX_RSPFLITPEND{vlSymsp->TOP.cl0_p0_TX_RSPFLITPEND}
+    , cl0_p0_TX_RSPFLITV{vlSymsp->TOP.cl0_p0_TX_RSPFLITV}
+    , cl0_p0_TX_RSPLCRDV{vlSymsp->TOP.cl0_p0_TX_RSPLCRDV}
+    , cl0_p0_TX_DATFLITPEND{vlSymsp->TOP.cl0_p0_TX_DATFLITPEND}
+    , cl0_p0_TX_DATFLITV{vlSymsp->TOP.cl0_p0_TX_DATFLITV}
+    , cl0_p0_TX_DATLCRDV{vlSymsp->TOP.cl0_p0_TX_DATLCRDV}
+    , cl0_p0_TXSACTIVE{vlSymsp->TOP.cl0_p0_TXSACTIVE}
+    , cl0_p0_RXSACTIVE{vlSymsp->TOP.cl0_p0_RXSACTIVE}
+    , cl0_p0_SYSCOREQ{vlSymsp->TOP.cl0_p0_SYSCOREQ}
+    , cl0_p0_SYSCOACK{vlSymsp->TOP.cl0_p0_SYSCOACK}
     , cl0_p3_intfrx_clk{vlSymsp->TOP.cl0_p3_intfrx_clk}
     , cl0_p3_rstb_intfrx_clk{vlSymsp->TOP.cl0_p3_rstb_intfrx_clk}
     , cl0_p3_RX_LINKACTIVEREQ{vlSymsp->TOP.cl0_p3_RX_LINKACTIVEREQ}
@@ -91,6 +119,12 @@ Vsig_topology_top::Vsig_topology_top(sc_core::sc_module_name /* unused */)
     , cl0_p1_TX_SNPFLIT{vlSymsp->TOP.cl0_p1_TX_SNPFLIT}
     , cl0_p1_TX_RSPFLIT{vlSymsp->TOP.cl0_p1_TX_RSPFLIT}
     , cl0_p1_TX_DATFLIT{vlSymsp->TOP.cl0_p1_TX_DATFLIT}
+    , cl0_p0_RX_REQFLIT{vlSymsp->TOP.cl0_p0_RX_REQFLIT}
+    , cl0_p0_RX_RSPFLIT{vlSymsp->TOP.cl0_p0_RX_RSPFLIT}
+    , cl0_p0_RX_DATFLIT{vlSymsp->TOP.cl0_p0_RX_DATFLIT}
+    , cl0_p0_TX_SNPFLIT{vlSymsp->TOP.cl0_p0_TX_SNPFLIT}
+    , cl0_p0_TX_RSPFLIT{vlSymsp->TOP.cl0_p0_TX_RSPFLIT}
+    , cl0_p0_TX_DATFLIT{vlSymsp->TOP.cl0_p0_TX_DATFLIT}
     , cl0_p3_RX_RSPFLIT{vlSymsp->TOP.cl0_p3_RX_RSPFLIT}
     , cl0_p3_RX_DATFLIT{vlSymsp->TOP.cl0_p3_RX_DATFLIT}
     , cl0_p3_TX_REQFLIT{vlSymsp->TOP.cl0_p3_TX_REQFLIT}
@@ -119,18 +153,6 @@ Vsig_topology_top::Vsig_topology_top(sc_core::sc_module_name /* unused */)
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__l3_port_req_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__l3_port_req_vc1_tx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__l3_port_rsp_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__l3_port_rsp_vc1_tx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__l3_port_dat_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__l3_port_dat_vc1_tx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_rx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_rx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_rx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_rx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_rx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_rx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_tx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_tx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_tx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_tx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_tx_hs}
-    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_tx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n2_port_req_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n2_port_req_vc0_rx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n2_port_rsp_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n2_port_rsp_vc0_rx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n2_port_dat_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n2_port_dat_vc0_rx_hs}
@@ -155,6 +177,18 @@ Vsig_topology_top::Vsig_topology_top(sc_core::sc_module_name /* unused */)
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n1_port_req_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n1_port_req_vc1_tx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n1_port_rsp_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n1_port_rsp_vc1_tx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n1_port_dat_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n1_port_dat_vc1_tx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_rx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_rx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_rx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_rx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_rx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_rx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc0_tx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc0_tx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc0_tx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_req_vc1_tx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_rsp_vc1_tx_hs}
+    , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_tx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n0_port_dat_vc1_tx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n3_port_req_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n3_port_req_vc0_rx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n3_port_rsp_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n3_port_rsp_vc0_rx_hs}
     , __PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n3_port_dat_vc0_rx_hs{vlSymsp->TOP.__PVT__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__n3_port_dat_vc0_rx_hs}
@@ -245,6 +279,21 @@ Vsig_topology_top::Vsig_topology_top(sc_core::sc_module_name /* unused */)
     sensitive << cl0_p1_TX_DATLCRDV;
     sensitive << cl0_p1_RXSACTIVE;
     sensitive << cl0_p1_SYSCOREQ;
+    sensitive << cl0_p0_intfrx_clk;
+    sensitive << cl0_p0_rstb_intfrx_clk;
+    sensitive << cl0_p0_TX_LINKACTIVEACK;
+    sensitive << cl0_p0_RX_REQFLITPEND;
+    sensitive << cl0_p0_RX_REQFLITV;
+    sensitive << cl0_p0_RX_RSPFLITPEND;
+    sensitive << cl0_p0_RX_RSPFLITV;
+    sensitive << cl0_p0_RX_DATFLITPEND;
+    sensitive << cl0_p0_RX_DATFLITV;
+    sensitive << cl0_p0_RX_LINKACTIVEREQ;
+    sensitive << cl0_p0_TX_SNPLCRDV;
+    sensitive << cl0_p0_TX_RSPLCRDV;
+    sensitive << cl0_p0_TX_DATLCRDV;
+    sensitive << cl0_p0_RXSACTIVE;
+    sensitive << cl0_p0_SYSCOREQ;
     sensitive << cl0_p3_intfrx_clk;
     sensitive << cl0_p3_rstb_intfrx_clk;
     sensitive << cl0_p3_RX_LINKACTIVEREQ;
@@ -272,6 +321,9 @@ Vsig_topology_top::Vsig_topology_top(sc_core::sc_module_name /* unused */)
     sensitive << cl0_p1_RX_REQFLIT;
     sensitive << cl0_p1_RX_RSPFLIT;
     sensitive << cl0_p1_RX_DATFLIT;
+    sensitive << cl0_p0_RX_REQFLIT;
+    sensitive << cl0_p0_RX_RSPFLIT;
+    sensitive << cl0_p0_RX_DATFLIT;
     sensitive << cl0_p3_RX_RSPFLIT;
     sensitive << cl0_p3_RX_DATFLIT;
 

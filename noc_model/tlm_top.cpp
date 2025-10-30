@@ -23,14 +23,16 @@
 tlm_top::tlm_top(sc_core::sc_module_name name)
     : sc_core::sc_module(name)
     , cl0_p1_rn_ifx_adapter(std::make_shared<RnIfxAdapter>("cl0_p1_rn_ifx_adapter"))
+    , cl0_p0_rn_ifx_adapter(std::make_shared<RnIfxAdapter>("cl0_p0_rn_ifx_adapter"))
     , cl0_p3_sn_ifx_adapter(std::make_shared<SnIfxAdapter>("cl0_p3_sn_ifx_adapter"))
     , prog_ifx_adapter(std::make_shared<ProgIfxAdapter>("prog_ifx_adapter"))
     , qp_ifx_adapter(std::make_shared<QpIfxAdapter>("qp_ifx_adapter"))
     , clk_reset_ifx(std::make_shared<ClkResetIfx>("clk_reset_ifx"))
     , topology_ca_top(std::make_shared<Vsig_topology_top>("Vsig_topology_top"))
     , cl0_p1_rn_target_socket(cl0_p1_rn_ifx_adapter->target_socket)
+    , cl0_p0_rn_target_socket(cl0_p0_rn_ifx_adapter->target_socket)
     , cl0_p3_sn_initiator_socket(cl0_p3_sn_ifx_adapter->initiator_socket)
-    , target_waveform_(new VerilatedVcdSc)
+    , target_waveform_(std::make_shared<VerilatedVcdSc>())
     , trace_enabled_(false)
 {
     topology_ca_top->cl0_ic_clk(clk_reset_ifx->main_clock_out);
@@ -75,6 +77,44 @@ tlm_top::tlm_top(sc_core::sc_module_name name)
     topology_ca_top->cl0_p1_TX_SNPFLIT(cl0_p1_rn_ifx_adapter->RX_SNPFLIT_in);
     topology_ca_top->cl0_p1_TX_RSPFLIT(cl0_p1_rn_ifx_adapter->RX_RSPFLIT_in);
     topology_ca_top->cl0_p1_TX_DATFLIT(cl0_p1_rn_ifx_adapter->RX_DATFLIT_in);
+
+    // cl0_p0 RN interface
+    cl0_p0_rn_ifx_adapter->intfrx_clk_in(clk_reset_ifx->main_clock_out);
+    cl0_p0_rn_ifx_adapter->rstb_intfrx_clk_in(clk_reset_ifx->rstb_out);
+    topology_ca_top->cl0_p0_intfrx_clk(cl0_p0_rn_ifx_adapter->intfrx_clk_out);
+    topology_ca_top->cl0_p0_rstb_intfrx_clk(cl0_p0_rn_ifx_adapter->rstb_intfrx_clk_out);
+    topology_ca_top->cl0_p0_TX_LINKACTIVEREQ(cl0_p0_rn_ifx_adapter->RX_LINKACTIVEREQ_in);
+    topology_ca_top->cl0_p0_TX_LINKACTIVEACK(cl0_p0_rn_ifx_adapter->RX_LINKACTIVEACK_out);
+    topology_ca_top->cl0_p0_RX_REQFLITPEND(cl0_p0_rn_ifx_adapter->TX_REQFLITPEND_out);
+    topology_ca_top->cl0_p0_RX_REQFLITV(cl0_p0_rn_ifx_adapter->TX_REQFLITV_out);
+    topology_ca_top->cl0_p0_RX_REQLCRDV(cl0_p0_rn_ifx_adapter->TX_REQLCRDV_in);
+    topology_ca_top->cl0_p0_RX_RSPFLITPEND(cl0_p0_rn_ifx_adapter->TX_RSPFLITPEND_out);
+    topology_ca_top->cl0_p0_RX_RSPFLITV(cl0_p0_rn_ifx_adapter->TX_RSPFLITV_out);
+    topology_ca_top->cl0_p0_RX_RSPLCRDV(cl0_p0_rn_ifx_adapter->TX_RSPLCRDV_in);
+    topology_ca_top->cl0_p0_RX_DATFLITPEND(cl0_p0_rn_ifx_adapter->TX_DATFLITPEND_out);
+    topology_ca_top->cl0_p0_RX_DATFLITV(cl0_p0_rn_ifx_adapter->TX_DATFLITV_out);
+    topology_ca_top->cl0_p0_RX_DATLCRDV(cl0_p0_rn_ifx_adapter->TX_DATLCRDV_in);
+    topology_ca_top->cl0_p0_RX_LINKACTIVEREQ(cl0_p0_rn_ifx_adapter->TX_LINKACTIVEREQ_out);
+    topology_ca_top->cl0_p0_RX_LINKACTIVEACK(cl0_p0_rn_ifx_adapter->TX_LINKACTIVEACK_in);
+    topology_ca_top->cl0_p0_TX_SNPFLITPEND(cl0_p0_rn_ifx_adapter->RX_SNPFLITPEND_in);
+    topology_ca_top->cl0_p0_TX_SNPFLITV(cl0_p0_rn_ifx_adapter->RX_SNPFLITV_in);
+    topology_ca_top->cl0_p0_TX_SNPLCRDV(cl0_p0_rn_ifx_adapter->RX_SNPLCRDV_out);
+    topology_ca_top->cl0_p0_TX_RSPFLITPEND(cl0_p0_rn_ifx_adapter->RX_RSPFLITPEND_in);
+    topology_ca_top->cl0_p0_TX_RSPFLITV(cl0_p0_rn_ifx_adapter->RX_RSPFLITV_in);
+    topology_ca_top->cl0_p0_TX_RSPLCRDV(cl0_p0_rn_ifx_adapter->RX_RSPLCRDV_out);
+    topology_ca_top->cl0_p0_TX_DATFLITPEND(cl0_p0_rn_ifx_adapter->RX_DATFLITPEND_in);
+    topology_ca_top->cl0_p0_TX_DATFLITV(cl0_p0_rn_ifx_adapter->RX_DATFLITV_in);
+    topology_ca_top->cl0_p0_TX_DATLCRDV(cl0_p0_rn_ifx_adapter->RX_DATLCRDV_out);
+    topology_ca_top->cl0_p0_TXSACTIVE(cl0_p0_rn_ifx_adapter->RXSACTIVE_in);
+    topology_ca_top->cl0_p0_RXSACTIVE(cl0_p0_rn_ifx_adapter->TXSACTIVE_out);
+    topology_ca_top->cl0_p0_SYSCOREQ(cl0_p0_rn_ifx_adapter->SYSCOREQ_out);
+    topology_ca_top->cl0_p0_SYSCOACK(cl0_p0_rn_ifx_adapter->SYSCOACK_in);
+    topology_ca_top->cl0_p0_RX_REQFLIT(cl0_p0_rn_ifx_adapter->TX_REQFLIT_out);
+    topology_ca_top->cl0_p0_RX_RSPFLIT(cl0_p0_rn_ifx_adapter->TX_RSPFLIT_out);
+    topology_ca_top->cl0_p0_RX_DATFLIT(cl0_p0_rn_ifx_adapter->TX_DATFLIT_out);
+    topology_ca_top->cl0_p0_TX_SNPFLIT(cl0_p0_rn_ifx_adapter->RX_SNPFLIT_in);
+    topology_ca_top->cl0_p0_TX_RSPFLIT(cl0_p0_rn_ifx_adapter->RX_RSPFLIT_in);
+    topology_ca_top->cl0_p0_TX_DATFLIT(cl0_p0_rn_ifx_adapter->RX_DATFLIT_in);
 
     // cl0_p3 SN interface
     cl0_p3_sn_ifx_adapter->intfrx_clk_in(clk_reset_ifx->main_clock_out);
@@ -140,17 +180,12 @@ tlm_top::~tlm_top()
     {
         target_waveform_->close();
     }
-
-    if (target_waveform_)
-    {
-        delete target_waveform_;
-    }
 }
 
-void tlm_top::enable_trace()
+void tlm_top::enable_trace(const std::string& tracefile_name)
 {
     Verilated::traceEverOn(true);
-    topology_ca_top->trace(target_waveform_, 99);
-    target_waveform_->open("topology_ca_top.vcd");
+    topology_ca_top->trace(target_waveform_.get(), 99);
+    target_waveform_->open(tracefile_name.c_str());
     trace_enabled_ = true;
 }

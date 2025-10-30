@@ -37,7 +37,7 @@ VM_PREFIX = Vsig_topology_top
 VM_MODPREFIX = Vsig_topology_top
 # User CFLAGS (from -CFLAGS on Verilator command line)
 VM_USER_CFLAGS = \
-  -std=c++17 \
+  -std=c++17 -O3 -Wall \
 
 # User LDLIBS (from -LDFLAGS on Verilator command line)
 VM_USER_LDLIBS = \

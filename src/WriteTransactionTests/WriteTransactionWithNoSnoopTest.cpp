@@ -23,7 +23,7 @@ TEST_F(WriteTransactionTest, WriteTransactionWithNoSnoopTest)
     std::unique_ptr<chi::ChiExtension> non_copyback_wr_data = create_chi_wdat_message(chi::DatOpcode::NonCopyBackWriteData);
     std::unique_ptr<chi::ChiExtension> comp_dbid_resp = create_chi_crsp_message(chi::RspOpcode::CompDBIDResp);
 
-    EXPECT_CALL(*initiator_->get_callbacks_mock(), nb_transport_bw(
+    EXPECT_CALL(*initiator0_->get_callbacks_mock(), nb_transport_bw(
         IsChiCrspMessageWithOpcode(chi::RspOpcode::DBIDResp),
         IsOfPhaseType(chi::TRANSFER), _))
             .WillOnce(DoAll(
@@ -33,7 +33,7 @@ TEST_F(WriteTransactionTest, WriteTransactionWithNoSnoopTest)
                     ASSERT_EQ(message->channel, chi::ChiChannel::CRSP);
                     ASSERT_EQ(message->rsp_fields.opcode , chi::RspOpcode::DBIDResp);
                     ASSERT_EQ(message->chi_txn_id, write_no_snoop_req->chi_txn_id);
-                    ASSERT_EQ(message->rsp_fields.tgt_id, initiator_->get_node_id());
+                    ASSERT_EQ(message->rsp_fields.tgt_id, initiator0_->get_node_id());
 
                     non_copyback_wr_data->dat_fields.tgt_id = message->rsp_fields.src_id;
                     non_copyback_wr_data->dat_fields.src_id = message->rsp_fields.tgt_id;
@@ -58,15 +58,15 @@ TEST_F(WriteTransactionTest, WriteTransactionWithNoSnoopTest)
                 }),
                 Return(tlm::TLM_ACCEPTED)));
 
-    initiator_->send_message(write_no_snoop_req);
+    initiator0_->send_message(write_no_snoop_req);
 
     sc_core::sc_start(50, sc_core::SC_NS);
 
-    initiator_->send_message(non_copyback_wr_data);
+    initiator0_->send_message(non_copyback_wr_data);
 
     sc_core::sc_start(50, sc_core::SC_NS);
 
-    EXPECT_CALL(*initiator_->get_callbacks_mock(), nb_transport_bw(
+    EXPECT_CALL(*initiator0_->get_callbacks_mock(), nb_transport_bw(
         IsChiCrspMessageWithOpcode(chi::RspOpcode::Comp),
         IsOfPhaseType(chi::TRANSFER), _))
             .WillOnce(Return(tlm::TLM_ACCEPTED));
