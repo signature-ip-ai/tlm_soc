@@ -830,7 +830,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0xfU]) | vlSelfRef.__Vm_traceActivity
-                      [0x49U])))) {
+                      [0x4bU])))) {
         bufp->chgBit(oldp+541,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_reqproc_0__DOT__sig_node_rx_reqproc_vc0__DOT__rden_storefifo) 
                                 | (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_reqproc_0__DOT__sig_node_rx_reqproc_vc0__DOT__rden_storefifo_bypass))));
         bufp->chgBit(oldp+542,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_reqproc_0__DOT__sig_node_rx_reqproc_vc0__DOT__wren_flit_store_fifo));
@@ -847,7 +847,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0xfU]) | vlSelfRef.__Vm_traceActivity
-                      [0x4aU])))) {
+                      [0x4cU])))) {
         bufp->chgCData(oldp+551,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_reqproc_0__DOT__sig_node_rx_reqproc_vc0__DOT__tgt_clusterid_fifoout),8);
         bufp->chgCData(oldp+552,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_reqproc_0__DOT__sig_node_rx_reqproc_vc0__DOT__tgt_portid_fifoout),3);
         bufp->chgBit(oldp+553,((0U == (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_reqproc_0__DOT__sig_node_rx_reqproc_vc0__DOT__tgt_clusterid_fifoout))));
@@ -868,7 +868,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0xfU]) | vlSelfRef.__Vm_traceActivity
-                      [0x55U])))) {
+                      [0x57U])))) {
         bufp->chgSData(oldp+585,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_reqf_vc0[0]),10);
         bufp->chgSData(oldp+586,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_reqf_vc0[1]),10);
         bufp->chgSData(oldp+587,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_reqf_vc0[2]),10);
@@ -977,7 +977,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                          [0x10U]) | vlSelfRef.__Vm_traceActivity
                         [0x16U]) | vlSelfRef.__Vm_traceActivity
                        [0x1aU]) | vlSelfRef.__Vm_traceActivity
-                      [0x4eU])))) {
+                      [0x50U])))) {
         bufp->chgCData(oldp+623,((0xffU & ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__sig_node_rx_rspproc_vc0__DOT__rden_storefifo_bypass)
                                             ? ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__ic_RX_FLIT_modified[0U] 
                                                 << 0x19U) 
@@ -1358,7 +1358,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                          [0x10U]) | vlSelfRef.__Vm_traceActivity
                         [0x17U]) | vlSelfRef.__Vm_traceActivity
                        [0x1bU]) | vlSelfRef.__Vm_traceActivity
-                      [0x4fU])))) {
+                      [0x51U])))) {
         bufp->chgCData(oldp+641,((0xffU & ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__sig_node_rx_rspproc_vc0__DOT__rden_storefifo_bypass)
                                             ? ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__ic_RX_FLIT_modified[0U] 
                                                 << 0x19U) 
@@ -1737,7 +1737,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x10U]) | vlSelfRef.__Vm_traceActivity
-                      [0x4eU])))) {
+                      [0x50U])))) {
         bufp->chgBit(oldp+659,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__rden_snprsp_flit_fifo_tx_snp));
         bufp->chgBit(oldp+660,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__sig_node_rx_rspproc_vc0__DOT__rden_storefifo) 
                                 | (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__sig_node_rx_rspproc_vc0__DOT__rden_storefifo_bypass))));
@@ -1782,7 +1782,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x10U]) | vlSelfRef.__Vm_traceActivity
-                      [0x4fU])))) {
+                      [0x51U])))) {
         bufp->chgBit(oldp+715,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__rden_snprsp_flit_fifo_tx_snp));
         bufp->chgBit(oldp+716,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__sig_node_rx_rspproc_vc0__DOT__rden_storefifo) 
                                 | (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_rspproc_0__DOT__sig_node_rx_rspproc_vc0__DOT__rden_storefifo_bypass))));
@@ -1832,7 +1832,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x10U]) | vlSelfRef.__Vm_traceActivity
-                      [0x58U])))) {
+                      [0x5aU])))) {
         bufp->chgSData(oldp+775,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_rspf_vc0[0]),10);
         bufp->chgSData(oldp+776,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_rspf_vc0[1]),10);
         bufp->chgSData(oldp+777,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_rspf_vc0[2]),10);
@@ -2080,7 +2080,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                         [1U] | vlSelfRef.__Vm_traceActivity
                         [0x11U]) | vlSelfRef.__Vm_traceActivity
                        [0x1aU]) | vlSelfRef.__Vm_traceActivity
-                      [0x50U])))) {
+                      [0x52U])))) {
         bufp->chgBit(oldp+863,((0U == (0xffU & ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc0__DOT__rden_storefifo_bypass)
                                                  ? 
                                                 ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__ic_RX_FLIT_modified[0U] 
@@ -2364,7 +2364,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                         [1U] | vlSelfRef.__Vm_traceActivity
                         [0x11U]) | vlSelfRef.__Vm_traceActivity
                        [0x1bU]) | vlSelfRef.__Vm_traceActivity
-                      [0x51U])))) {
+                      [0x53U])))) {
         bufp->chgBit(oldp+879,((0U == (0xffU & ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc0__DOT__rden_storefifo_bypass)
                                                  ? 
                                                 ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__ic_RX_FLIT_modified[0U] 
@@ -2647,7 +2647,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x11U]) | vlSelfRef.__Vm_traceActivity
-                      [0x50U])))) {
+                      [0x52U])))) {
         bufp->chgBit(oldp+895,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc0__DOT__rden_storefifo) 
                                 | (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc0__DOT__rden_storefifo_bypass))));
         bufp->chgBit(oldp+896,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc1__DOT__rden_storefifo) 
@@ -2688,7 +2688,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x11U]) | vlSelfRef.__Vm_traceActivity
-                      [0x51U])))) {
+                      [0x53U])))) {
         bufp->chgBit(oldp+1137,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc0__DOT__rden_storefifo) 
                                  | (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc0__DOT__rden_storefifo_bypass))));
         bufp->chgBit(oldp+1138,(((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_rxtop_0__DOT__sig_node_rx_datproc_0__DOT__sig_node_rx_datproc_vc1__DOT__rden_storefifo) 
@@ -2729,7 +2729,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x11U]) | vlSelfRef.__Vm_traceActivity
-                      [0x5cU])))) {
+                      [0x5eU])))) {
         bufp->chgSData(oldp+1379,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_datf_vc0[0]),10);
         bufp->chgSData(oldp+1380,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_datf_vc0[1]),10);
         bufp->chgSData(oldp+1381,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__out_req_datf_vc0[2]),10);
@@ -2976,7 +2976,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x12U]) | vlSelfRef.__Vm_traceActivity
-                      [0x5aU])))) {
+                      [0x5cU])))) {
         bufp->chgWData(oldp+1467,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__node_porttop_rn__DOT__id_trans_instantiated__DOT__sig_id_translator_rn_wrapper_0__DOT__i_sig_id_translator_rn_req__DOT__id_buffer_nxt),896);
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[1U] 
@@ -3276,7 +3276,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x15U]) | vlSelfRef.__Vm_traceActivity
-                      [0x20U])))) {
+                      [0x22U])))) {
         __Vtemp_12[0U] = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__datflit_from_tx_top[0U] 
                            << 1U) | (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_p1_TX_DATLCRDV));
         __Vtemp_12[1U] = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__datflit_from_tx_top[0U] 
@@ -3364,7 +3364,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [1U] | vlSelfRef.__Vm_traceActivity
                        [0x15U]) | vlSelfRef.__Vm_traceActivity
-                      [0x24U])))) {
+                      [0x26U])))) {
         __Vtemp_16[0U] = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__datflit_from_tx_top[0U] 
                            << 1U) | (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_p3_TX_DATLCRDV));
         __Vtemp_16[1U] = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__datflit_from_tx_top[0U] 
@@ -3510,7 +3510,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[1U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x1dU])))) {
+                      [0x1fU])))) {
         bufp->chgCData(oldp+1639,(vlSelfRef.sig_topology_top__DOT__rden_csr_top_or_clus),2);
         bufp->chgCData(oldp+1640,(vlSelfRef.sig_topology_top__DOT__wren_csr_top_or_clus),2);
         bufp->chgBit(oldp+1641,(vlSelfRef.sig_topology_top__DOT__reg_wren_prog));
@@ -7519,7 +7519,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[1U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x32U])))) {
+                      [0x34U])))) {
         bufp->chgBit(oldp+5729,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__consumed_crdt_snp));
         bufp->chgWData(oldp+5730,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__TX_SNPFLIT_ptcl),152);
         bufp->chgBit(oldp+5735,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__TX_SNPFLITV_ptcl));
@@ -7667,10 +7667,10 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY(((((((vlSelfRef.__Vm_traceActivity
                           [2U] | vlSelfRef.__Vm_traceActivity
                           [0xfU]) | vlSelfRef.__Vm_traceActivity
-                         [0x29U]) | vlSelfRef.__Vm_traceActivity
-                        [0x3dU]) | vlSelfRef.__Vm_traceActivity
-                       [0x3eU]) | vlSelfRef.__Vm_traceActivity
-                      [0x3fU])))) {
+                         [0x2bU]) | vlSelfRef.__Vm_traceActivity
+                        [0x3fU]) | vlSelfRef.__Vm_traceActivity
+                       [0x40U]) | vlSelfRef.__Vm_traceActivity
+                      [0x41U])))) {
         bufp->chgWData(oldp+5796,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_reqtxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[0]),161);
         bufp->chgWData(oldp+5802,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_reqtxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[1]),161);
         bufp->chgWData(oldp+5808,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_reqtxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[2]),161);
@@ -7684,7 +7684,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[2U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x29U])))) {
+                      [0x2bU])))) {
         bufp->chgSData(oldp+5856,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__reqf_vc0_rx_hs_gnt_recv),10);
         bufp->chgSData(oldp+5857,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__reqf_vc1_rx_hs_gnt_recv),10);
         bufp->chgBit(oldp+5858,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__reqf_vc0_rx_hs_gnt_recv))));
@@ -7694,10 +7694,10 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY(((((((vlSelfRef.__Vm_traceActivity
                           [3U] | vlSelfRef.__Vm_traceActivity
                           [0xfU]) | vlSelfRef.__Vm_traceActivity
-                         [0x33U]) | vlSelfRef.__Vm_traceActivity
-                        [0x34U]) | vlSelfRef.__Vm_traceActivity
-                       [0x35U]) | vlSelfRef.__Vm_traceActivity
-                      [0x3fU])))) {
+                         [0x35U]) | vlSelfRef.__Vm_traceActivity
+                        [0x36U]) | vlSelfRef.__Vm_traceActivity
+                       [0x37U]) | vlSelfRef.__Vm_traceActivity
+                      [0x41U])))) {
         bufp->chgWData(oldp+5861,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[0]),161);
         bufp->chgWData(oldp+5867,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[1]),161);
         bufp->chgWData(oldp+5873,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[2]),161);
@@ -7711,7 +7711,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[3U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x21U])))) {
+                      [0x23U])))) {
         bufp->chgSData(oldp+5921,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv),10);
         bufp->chgSData(oldp+5922,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__flit_handshake_vc1_if_gnt_recv),10);
         bufp->chgBit(oldp+5923,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv))));
@@ -7721,10 +7721,10 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY(((((((vlSelfRef.__Vm_traceActivity
                           [4U] | vlSelfRef.__Vm_traceActivity
                           [0xfU]) | vlSelfRef.__Vm_traceActivity
-                         [0x37U]) | vlSelfRef.__Vm_traceActivity
-                        [0x38U]) | vlSelfRef.__Vm_traceActivity
-                       [0x39U]) | vlSelfRef.__Vm_traceActivity
-                      [0x3fU])))) {
+                         [0x39U]) | vlSelfRef.__Vm_traceActivity
+                        [0x3aU]) | vlSelfRef.__Vm_traceActivity
+                       [0x3bU]) | vlSelfRef.__Vm_traceActivity
+                      [0x41U])))) {
         bufp->chgWData(oldp+5926,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[0]),161);
         bufp->chgWData(oldp+5932,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[1]),161);
         bufp->chgWData(oldp+5938,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[2]),161);
@@ -7738,7 +7738,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[4U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x25U])))) {
+                      [0x27U])))) {
         bufp->chgSData(oldp+5986,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv),10);
         bufp->chgSData(oldp+5987,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__flit_handshake_vc1_if_gnt_recv),10);
         bufp->chgBit(oldp+5988,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_snptxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv))));
@@ -7749,9 +7749,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                           [5U] | vlSelfRef.__Vm_traceActivity
                           [0x10U]) | vlSelfRef.__Vm_traceActivity
                          [0x12U]) | vlSelfRef.__Vm_traceActivity
-                        [0x2aU]) | vlSelfRef.__Vm_traceActivity
-                       [0x57U]) | vlSelfRef.__Vm_traceActivity
-                      [0x5aU])))) {
+                        [0x2cU]) | vlSelfRef.__Vm_traceActivity
+                       [0x59U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5cU])))) {
         bufp->chgWData(oldp+5991,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_rsptxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[0]),79);
         bufp->chgWData(oldp+5994,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_rsptxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[1]),79);
         bufp->chgWData(oldp+5997,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_rsptxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[2]),79);
@@ -7765,7 +7765,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[5U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x2aU])))) {
+                      [0x2cU])))) {
         bufp->chgSData(oldp+6021,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_rsptxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__gnt_qual_valid_vc0),10);
         bufp->chgSData(oldp+6022,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_rsptxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__gnt_qual_valid_vc1),10);
         bufp->chgBit(oldp+6023,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_rsptxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flitv_out_nxt));
@@ -7777,9 +7777,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                           [6U] | vlSelfRef.__Vm_traceActivity
                           [0x10U]) | vlSelfRef.__Vm_traceActivity
                          [0x12U]) | vlSelfRef.__Vm_traceActivity
-                        [0x2bU]) | vlSelfRef.__Vm_traceActivity
-                       [0x57U]) | vlSelfRef.__Vm_traceActivity
-                      [0x5aU])))) {
+                        [0x2dU]) | vlSelfRef.__Vm_traceActivity
+                       [0x59U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5cU])))) {
         bufp->chgWData(oldp+6027,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_rsptxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flit_in_eithervc[0]),79);
         bufp->chgWData(oldp+6030,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_rsptxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flit_in_eithervc[1]),79);
         bufp->chgWData(oldp+6033,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_rsptxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flit_in_eithervc[2]),79);
@@ -7793,7 +7793,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[6U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x2bU])))) {
+                      [0x2dU])))) {
         bufp->chgSData(oldp+6057,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__rspf_vc0_rx_hs_gnt_recv),10);
         bufp->chgSData(oldp+6058,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__rspf_vc1_rx_hs_gnt_recv),10);
         bufp->chgBit(oldp+6059,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_rsptxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flitv_out_nxt));
@@ -7805,9 +7805,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                           [7U] | vlSelfRef.__Vm_traceActivity
                           [0x10U]) | vlSelfRef.__Vm_traceActivity
                          [0x12U]) | vlSelfRef.__Vm_traceActivity
-                        [0x36U]) | vlSelfRef.__Vm_traceActivity
-                       [0x57U]) | vlSelfRef.__Vm_traceActivity
-                      [0x5aU])))) {
+                        [0x38U]) | vlSelfRef.__Vm_traceActivity
+                       [0x59U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5cU])))) {
         bufp->chgWData(oldp+6063,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[0]),79);
         bufp->chgWData(oldp+6066,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[1]),79);
         bufp->chgWData(oldp+6069,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[2]),79);
@@ -7821,7 +7821,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[7U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x22U])))) {
+                      [0x24U])))) {
         bufp->chgBit(oldp+6093,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__consumed_fiforoom));
         bufp->chgSData(oldp+6094,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv),10);
         bufp->chgSData(oldp+6095,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__flit_handshake_vc1_if_gnt_recv),10);
@@ -7835,9 +7835,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
                           [8U] | vlSelfRef.__Vm_traceActivity
                           [0x10U]) | vlSelfRef.__Vm_traceActivity
                          [0x12U]) | vlSelfRef.__Vm_traceActivity
-                        [0x3aU]) | vlSelfRef.__Vm_traceActivity
-                       [0x57U]) | vlSelfRef.__Vm_traceActivity
-                      [0x5aU])))) {
+                        [0x3cU]) | vlSelfRef.__Vm_traceActivity
+                       [0x59U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5cU])))) {
         bufp->chgWData(oldp+6100,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[0]),79);
         bufp->chgWData(oldp+6103,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[1]),79);
         bufp->chgWData(oldp+6106,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[2]),79);
@@ -7851,7 +7851,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[8U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x26U])))) {
+                      [0x28U])))) {
         bufp->chgBit(oldp+6130,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__consumed_fiforoom));
         bufp->chgSData(oldp+6131,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv),10);
         bufp->chgSData(oldp+6132,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_rsptxflit_top_0__DOT__flit_handshake_vc1_if_gnt_recv),10);
@@ -7864,9 +7864,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((((vlSelfRef.__Vm_traceActivity
                          [9U] | vlSelfRef.__Vm_traceActivity
                          [0x11U]) | vlSelfRef.__Vm_traceActivity
-                        [0x41U]) | vlSelfRef.__Vm_traceActivity
-                       [0x43U]) | vlSelfRef.__Vm_traceActivity
-                      [0x59U])))) {
+                        [0x43U]) | vlSelfRef.__Vm_traceActivity
+                       [0x45U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5bU])))) {
         bufp->chgWData(oldp+6137,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_dattxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[0]),686);
         bufp->chgWData(oldp+6159,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_dattxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[1]),686);
         bufp->chgWData(oldp+6181,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_dattxflit_top_0__DOT__sig_cc_txflit_mux_0__DOT__flit_in_eithervc[2]),686);
@@ -7880,7 +7880,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[9U] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x2cU])))) {
+                      [0x2eU])))) {
         bufp->chgSData(oldp+6357,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__datf_vc0_rx_hs_gnt_recv),10);
         bufp->chgSData(oldp+6358,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__datf_vc1_rx_hs_gnt_recv),10);
         bufp->chgBit(oldp+6359,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__datf_vc0_rx_hs_gnt_recv))));
@@ -7890,9 +7890,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((((vlSelfRef.__Vm_traceActivity
                          [0xaU] | vlSelfRef.__Vm_traceActivity
                          [0x11U]) | vlSelfRef.__Vm_traceActivity
-                        [0x41U]) | vlSelfRef.__Vm_traceActivity
-                       [0x44U]) | vlSelfRef.__Vm_traceActivity
-                      [0x59U])))) {
+                        [0x43U]) | vlSelfRef.__Vm_traceActivity
+                       [0x46U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5bU])))) {
         bufp->chgWData(oldp+6362,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_dattxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flit_in_eithervc[0]),686);
         bufp->chgWData(oldp+6384,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_dattxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flit_in_eithervc[1]),686);
         bufp->chgWData(oldp+6406,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__sig_l3_txtop_0__DOT__sig_l3_dattxflit_top_0__DOT__sig_l3_txflit_mux_0__DOT__flit_in_eithervc[2]),686);
@@ -7906,7 +7906,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[0xaU] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x2dU])))) {
+                      [0x2fU])))) {
         bufp->chgSData(oldp+6582,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__datf_vc0_rx_hs_gnt_recv),10);
         bufp->chgSData(oldp+6583,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__datf_vc1_rx_hs_gnt_recv),10);
         bufp->chgBit(oldp+6584,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_l3_porttop_0__DOT__sig_l3_porttop_gen_blk__DOT__datf_vc0_rx_hs_gnt_recv))));
@@ -7916,9 +7916,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((((vlSelfRef.__Vm_traceActivity
                          [0xbU] | vlSelfRef.__Vm_traceActivity
                          [0x11U]) | vlSelfRef.__Vm_traceActivity
-                        [0x41U]) | vlSelfRef.__Vm_traceActivity
-                       [0x45U]) | vlSelfRef.__Vm_traceActivity
-                      [0x59U])))) {
+                        [0x43U]) | vlSelfRef.__Vm_traceActivity
+                       [0x47U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5bU])))) {
         bufp->chgWData(oldp+6587,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[0]),686);
         bufp->chgWData(oldp+6609,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[1]),686);
         bufp->chgWData(oldp+6631,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[2]),686);
@@ -7932,7 +7932,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[0xbU] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x23U])))) {
+                      [0x25U])))) {
         bufp->chgSData(oldp+6807,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv),10);
         bufp->chgSData(oldp+6808,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__flit_handshake_vc1_if_gnt_recv),10);
         bufp->chgBit(oldp+6809,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_rn_p1__DOT__node_porttop_rn__DOT__u_node_porttop_rn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv))));
@@ -7942,9 +7942,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((((vlSelfRef.__Vm_traceActivity
                          [0xcU] | vlSelfRef.__Vm_traceActivity
                          [0x11U]) | vlSelfRef.__Vm_traceActivity
-                        [0x41U]) | vlSelfRef.__Vm_traceActivity
-                       [0x46U]) | vlSelfRef.__Vm_traceActivity
-                      [0x59U])))) {
+                        [0x43U]) | vlSelfRef.__Vm_traceActivity
+                       [0x48U]) | vlSelfRef.__Vm_traceActivity
+                      [0x5bU])))) {
         bufp->chgWData(oldp+6812,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[0]),686);
         bufp->chgWData(oldp+6834,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[1]),686);
         bufp->chgWData(oldp+6856,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__sig_node_txflit_mux_0__DOT__flit_in_eithervc[2]),686);
@@ -7958,7 +7958,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[0xcU] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x27U])))) {
+                      [0x29U])))) {
         bufp->chgSData(oldp+7032,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv),10);
         bufp->chgSData(oldp+7033,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__flit_handshake_vc1_if_gnt_recv),10);
         bufp->chgBit(oldp+7034,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__sig_node_dattxflit_top_0__DOT__flit_handshake_vc0_if_gnt_recv))));
@@ -7968,8 +7968,8 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY(((((vlSelfRef.__Vm_traceActivity
                         [0xdU] | vlSelfRef.__Vm_traceActivity
                         [0x18U]) | vlSelfRef.__Vm_traceActivity
-                       [0x28U]) | vlSelfRef.__Vm_traceActivity
-                      [0x3bU])))) {
+                       [0x2aU]) | vlSelfRef.__Vm_traceActivity
+                      [0x3dU])))) {
         __Vtemp_29[0U] = (IData)((((QData)((IData)(
                                                    ((((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_xmt_compdata_0__DOT__send_memdata)
                                                        ? 0U
@@ -8504,9 +8504,9 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((((vlSelfRef.__Vm_traceActivity
                          [0xdU] | vlSelfRef.__Vm_traceActivity
                          [0x18U]) | vlSelfRef.__Vm_traceActivity
-                        [0x28U]) | vlSelfRef.__Vm_traceActivity
-                       [0x3bU]) | vlSelfRef.__Vm_traceActivity
-                      [0x47U])))) {
+                        [0x2aU]) | vlSelfRef.__Vm_traceActivity
+                       [0x3dU]) | vlSelfRef.__Vm_traceActivity
+                      [0x49U])))) {
         bufp->chgCData(oldp+7083,((((8U & ((0xfffffff8U 
                                             & ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_compbuff_top_0__DOT__NUM_COMP_BUFF_TOP__BRA__0__KET____DOT__sig_syn_sram_flop_512bit_u__DOT__got_wr) 
                                                & ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_compbuff_top_0__DOT__NUM_COMP_BUFF_TOP__BRA__0__KET____DOT__sig_syn_sram_flop_512bit_u__DOT__clr_valid_location__BRA__3__KET__) 
@@ -9734,7 +9734,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [0xdU] | vlSelfRef.__Vm_traceActivity
                        [0x18U]) | vlSelfRef.__Vm_traceActivity
-                      [0x3bU])))) {
+                      [0x3dU])))) {
         bufp->chgIData(oldp+7115,(((((((((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_xmt_compdata_0__DOT__read_compdat_reuse_en) 
                                          & (0x1fU == (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_xmt_compdata_0__DOT____VdfgRegularize_h6e4e874f_0_15))) 
                                         << 0x1fU) | 
@@ -12662,8 +12662,8 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     if (VL_UNLIKELY(((((vlSelfRef.__Vm_traceActivity
                         [0xdU] | vlSelfRef.__Vm_traceActivity
                         [0x18U]) | vlSelfRef.__Vm_traceActivity
-                       [0x3bU]) | vlSelfRef.__Vm_traceActivity
-                      [0x47U])))) {
+                       [0x3dU]) | vlSelfRef.__Vm_traceActivity
+                      [0x49U])))) {
         bufp->chgCData(oldp+7819,((((((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_compbuff_top_0__DOT__wren_compfifo_3__BRA__0__KET__) 
                                       << 3U) | (0xfffffff8U 
                                                 & (((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_compbuff_top_0__DOT__NUM_COMP_BUFF_TOP__BRA__0__KET____DOT__sig_syn_sram_flop_512bit_u__DOT____VdfgRegularize_h82046379_0_1) 
@@ -13243,7 +13243,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[0xdU] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x1fU])))) {
+                      [0x21U])))) {
         bufp->chgBit(oldp+7851,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_out_valid));
         bufp->chgWData(oldp+7852,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_dat_res_out),128);
         bufp->chgBit(oldp+7856,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__send_res_data));
@@ -13252,8 +13252,8 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY((((vlSelfRef.__Vm_traceActivity
                        [0xdU] | vlSelfRef.__Vm_traceActivity
-                       [0x28U]) | vlSelfRef.__Vm_traceActivity
-                      [0x3bU])))) {
+                       [0x2aU]) | vlSelfRef.__Vm_traceActivity
+                      [0x3dU])))) {
         if (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_rcv_datproc_0__DOT__send_datacrdt_update) {
             __Vtemp_177[0U] = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_rcv_datproc_0__DOT__ic_RX_DATFLIT_s[6U] 
                                 << 0x18U) | (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_rcv_datproc_0__DOT__ic_RX_DATFLIT_s[5U] 
@@ -13387,7 +13387,7 @@ void Vsig_topology_top___024root__trace_chg_0_sub_0(Vsig_topology_top___024root*
     }
     if (VL_UNLIKELY(((vlSelfRef.__Vm_traceActivity[0xdU] 
                       | vlSelfRef.__Vm_traceActivity
-                      [0x3bU])))) {
+                      [0x3dU])))) {
         bufp->chgBit(oldp+7892,((0U != (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__grant_resp))));
         bufp->chgIData(oldp+7893,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__rden_whichcompfifo_1st),32);
         bufp->chgWData(oldp+7894,(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__rddata_to_compdata_1st),512);

@@ -37,9 +37,11 @@ void Vsig_topology_top___024root___nba_sequent__TOP__28(Vsig_topology_top___024r
 void Vsig_topology_top___024root___nba_sequent__TOP__29(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__30(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__31(Vsig_topology_top___024root* vlSelf);
-void Vsig_topology_top___024root___ico_sequent__TOP__12(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_sequent__TOP__32(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__33(Vsig_topology_top___024root* vlSelf);
-void Vsig_topology_top___024root___nba_sequent__TOP__34(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___ico_sequent__TOP__12(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_sequent__TOP__35(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_sequent__TOP__36(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__0(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__1(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__2(Vsig_topology_top___024root* vlSelf);
@@ -59,8 +61,6 @@ void Vsig_topology_top___024root___nba_comb__TOP__15(Vsig_topology_top___024root
 void Vsig_topology_top___024root___nba_comb__TOP__16(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__17(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__18(Vsig_topology_top___024root* vlSelf);
-void Vsig_topology_top___024root___nba_sequent__TOP__35(Vsig_topology_top___024root* vlSelf);
-void Vsig_topology_top___024root___nba_sequent__TOP__36(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__37(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__38(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__39(Vsig_topology_top___024root* vlSelf);
@@ -68,10 +68,12 @@ void Vsig_topology_top___024root___nba_sequent__TOP__40(Vsig_topology_top___024r
 void Vsig_topology_top___024root___nba_sequent__TOP__41(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__42(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__43(Vsig_topology_top___024root* vlSelf);
-void Vsig_topology_top___024root___nba_comb__TOP__19(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__44(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__45(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_comb__TOP__19(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_sequent__TOP__46(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_sequent__TOP__47(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_sequent__TOP__48(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__20(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__21(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__22(Vsig_topology_top___024root* vlSelf);
@@ -101,7 +103,7 @@ void Vsig_topology_top___024root___nba_comb__TOP__45(Vsig_topology_top___024root
 void Vsig_topology_top___024root___nba_comb__TOP__46(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__47(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__48(Vsig_topology_top___024root* vlSelf);
-void Vsig_topology_top___024root___nba_sequent__TOP__47(Vsig_topology_top___024root* vlSelf);
+void Vsig_topology_top___024root___nba_sequent__TOP__49(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__49(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__50(Vsig_topology_top___024root* vlSelf);
 void Vsig_topology_top___024root___nba_comb__TOP__51(Vsig_topology_top___024root* vlSelf);
@@ -194,15 +196,21 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x8000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_sequent__TOP__13(vlSelf);
+        vlSelfRef.__Vm_traceActivity[0x1dU] = 1U;
     }
     if ((0x10000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_sequent__TOP__14(vlSelf);
+        vlSelfRef.__Vm_traceActivity[0x1eU] = 1U;
+    }
+    if ((0x20000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        Vsig_topology_top___024root___nba_sequent__TOP__15(vlSelf);
+    }
+    if ((0x40000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        Vsig_topology_top___024root___nba_sequent__TOP__16(vlSelf);
     }
     if ((0x60000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__15(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x1dU] = 1U;
-        Vsig_topology_top___024root___nba_sequent__TOP__16(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__17(vlSelf);
+        vlSelfRef.__Vm_traceActivity[0x1fU] = 1U;
         Vsig_topology_top___024root___nba_sequent__TOP__18(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__19(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__20(vlSelf);
@@ -217,111 +225,113 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
         Vsig_topology_top___024root___nba_sequent__TOP__29(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__30(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__31(vlSelf);
-        Vsig_topology_top___024root___ico_sequent__TOP__12(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__32(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__33(vlSelf);
+        Vsig_topology_top___024root___ico_sequent__TOP__12(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__35(vlSelf);
     }
-    if ((0x60000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__34(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x1eU] = 1U;
+    if ((0x180000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        Vsig_topology_top___024root___nba_sequent__TOP__36(vlSelf);
+        vlSelfRef.__Vm_traceActivity[0x20U] = 1U;
     }
     if ((0x1e000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__0(vlSelf);
     }
     if ((0x6010ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__1(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x1fU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x21U] = 1U;
     }
     if ((0x206000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__2(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x20U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x22U] = 1U;
     }
     if ((0x204080ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__3(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x21U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x23U] = 1U;
     }
     if ((0x204100ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__4(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x22U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x24U] = 1U;
     }
     if ((0x204200ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__5(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x23U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x25U] = 1U;
     }
     if ((0x2006000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__6(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x24U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x26U] = 1U;
     }
     if ((0x2004400ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__7(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x25U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x27U] = 1U;
     }
     if ((0x2004800ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__8(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x26U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x28U] = 1U;
     }
     if ((0x2005000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__9(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x27U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x29U] = 1U;
     }
     if ((0x2c06000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__10(vlSelf);
     }
     if ((0x86000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__11(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x28U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x2aU] = 1U;
         Vsig_topology_top___024root___nba_comb__TOP__12(vlSelf);
     }
     if ((0x84001ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__13(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x29U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x2bU] = 1U;
     }
     if ((0x84002ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__14(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x2aU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x2cU] = 1U;
     }
     if ((0x84020ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__15(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x2bU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x2dU] = 1U;
     }
     if ((0x84004ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__16(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x2cU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x2eU] = 1U;
     }
     if ((0x84040ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__17(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x2dU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x2fU] = 1U;
     }
     if ((0x84008ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__18(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x2eU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x30U] = 1U;
     }
     if ((0x84000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__35(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x2fU] = 1U;
-        Vsig_topology_top___024root___nba_sequent__TOP__36(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__37(vlSelf);
+        vlSelfRef.__Vm_traceActivity[0x31U] = 1U;
         Vsig_topology_top___024root___nba_sequent__TOP__38(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__39(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__40(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__41(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__42(vlSelf);
         Vsig_topology_top___024root___nba_sequent__TOP__43(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__44(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__45(vlSelf);
     }
     if ((0x1006000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__19(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x30U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x32U] = 1U;
     }
     if ((0x6000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__44(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x31U] = 1U;
+        Vsig_topology_top___024root___nba_sequent__TOP__46(vlSelf);
+        vlSelfRef.__Vm_traceActivity[0x33U] = 1U;
     }
     if ((0x18000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__45(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__47(vlSelf);
     }
     if ((0xc00000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__46(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__48(vlSelf);
     }
-    if ((0x18000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+    if ((0x60000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__20(vlSelf);
     }
     if ((0xe4000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
@@ -329,165 +339,165 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x21e000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__22(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x32U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x34U] = 1U;
     }
     if ((0x304080ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__23(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x33U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x35U] = 1U;
     }
     if ((0x1204080ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__24(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x34U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x36U] = 1U;
     }
     if ((0x284080ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__25(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x35U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x37U] = 1U;
     }
     if ((0x284100ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__26(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x36U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x38U] = 1U;
     }
     if ((0x206100ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__27(vlSelf);
     }
     if ((0x2104400ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__28(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x37U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x39U] = 1U;
     }
     if ((0x3004400ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__29(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x38U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x3aU] = 1U;
     }
     if ((0x2084400ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__30(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x39U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x3bU] = 1U;
     }
     if ((0x2084800ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__31(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x3aU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x3cU] = 1U;
     }
     if ((0x2006800ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__32(vlSelf);
     }
     if ((0x86010ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__33(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x3bU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x3dU] = 1U;
         Vsig_topology_top___024root___nba_comb__TOP__34(vlSelf);
     }
     if ((0xe6000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__35(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x3cU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x3eU] = 1U;
     }
     if ((0x184001ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__36(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x3dU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x3fU] = 1U;
     }
     if ((0x1084001ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__37(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x3eU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x40U] = 1U;
     }
     if ((0x2284481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__38(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x3fU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x41U] = 1U;
     }
     if ((0x86002ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__39(vlSelf);
     }
     if ((0x2284922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__40(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x40U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x42U] = 1U;
     }
     if ((0x86020ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__41(vlSelf);
     }
     if ((0x2285244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__42(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x41U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x43U] = 1U;
     }
     if ((0x84008ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__43(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x42U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x44U] = 1U;
     }
     if ((0x1086004ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__44(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x43U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x45U] = 1U;
     }
     if ((0x1086040ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__45(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x44U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x46U] = 1U;
     }
     if ((0x1206200ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__46(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x45U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x47U] = 1U;
     }
     if ((0x3007000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__47(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x46U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x48U] = 1U;
     }
     if ((0x86000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__48(vlSelf);
     }
     if ((0x6000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        Vsig_topology_top___024root___nba_sequent__TOP__47(vlSelf);
+        Vsig_topology_top___024root___nba_sequent__TOP__49(vlSelf);
     }
     if ((0xe6010ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__49(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x47U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x49U] = 1U;
     }
     if ((0x3284481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__50(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x48U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x4aU] = 1U;
     }
     if ((0x2384481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__51(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x49U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x4bU] = 1U;
     }
     if ((0x23e4481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__52(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x4aU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x4cU] = 1U;
     }
     if ((0x2286481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__53(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x4bU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x4dU] = 1U;
     }
     if ((0x22e6481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__54(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x4cU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x4eU] = 1U;
     }
     if ((0x3384481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__55(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x4dU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x4fU] = 1U;
     }
     if ((0x2384922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__56(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x4eU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x50U] = 1U;
     }
     if ((0x3284922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__57(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x4fU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x51U] = 1U;
     }
     if ((0x2286922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__58(vlSelf);
     }
     if ((0x2385244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__59(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x50U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x52U] = 1U;
     }
     if ((0x3285244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__60(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x51U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x53U] = 1U;
     }
     if ((0x22e7244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__61(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x52U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x54U] = 1U;
     }
     if ((0x2287244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__62(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x53U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x55U] = 1U;
     }
     if ((0x86008ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__63(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x54U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x56U] = 1U;
     }
     if ((0x21e000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__64(vlSelf);
@@ -500,14 +510,14 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x33e4481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__67(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x55U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x57U] = 1U;
     }
     if ((0x22e6491ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___act_comb__TOP__5(vlSelf);
     }
     if ((0x3386481ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__69(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x56U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x58U] = 1U;
     }
     if ((0x2386922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__70(vlSelf);
@@ -517,11 +527,11 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x3286922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__72(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x57U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x59U] = 1U;
     }
     if ((0x3384922ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__73(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x58U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x5aU] = 1U;
         Vsig_topology_top___024root___nba_comb__TOP__74(vlSelf);
     }
     if ((0x2286932ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
@@ -529,18 +539,18 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x2387244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__76(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x59U] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x5bU] = 1U;
     }
     if ((0x2385b66ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__77(vlSelf);
     }
     if ((0x2387b66ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__78(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x5aU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x5cU] = 1U;
     }
     if ((0x3385244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__79(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x5bU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x5dU] = 1U;
     }
     if ((0x3287244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__80(vlSelf);
@@ -550,7 +560,7 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x33e7244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__82(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x5cU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x5eU] = 1U;
         Vsig_topology_top___024root___nba_comb__TOP__83(vlSelf);
     }
     if ((0x339eda3ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
@@ -561,11 +571,11 @@ void Vsig_topology_top___024root___eval_nba(Vsig_topology_top___024root* vlSelf)
     }
     if ((0x3387244ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__86(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x5dU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x5fU] = 1U;
     }
     if ((0x3387b66ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__87(vlSelf);
-        vlSelfRef.__Vm_traceActivity[0x5eU] = 1U;
+        vlSelfRef.__Vm_traceActivity[0x60U] = 1U;
     }
     if ((0x3287b66ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
         Vsig_topology_top___024root___nba_comb__TOP__88(vlSelf);

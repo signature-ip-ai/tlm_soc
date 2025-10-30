@@ -341,8 +341,8 @@ VL_INLINE_OPT void Vsig_topology_top___024root___nba_comb__TOP__18(Vsig_topology
     }
 }
 
-VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__35(Vsig_topology_top___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__35\n"); );
+VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__37(Vsig_topology_top___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__37\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body

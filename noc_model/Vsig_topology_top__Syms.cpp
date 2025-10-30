@@ -56,7 +56,7 @@ Vsig_topology_top__Syms::Vsig_topology_top__Syms(VerilatedContext* contextp, con
     , TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__meta_to_ap{this, Verilated::catName(namep, "sig_topology_top.cl0_sig_clustertop.inst_cl0_clustercore.sig_chi_cc_top_0.meta_to_ap")}
 {
         // Check resources
-        Verilated::stackCheck(48355);
+        Verilated::stackCheck(48363);
     // Configure time unit / time precision
     _vm_contextp__->timeunit(-12);
     _vm_contextp__->timeprecision(-12);

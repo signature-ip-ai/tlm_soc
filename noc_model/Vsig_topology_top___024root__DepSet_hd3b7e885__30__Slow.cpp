@@ -345,16 +345,22 @@ VL_ATTR_COLD void Vsig_topology_top___024root___dump_triggers__act(Vsig_topology
         VL_DBG_MSGF("         'act' region trigger index 26 is active: @(negedge __Vcellinp__sig_topology_top__cl0_ic_clk)\n");
     }
     if ((0x8000000ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 27 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p1_intfrx_clk)\n");
+        VL_DBG_MSGF("         'act' region trigger index 27 is active: @(edge 1'h0)\n");
     }
     if ((0x10000000ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 28 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p3_intfrx_clk)\n");
+        VL_DBG_MSGF("         'act' region trigger index 28 is active: @(negedge 1'h0)\n");
     }
     if ((0x20000000ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 29 is active: @(posedge __Vcellinp__sig_topology_top__qp_clk)\n");
+        VL_DBG_MSGF("         'act' region trigger index 29 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p1_intfrx_clk)\n");
     }
     if ((0x40000000ULL & vlSelfRef.__VactTriggered.word(0U))) {
-        VL_DBG_MSGF("         'act' region trigger index 30 is active: @(negedge __Vcellinp__sig_topology_top__qp_rstb)\n");
+        VL_DBG_MSGF("         'act' region trigger index 30 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p3_intfrx_clk)\n");
+    }
+    if ((0x80000000ULL & vlSelfRef.__VactTriggered.word(0U))) {
+        VL_DBG_MSGF("         'act' region trigger index 31 is active: @(posedge __Vcellinp__sig_topology_top__qp_clk)\n");
+    }
+    if ((0x100000000ULL & vlSelfRef.__VactTriggered.word(0U))) {
+        VL_DBG_MSGF("         'act' region trigger index 32 is active: @(negedge __Vcellinp__sig_topology_top__qp_rstb)\n");
     }
 }
 #endif  // VL_DEBUG
@@ -450,16 +456,22 @@ VL_ATTR_COLD void Vsig_topology_top___024root___dump_triggers__nba(Vsig_topology
         VL_DBG_MSGF("         'nba' region trigger index 26 is active: @(negedge __Vcellinp__sig_topology_top__cl0_ic_clk)\n");
     }
     if ((0x8000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 27 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p1_intfrx_clk)\n");
+        VL_DBG_MSGF("         'nba' region trigger index 27 is active: @(edge 1'h0)\n");
     }
     if ((0x10000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 28 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p3_intfrx_clk)\n");
+        VL_DBG_MSGF("         'nba' region trigger index 28 is active: @(negedge 1'h0)\n");
     }
     if ((0x20000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 29 is active: @(posedge __Vcellinp__sig_topology_top__qp_clk)\n");
+        VL_DBG_MSGF("         'nba' region trigger index 29 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p1_intfrx_clk)\n");
     }
     if ((0x40000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
-        VL_DBG_MSGF("         'nba' region trigger index 30 is active: @(negedge __Vcellinp__sig_topology_top__qp_rstb)\n");
+        VL_DBG_MSGF("         'nba' region trigger index 30 is active: @(negedge __Vcellinp__sig_topology_top__cl0_p3_intfrx_clk)\n");
+    }
+    if ((0x80000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        VL_DBG_MSGF("         'nba' region trigger index 31 is active: @(posedge __Vcellinp__sig_topology_top__qp_clk)\n");
+    }
+    if ((0x100000000ULL & vlSelfRef.__VnbaTriggered.word(0U))) {
+        VL_DBG_MSGF("         'nba' region trigger index 32 is active: @(negedge __Vcellinp__sig_topology_top__qp_rstb)\n");
     }
 }
 #endif  // VL_DEBUG
@@ -471,7 +483,7 @@ VL_ATTR_COLD void Vsig_topology_top___024root____Vm_traceActivitySetAll(Vsig_top
     // Body
     IData/*31:0*/ __Vilp1;
     __Vilp1 = 0U;
-    while ((__Vilp1 <= 0x5eU)) {
+    while ((__Vilp1 <= 0x60U)) {
         vlSelfRef.__Vm_traceActivity[__Vilp1] = 1U;
         __Vilp1 = ((IData)(1U) + __Vilp1);
     }
@@ -18907,10 +18919,11 @@ VL_ATTR_COLD void Vsig_topology_top___024root___ctor_var_reset(Vsig_topology_top
     vlSelf->__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__cl0_p3_rstb_intfrx_clk__0 = 0;
     vlSelf->__Vtrigprevexpr___TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__rx_ic_gclk__0 = 0;
     vlSelf->__Vtrigprevexpr___TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__tx_ic_gclk__0 = 0;
+    vlSelf->__Vtrigprevexpr_h6a76d914__0 = 0;
     vlSelf->__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_clk__0 = 0;
     vlSelf->__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_rstb__0 = 0;
     vlSelf->__VactDidInit = 0;
-    for (int __Vi0 = 0; __Vi0 < 95; ++__Vi0) {
+    for (int __Vi0 = 0; __Vi0 < 97; ++__Vi0) {
         vlSelf->__Vm_traceActivity[__Vi0] = 0;
     }
 }

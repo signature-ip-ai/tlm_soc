@@ -91,6 +91,7 @@ VL_ATTR_COLD void Vsig_topology_top___024root___eval_static(Vsig_topology_top___
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__rx_ic_gclk;
     vlSelfRef.__Vtrigprevexpr___TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__tx_ic_gclk__0 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__tx_ic_gclk;
+    vlSelfRef.__Vtrigprevexpr_h6a76d914__0 = 0U;
     vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_clk__0 
         = vlSelfRef.__Vcellinp__sig_topology_top__qp_clk;
     vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_rstb__0 

@@ -69,13 +69,15 @@ void Vsig_topology_top___024root___eval_triggers__act(Vsig_topology_top___024roo
                                              & (~ (IData)(vlSelfRef.__Vtrigprevexpr___TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__tx_ic_gclk__0))));
     vlSelfRef.__VactTriggered.setBit(0x1aU, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_ic_clk)) 
                                              & (IData)(vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__cl0_ic_clk__0)));
-    vlSelfRef.__VactTriggered.setBit(0x1bU, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_p1_intfrx_clk)) 
+    vlSelfRef.__VactTriggered.setBit(0x1bU, (IData)(vlSelfRef.__Vtrigprevexpr_h6a76d914__0));
+    vlSelfRef.__VactTriggered.setBit(0x1cU, (IData)(vlSelfRef.__Vtrigprevexpr_h6a76d914__0));
+    vlSelfRef.__VactTriggered.setBit(0x1dU, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_p1_intfrx_clk)) 
                                              & (IData)(vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__cl0_p1_intfrx_clk__0)));
-    vlSelfRef.__VactTriggered.setBit(0x1cU, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_p3_intfrx_clk)) 
+    vlSelfRef.__VactTriggered.setBit(0x1eU, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__cl0_p3_intfrx_clk)) 
                                              & (IData)(vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__cl0_p3_intfrx_clk__0)));
-    vlSelfRef.__VactTriggered.setBit(0x1dU, ((IData)(vlSelfRef.__Vcellinp__sig_topology_top__qp_clk) 
+    vlSelfRef.__VactTriggered.setBit(0x1fU, ((IData)(vlSelfRef.__Vcellinp__sig_topology_top__qp_clk) 
                                              & (~ (IData)(vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_clk__0))));
-    vlSelfRef.__VactTriggered.setBit(0x1eU, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__qp_rstb)) 
+    vlSelfRef.__VactTriggered.setBit(0x20U, ((~ (IData)(vlSelfRef.__Vcellinp__sig_topology_top__qp_rstb)) 
                                              & (IData)(vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_rstb__0)));
     vlSelfRef.__Vtrigprevexpr___TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_reqtxflit_top_0__DOT__sig_cc_arbtop_0__DOT__gnt_vec_vcarb__1 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_cc_porttop_0__DOT__sig_cc_porttop_gen_blk__DOT__sig_cc_txtop_0__DOT__sig_cc_reqtxflit_top_0__DOT__sig_cc_arbtop_0__DOT__gnt_vec_vcarb;
@@ -129,6 +131,7 @@ void Vsig_topology_top___024root___eval_triggers__act(Vsig_topology_top___024roo
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__rx_ic_gclk;
     vlSelfRef.__Vtrigprevexpr___TOP__sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__tx_ic_gclk__0 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT____Vcellinp__sig_node_porttop_sn_p3__tx_ic_gclk;
+    vlSelfRef.__Vtrigprevexpr_h6a76d914__0 = 0U;
     vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_clk__0 
         = vlSelfRef.__Vcellinp__sig_topology_top__qp_clk;
     vlSelfRef.__Vtrigprevexpr___TOP____Vcellinp__sig_topology_top__qp_rstb__0 

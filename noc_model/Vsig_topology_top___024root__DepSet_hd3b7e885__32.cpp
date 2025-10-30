@@ -5,8 +5,8 @@
 #include "Vsig_topology_top__pch.h"
 #include "Vsig_topology_top___024root.h"
 
-VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__33(Vsig_topology_top___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__33\n"); );
+VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__35(Vsig_topology_top___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__35\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
@@ -66,8 +66,8 @@ VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__33(Vsig_topol
     }
 }
 
-VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__34(Vsig_topology_top___024root* vlSelf) {
-    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__34\n"); );
+VL_INLINE_OPT void Vsig_topology_top___024root___nba_sequent__TOP__36(Vsig_topology_top___024root* vlSelf) {
+    VL_DEBUG_IF(VL_DBG_MSGF("+    Vsig_topology_top___024root___nba_sequent__TOP__36\n"); );
     Vsig_topology_top__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
