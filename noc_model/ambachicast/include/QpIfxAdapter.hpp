@@ -1,5 +1,5 @@
-#ifndef __QP_IFX_ADAPTER_H__
-#define __QP_IFX_ADAPTER_H__
+#ifndef __QP_IFX_ADAPTER_HPP__
+#define __QP_IFX_ADAPTER_HPP__
 
 #include <systemc>
 
@@ -33,4 +33,4 @@ public:
     void forward_reset();
 };
 
-#endif  // __QP_IFX_ADAPTER_H__
+#endif  // __QP_IFX_ADAPTER_HPP__

@@ -1,5 +1,5 @@
-#ifndef __FLITS_DEFINITIONS_H__
-#define __FLITS_DEFINITIONS_H__
+#ifndef __FLITS_DEFINITIONS_HPP__
+#define __FLITS_DEFINITIONS_HPP__
 
 #include <systemc>
 
@@ -18,4 +18,4 @@ using snpflit_t = sc_dt::sc_bv<SNPFLIT_WIDTH>;
 
 }  // namespace flits
 
-#endif  // __FLITS_DEFINITIONS_H__
+#endif  // __FLITS_DEFINITIONS_HPP__

@@ -1,5 +1,5 @@
-#ifndef __CLK_RESET_IFX_H__
-#define __CLK_RESET_IFX_H__
+#ifndef __CLK_RESET_IFX_HPP__
+#define __CLK_RESET_IFX_HPP__
 
 #include <memory>
 
@@ -27,4 +27,4 @@ private:
     std::shared_ptr<spdlog::logger> logger_;
 };
 
-#endif  // __CLK_RESET_IFX_H__
+#endif  // __CLK_RESET_IFX_HPP__

@@ -1,5 +1,5 @@
-#ifndef __SN_IFX_ADAPTER_H__
-#define __SN_IFX_ADAPTER_H__
+#ifndef __SN_IFX_ADAPTER_HPP__
+#define __SN_IFX_ADAPTER_HPP__
 
 #include <memory>
 
@@ -7,11 +7,16 @@
 #include <tlm>
 #include <tlm_utils/simple_initiator_socket.h>
 
-#include <flits/definitions.h>
+#include <flits/definitions.hpp>
 
 class SnIfxTracer;
 class SnIfxAdapterTxChannel;
 class SnIfxAdapterRxChannel;
+
+namespace mem
+{
+class MemoryManager;
+}  // namespace mem
 
 namespace spdlog
 {
@@ -21,6 +26,7 @@ class logger;
 SC_MODULE(SnIfxAdapter)
 {
 public:
+    SC_HAS_PROCESS(SnIfxAdapter);
     SnIfxAdapter(sc_core::sc_module_name name);
     ~SnIfxAdapter() = default;
 
@@ -89,6 +95,7 @@ private:
     std::shared_ptr<SnIfxAdapterRxChannel> rx_channel_;
 
     std::shared_ptr<spdlog::logger> logger_;
+    std::shared_ptr<mem::MemoryManager> mem_manager_;
 };
 
-#endif  // __SN_IFX_ADAPTER_H__
+#endif  // __SN_IFX_ADAPTER_HPP__

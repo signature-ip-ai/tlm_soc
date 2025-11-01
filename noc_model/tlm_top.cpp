@@ -12,11 +12,11 @@
 
 #include "tlm_top.h"
 
-#include "RnIfxAdapter.h"
-#include "SnIfxAdapter.h"
-#include "ProgIfxAdapter.h"
-#include "QpIfxAdapter.h"
-#include "ClkResetIfx.h"
+#include "RnIfxAdapter.hpp"
+#include "SnIfxAdapter.hpp"
+#include "ProgIfxAdapter.hpp"
+#include "QpIfxAdapter.hpp"
+#include "ClkResetIfx.hpp"
 #include "Vsig_topology_top.h"
 #include "verilated_vcd_sc.h"
 

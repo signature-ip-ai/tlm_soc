@@ -1,5 +1,5 @@
-#ifndef __PROG_IFX_ADAPTER_H__
-#define __PROG_IFX_ADAPTER_H__
+#ifndef __PROG_IFX_ADAPTER_HPP__
+#define __PROG_IFX_ADAPTER_HPP__
 
 #include <systemc>
 
@@ -32,4 +32,4 @@ public:
     void forward_reset();
 };
 
-#endif  // __PROG_IFX_ADAPTER_H__
+#endif  // __PROG_IFX_ADAPTER_HPP__
