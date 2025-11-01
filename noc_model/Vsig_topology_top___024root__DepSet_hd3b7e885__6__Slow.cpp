@@ -3743,21 +3743,21 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__1(Vsig_topolog
         = ((0xfffffffcU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__slc_and_dir_cache_flush_done) 
            | (((IData)(vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__i_dir_cache_flush_done) 
                << 1U) | (IData)(vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__i_slc_cache_flush_done)));
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_tgt_sn_supports_dmt_ph2 = 0U;
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_tgtid_pm_ph2 = 0U;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_tgt_sn_supports_dmt_ph2 = 0U;
     if (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_addr_match_pm_ph2) {
-        vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_tgt_sn_supports_dmt_ph2 
-            = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__dmt_enable_all_pm_vec;
         vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_tgtid_pm_ph2 
             = (0x7ffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_0__DOT__data_stored);
-    }
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgt_sn_supports_dmt_ph2 = 0U;
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgtid_pm_ph2 = 0U;
-    if (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_addr_match_pm_ph2) {
-        vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgt_sn_supports_dmt_ph2 
+        vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cm_tgt_sn_supports_dmt_ph2 
             = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__dmt_enable_all_pm_vec;
+    }
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgtid_pm_ph2 = 0U;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgt_sn_supports_dmt_ph2 = 0U;
+    if (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_addr_match_pm_ph2) {
         vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgtid_pm_ph2 
             = (0x7ffU & vlSelfRef.sig_topology_top__DOT__sig_top_csr_wrapper_0__DOT__inst_sig_top_csr__DOT__rw_pm_config_0__DOT__data_stored);
+        vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__noncm_tgt_sn_supports_dmt_ph2 
+            = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__dmt_enable_all_pm_vec;
     }
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_cachedir_ctrlr_0__DOT__cmqfifo_0__DOT__wr_ptr_nxt 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_cachedir_ctrlr_0__DOT__cmqfifo_0__DOT__wr_ptr;
@@ -3987,8 +3987,16 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__1(Vsig_topolog
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cc_inactive_st_nxt 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__cc_inactive_st;
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_coherency_ctrlr_0__DOT__inactive_ctr_nxt = 0U;
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_upper_shift_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_upper_shift;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_op_reg_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_op_reg;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_be_reg_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_be_reg;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_size_reg_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_size_reg;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_bit_offset_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_bit_offset;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_reg_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_reg;
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg_nxt[0U] 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg[0U];
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg_nxt[1U] 
@@ -4005,26 +4013,33 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__1(Vsig_topolog
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg[6U];
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg_nxt[7U] 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg[7U];
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_reg_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_reg;
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_op_reg_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_op_reg;
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_bit_offset_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_bit_offset;
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_size_reg_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_size_reg;
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_is_big_endian_reg_nxt 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_is_big_endian_reg;
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_be_reg_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_be_reg;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_upper_shift_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_upper_shift;
     if ((1U & (~ ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__state) 
                   >> 2U)))) {
         if ((1U & (~ ((IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__state) 
                       >> 1U)))) {
             if ((1U & (~ (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__state)))) {
-                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_upper_shift_nxt 
-                    = (1U & (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U] 
-                             >> 7U));
+                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_op_reg_nxt 
+                    = (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[0U] 
+                       >> 0x19U);
+                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_be_reg_nxt 
+                    = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x11U] 
+                        << 0x1bU) | (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x10U] 
+                                     >> 5U));
+                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_size_reg_nxt 
+                    = (7U & vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U]);
+                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_bit_offset_nxt 
+                    = (0x78U & vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U]);
+                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_reg_nxt 
+                    = (0xfffffffffffffULL & (((QData)((IData)(
+                                                              vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[2U])) 
+                                              << 0x1dU) 
+                                             | ((QData)((IData)(
+                                                                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U])) 
+                                                >> 3U)));
                 vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__dat_txn_reg_nxt[0U] 
                     = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x12U] 
                         << 0x1bU) | (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x11U] 
@@ -4057,27 +4072,12 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__1(Vsig_topolog
                     = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x19U] 
                         << 0x1bU) | (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x18U] 
                                      >> 5U));
-                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_reg_nxt 
-                    = (0xfffffffffffffULL & (((QData)((IData)(
-                                                              vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[2U])) 
-                                              << 0x1dU) 
-                                             | ((QData)((IData)(
-                                                                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U])) 
-                                                >> 3U)));
-                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_op_reg_nxt 
-                    = (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[0U] 
-                       >> 0x19U);
-                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_bit_offset_nxt 
-                    = (0x78U & vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U]);
-                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_size_reg_nxt 
-                    = (7U & vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U]);
                 vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_is_big_endian_reg_nxt 
                     = (1U & (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[0U] 
                              >> 0x18U));
-                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_be_reg_nxt 
-                    = ((vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x11U] 
-                        << 0x1bU) | (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_data_in[0x10U] 
-                                     >> 5U));
+                vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__u_sig_ap_top__DOT__sig_ap_opcode_decoder_inst__DOT__atom_addr_upper_shift_nxt 
+                    = (1U & (vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_chi_cc_top_0__DOT__sig_chi_proc_atomic_0__DOT__ap_meta_in[1U] 
+                             >> 7U));
             }
         }
     }
@@ -5745,10 +5745,10 @@ VL_ATTR_COLD void Vsig_topology_top___024root___stl_sequent__TOP__1(Vsig_topolog
             }
         }
     }
-    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__lnkactive_xmt_sync_gen__DOT__u_sig_lnkactive_xmt__DOT__return_linkcrdt_nxt 
-        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__return_linkcrdt;
     vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__lnkactive_xmt_sync_gen__DOT__u_sig_lnkactive_xmt__DOT__xmtr_cansend_flits_nxt 
         = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__xmtr_cansend_flits;
+    vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__lnkactive_xmt_sync_gen__DOT__u_sig_lnkactive_xmt__DOT__return_linkcrdt_nxt 
+        = vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__return_linkcrdt;
     if ((2U & (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__lnkactive_xmt_sync_gen__DOT__u_sig_lnkactive_xmt__DOT__lnkstate))) {
         if ((1U & (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__lnkactive_xmt_sync_gen__DOT__u_sig_lnkactive_xmt__DOT__lnkstate))) {
             if ((1U & (~ (IData)(vlSelfRef.sig_topology_top__DOT__cl0_sig_clustertop__DOT__inst_cl0_clustercore__DOT__sig_node_porttop_sn_p3__DOT__node_porttop_sn__DOT__u_node_porttop_sn__DOT__sig_node_txtop_0__DOT__lnkactive_xmt_sync_gen__DOT__u_sig_lnkactive_xmt__DOT__TXLINKACTIVEACK_sync)))) {
